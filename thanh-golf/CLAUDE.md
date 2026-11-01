@@ -116,8 +116,8 @@ Skill và agent nằm ở `.claude/` **ở gốc repo** (cạnh thư mục `than
   - Điều 16.1 – thả bóng miễn phí cạnh gốc cây (3D, âm thanh gốc).
   - Luật 17.1d – bunker → hồ cọc vàng (3D, giọng AI, 70,4 s).
   - "Chào buổi sáng ngày đầu tháng 11" (footage, 71 s, có/không phụ đề + cover).
+  - **Tình huống 1.1** – bóng rơi khỏi tee (3D, giọng AI, 66,9 s, không logo đầu, 27,6 MB, bitrate đỉnh 8,6 Mbps): `xuat-ban/Luat-golf-1-1_bong-roi-khoi-tee_3D.mp4` + cover `.jpg` + contact sheet. Render bằng `golf-video-engine/run_1-1.sh` (3 worker, khoảng 1 giờ 25 phút trên máy đám mây 4 nhân).
 - Đang chờ chị nghe và duyệt:
-  - **Tình huống 1.1**: bóng rơi khỏi tee hoặc bị chạm rơi trước khi đánh (Luật 6.2b(5)–(6)). Kịch bản và giọng đã được duyệt. Phim `film_1-1.js` đang chờ chị duyệt 15 khung thử (`xem-truoc/contact-sheet_1-1.jpg`). Duyệt xong thì render toàn bộ 1516 khung + 87 khung logo cuối (`bumper.html?m=outro&img=frames_1-1/f_01515.jpg&s0=0.2&s1=3.335`).
   - **Tình huống 3.3**: cọc đỏ – 3 phương án (`kich-ban/kich-ban_3-3.md`). Mới có kịch bản, chưa tạo giọng.
 - Từ 01/11/2026: **tạo giọng AI ngay sau khi viết và soát luật kịch bản**, không chờ chị duyệt. Chị nghe bản giọng rồi mới duyệt để dựng phim.
 - Lịch sử chi tiết: `docs/lich-su-du-an.md`.

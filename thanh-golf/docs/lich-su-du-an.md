@@ -75,3 +75,11 @@ Tóm tắt từ các cuộc trò chuyện trong project, để Claude Code nắm
   - Chị upload skill và agent qua trang web GitHub nên mất thư mục `.claude/`. Đã chuyển vào `.claude/` ở gốc repo, kèm `CLAUDE.md` gốc nạp `thanh-golf/CLAUDE.md`.
   - Thêm `.gitignore`.
   - Xoá 10 file trùng ở gốc repo, vốn là bản sao y hệt các file trong `thanh-golf/`.
+
+## 8. Bàn giao video tình huống 1.1 (01/11, Claude Code trên web)
+- Chị duyệt kịch bản và giọng. Dựng `film_1-1.js` từ mẫu `film_luat17-1d.js`, thêm cảnh phiếu ghi điểm của `film_quytac17.js` và thẻ luật của `film_dieu16-1.js`.
+- Chị duyệt 15 khung thử, sau đó render toàn bộ bằng `run_1-1.sh`: 1.516 khung phim và 87 khung logo cuối (`bumper.js`). Không có logo đầu; khung 0 là cảnh bóng trên tee.
+- Ghép video bằng libx264 crf 20, `-maxrate 12M -bufsize 24M -profile:v high -level 4.1`, âm thanh `-c:a copy`.
+  - MD5 âm thanh trùng.
+  - Bitrate đỉnh 8,6 Mbps, trung bình 3,1 Mbps; file 27,6 MB, gửi Zalo được luôn.
+- Ảnh cover được vẽ bằng hàm `window.renderCover` trong `film_1-1.js`. Hàm này dùng chính phông của phim, nên không cần thư mục `fonts/` như `cover.py`.
