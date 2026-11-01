@@ -1,0 +1,2326 @@
+{
+ "nguon": "Cẩm nang luật golf – Giải cứu bóng ở thế khó (TTGolf, cập nhật 01/11/2026). Căn cứ: Luật Golf 2023 R&A/USGA + Luật địa phương mẫu 2026.",
+ "ghi_chu": "r = căn cứ luật; o = [mức phạt, phương án]; h = cách làm đúng; tip = mẹo tuyển thủ; err = sai lầm & phạt; q = [điều luật, mức phạt]",
+ "chuong": [
+  {
+   "id": "1",
+   "ten": "Khu vực phát bóng",
+   "gioi_thieu": "Khu vực phát bóng là hình chữ nhật sâu 2 chiều dài gậy, phía trước là đường nối mép trước của hai mốc tee. Bóng phải nằm trong khu vực này; người chơi được phép đứng ngoài. Bóng chưa “trong cuộc” cho tới khi có cú đánh đầu tiên.",
+   "tinh_huong": [
+    {
+     "id": "1.1",
+     "ten": "Bóng rơi khỏi tee hoặc bị chạm rơi trước khi đánh",
+     "tinh_huong": "Đang vào thế hoặc vung tập, bóng rơi khỏi tee hoặc bạn vô tình chạm gậy làm bóng rơi.",
+     "r": [
+      "Đ. 6.2b(5): bóng trong khu vực phát bóng chưa trong cuộc cho tới cú đánh đầu tiên; bóng rơi khỏi tee hoặc bị chạm rơi thì được đặt lại ở bất kỳ đâu trong khu vực phát bóng, không phạt.",
+      "Nếu bạn đã vung với ý định đánh bóng (kể cả vung trượt hoàn toàn), cú đó được tính và bóng đã trong cuộc."
+     ],
+     "o": [
+      [
+       "Không phạt",
+       "Đặt lại bóng lên tee, ở bất kỳ vị trí nào trong khu vực phát bóng."
+      ],
+      [
+       "Không phạt",
+       "Sau cú vung trượt hoặc cú đánh mà bóng vẫn nằm trong khu vực phát bóng: được nhấc lên, đặt lại trên tee hoặc mặt đất ở bất kỳ đâu trong khu vực phát bóng (Đ. 6.2b(6)). Cú vung trượt vẫn tính 1 gậy."
+      ]
+     ],
+     "tip": [
+      "Sau một cú vung trượt, đừng ngại dời bóng sang chỗ có thế đứng tốt hơn trong khu vực phát bóng – luật cho phép."
+     ],
+     "err": [
+      "Cho rằng cú vung trượt “không tính”: thực tế vẫn tính 1 gậy. Ghi điểm thấp hơn thực tế trên thẻ có thể bị truất quyền (Đ. 3.3b(3))."
+     ],
+     "q": [
+      "Đ. 6.2b(5)–(6)",
+      "Không phạt"
+     ]
+    },
+    {
+     "id": "1.2",
+     "ten": "Phát bóng từ ngoài khu vực phát bóng",
+     "tinh_huong": "Đặt bóng phía trước đường nối hai mốc tee, hoặc lệch ra ngoài hai cạnh bên, rồi phát bóng.",
+     "r": [
+      "Đ. 6.1b(1) – đấu lỗ: không phạt, nhưng đối phương có quyền huỷ cú đánh ngay; khi đó bạn phải đánh lại từ trong khu vực phát bóng.",
+      "Đ. 6.1b(2) – đấu gậy: phạt 2 gậy; cú đánh đó (và các cú tiếp theo trước khi sửa) không tính; phải đánh lại từ trong khu vực phát bóng. Không sửa trước khi phát bóng lỗ kế tiếp (hoặc trước khi nộp thẻ ở lỗ cuối) thì bị truất quyền."
+     ],
+     "o": [
+      [
+       "+2 gậy",
+       "Đấu gậy: đánh lại từ trong khu vực phát bóng."
+      ],
+      [
+       "Không phạt",
+       "Đấu lỗ: nếu đối phương huỷ cú đánh thì đánh lại; nếu không huỷ, bóng tiếp tục trong cuộc."
+      ]
+     ],
+     "h": [
+      "Bóng được tính là trong khu vực phát bóng khi bất kỳ phần nào của bóng chạm hoặc nằm phía trên khu vực đó."
+     ],
+     "err": [
+      "Dời hoặc xoay mốc tee để có thế đứng tốt hơn khi phát bóng: phạt chung (Đ. 6.2b(4))."
+     ],
+     "q": [
+      "Đ. 6.1b",
+      "+2 gậy (đấu gậy)"
+     ]
+    },
+    {
+     "id": "1.3",
+     "ten": "Cú phát có thể ra ngoài biên hoặc mất – đánh bóng dự phòng",
+     "tinh_huong": "Cú phát bay về phía hàng rào OB, rừng cây hoặc rough rậm; chưa chắc sẽ tìm thấy.",
+     "r": [
+      "Đ. 18.3a: được đánh bóng dự phòng khi bóng gốc có thể bị mất ngoài khu vực phạt hoặc có thể ra ngoài biên.",
+      "Đ. 18.3b: phải tuyên bố trước khi đánh, dùng từ “bóng dự phòng/provisional” hoặc nói rõ đang đánh theo Đ. 18.3. Chỉ nói “đánh thêm quả nữa” là không đủ – quả đó trở thành bóng trong cuộc theo đánh lại từ vị trí cũ (+1).",
+      "Đ. 18.3c: được đánh tiếp bóng dự phòng nhiều lần cho tới khi tới chỗ ước tính của bóng gốc. Bóng dự phòng thành bóng trong cuộc khi bóng gốc mất/OB, hoặc khi bạn đánh nó từ điểm gần lỗ hơn chỗ ước tính bóng gốc. Phải bỏ bóng dự phòng nếu tìm thấy bóng gốc trong sân, ngoài khu vực phạt, trong 3 phút."
+     ],
+     "o": [
+      [
+       "+1 gậy",
+       "Đánh bóng dự phòng từ khu vực phát bóng (đang đánh gậy thứ 3)."
+      ],
+      [
+       "Không phạt",
+       "Tìm thấy bóng gốc trong 3 phút (trong sân, ngoài khu vực phạt): bắt buộc chơi bóng gốc; các gậy của bóng dự phòng không tính."
+      ],
+      [
+       "+1 gậy",
+       "Bóng gốc mất hoặc OB: bóng dự phòng thành bóng trong cuộc."
+      ]
+     ],
+     "h": [
+      "Tuyên bố rõ: “Tôi đánh bóng dự phòng”, kèm hiệu và số bóng.",
+      "Nên đánh ngay sau cú gốc, trước khi đi tìm, để giữ nhịp chơi."
+     ],
+     "tip": [
+      "Khi bóng dự phòng nằm đẹp mà bóng gốc (nếu tìm thấy) có thể ở thế rất xấu, nhiều tuyển thủ đi thẳng tới bóng dự phòng và đánh nó từ điểm gần lỗ hơn chỗ ước tính bóng gốc – bóng dự phòng lập tức thành bóng trong cuộc (Đ. 18.3c(2)). Bạn được đề nghị người khác đừng tìm bóng gốc, nhưng họ không bắt buộc nghe; nếu một quả có thể là bóng gốc được tìm thấy trước đó, bạn phải nỗ lực nhận dạng – cố tình né tránh có thể bị truất quyền (Đ. 1.2a).",
+      "Nếu bóng gốc chỉ có thể nằm trong khu vực phạt (không thể mất ở nơi khác hay OB), bạn không được đánh bóng dự phòng – trừ khi BTC áp dụng LĐP mẫu B-3 (xem 2.3)."
+     ],
+     "err": [
+      "Không tuyên bố “dự phòng”: bóng gốc bị bỏ, bóng mới là bóng trong cuộc với 1 gậy phạt.",
+      "Tiếp tục đánh bóng gốc sau khi bóng dự phòng đã thành bóng trong cuộc: đánh nhầm bóng, phạt chung (Đ. 6.3c)."
+     ],
+     "q": [
+      "Đ. 18.3",
+      "+1 gậy"
+     ]
+    },
+    {
+     "id": "1.4",
+     "ten": "Mặt đất khu vực phát bóng xấu, mốc tee vướng",
+     "tinh_huong": "Chỗ đặt tee lồi lõm, cỏ dài, đọng nước; hoặc ở cú đánh sau, bóng nằm cạnh mốc tee.",
+     "r": [
+      "Đ. 6.2b(3): trước cú đánh từ khu vực phát bóng, được cải thiện điều kiện trong khu vực đó: tạo vết lõm, san mặt đất, nhổ hoặc ấn cỏ, dọn cát/đất, lau sương và nước.",
+      "Đ. 6.2b(4): khi đánh từ khu vực phát bóng, không được di chuyển mốc tee để cải thiện điều kiện – phạt chung. Ở các cú đánh khác, mốc tee là vật cản di động.",
+      "Bóng nằm trên khu vực phát bóng của MỘT LỖ KHÁC: đó là khu vực chung – không có giải tỏa miễn phí, không được tự ý san đất; mốc tee của lỗ đó là vật cản di động."
+     ],
+     "o": [
+      [
+       "Không phạt",
+       "San, ấn đất, nhổ cỏ, lau nước trong khu vực phát bóng."
+      ],
+      [
+       "Không phạt",
+       "Bóng ở ngoài khu vực phát bóng (cú đánh sau) và mốc tee cản trở: được nhấc mốc tee như vật cản di động (Đ. 15.2), nhớ đặt lại."
+      ]
+     ],
+     "err": [
+      "Nhổ hoặc xoay mốc tee để có thế đứng khi phát bóng: phạt chung."
+     ],
+     "q": [
+      "Đ. 6.2b(3)–(4)",
+      "Không phạt"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2",
+   "ten": "Bóng mất và ngoài biên",
+   "gioi_thieu": "Ngoài biên (OB) thường đánh dấu bằng cọc hoặc vạch trắng. Thời gian tìm bóng tối đa 3 phút. Cách xử lý mặc định là đánh lại từ vị trí cũ với 1 gậy phạt, trừ khi rơi vào các ngoại lệ dưới đây.",
+   "tinh_huong": [
+    {
+     "id": "2.1",
+     "ten": "Không tìm thấy bóng trong 3 phút",
+     "tinh_huong": "Bóng vào rough rậm hoặc rừng cây; cả nhóm tìm mãi không thấy.",
+     "r": [
+      "Đ. 18.2a(1): bóng bị mất nếu không tìm thấy trong 3 phút kể từ khi bạn hoặc caddie bắt đầu tìm. Nếu tìm thấy trong 3 phút nhưng chưa chắc là bóng của mình, được thêm thời gian hợp lý để nhận dạng.",
+      "Đ. 18.2b: bắt buộc đánh lại từ vị trí cũ, +1 gậy.",
+      "Ngoại lệ (Đ. 18.2b): nếu biết hoặc gần như chắc chắn bóng (a) bị tác nhân bên ngoài di chuyển hoặc bị người khác đánh nhầm, (b) nằm trong vật cản di động hoặc điều kiện sân bất thường, (c) nằm trong khu vực phạt, hoặc (d) bị người nào đó cố ý làm chệch hay chặn lại – thì xử lý theo điều luật tương ứng."
+     ],
+     "o": [
+      [
+       "+1 gậy",
+       "Đánh lại từ vị trí cũ (Đ. 18.2b; cách đưa bóng vào cuộc theo Đ. 14.6)."
+      ],
+      [
+       "Không phạt",
+       "Ngoại lệ (a): thay bóng tại vị trí ước tính (Đ. 9.6)."
+      ],
+      [
+       "Không phạt",
+       "Ngoại lệ (b): giải tỏa theo Đ. 15.2b (vật cản di động) hoặc Đ. 16.1e (điều kiện sân bất thường)."
+      ],
+      [
+       "+1 gậy",
+       "Ngoại lệ (c): giải tỏa khu vực phạt theo Đ. 17.1c–17.1d."
+      ],
+      [
+       "+2 gậy",
+       "Nếu BTC áp dụng LĐP mẫu E-5: thả bóng gần chỗ mất (xem 2.4)."
+      ]
+     ],
+     "h": [
+      "Ghi nhớ thời điểm bắt đầu tìm: 3 phút tính từ khi bạn hoặc caddie bắt đầu tìm, không phải từ khi cả nhóm tới nơi.",
+      "Khi tìm được chạm, uốn cỏ cây ở mức hợp lý (Đ. 7.1a) nhưng không được cải thiện điều kiện.",
+      "Vô tình làm bóng di chuyển khi tìm: đặt lại, không phạt (Đ. 7.4)."
+     ],
+     "tip": [
+      "Đánh dấu riêng lên bóng để nhận dạng nhanh – bóng không nhận dạng được trong thời gian cho phép bị coi là mất.",
+      "Hễ có nghi ngờ, đánh bóng dự phòng trước khi đi tìm – tránh phải quay lại."
+     ],
+     "err": [
+      "Tìm quá 3 phút rồi đánh quả vừa tìm thấy: bóng đó đã mất (ngoài cuộc) → đánh nhầm bóng, phạt chung; đấu gậy phải sửa sai (Đ. 6.3c).",
+      "Áp ngoại lệ (b)/(c) khi chỉ “có thể” bóng nằm ở đó: sai – điều kiện là biết hoặc gần như chắc chắn."
+     ],
+     "q": [
+      "Đ. 18.2",
+      "+1 gậy"
+     ]
+    },
+    {
+     "id": "2.2",
+     "ten": "Bóng ngoài biên hoặc nằm sát vạch biên",
+     "tinh_huong": "Bóng dừng sát hàng cọc trắng/hàng rào; không rõ trong hay ngoài.",
+     "r": [
+      "Đ. 18.2a(2): bóng chỉ ngoài biên khi toàn bộ quả bóng nằm ngoài mép biên. Mép biên là đường nối các điểm phía trong sân của cọc (ở mặt đất), hoặc mép phía trong sân của vạch kẻ – bản thân cọc và vạch thuộc phần ngoài biên.",
+      "Bóng còn trong sân nếu bất kỳ phần nào chạm đất hoặc vật nằm trong mép biên, hoặc nằm phía trên mép biên. Được phép đứng ngoài biên để đánh bóng còn trong sân.",
+      "Cọc, hàng rào, tường đánh dấu biên là vật đánh dấu biên: không có giải tỏa miễn phí và không được nhổ, bẻ để cải thiện (Đ. 8.1a)."
+     ],
+     "o": [
+      [
+       "+1 gậy",
+       "Bóng ngoài biên: đánh lại từ vị trí cũ (Đ. 18.2b)."
+      ],
+      [
+       "+2 gậy",
+       "Nếu có LĐP mẫu E-5: thả gần chỗ bóng cắt biên (xem 2.4)."
+      ],
+      [
+       "Không phạt",
+       "Bóng còn trong sân nhưng sát hàng rào: đánh như nó nằm – đứng ngoài biên, đánh tay trái hoặc đánh lùi."
+      ],
+      [
+       "+1 gậy",
+       "Hoặc tuyên bố bóng không đánh được (Đ. 19.2) – xem 5.6."
+      ]
+     ],
+     "h": [
+      "Ngắm dọc đường nối mép phía trong của các cọc: chỉ cần một phần nhỏ của bóng còn ở phía trong đường này là bóng trong sân."
+     ],
+     "err": [
+      "Nhổ cọc trắng để có chỗ vung gậy rồi đánh: phạt chung (Đ. 8.1a)."
+     ],
+     "q": [
+      "Đ. 18.2",
+      "+1 gậy"
+     ]
+    },
+    {
+     "id": "2.3",
+     "ten": "Bóng có thể vào khu vực phạt – có được đánh bóng dự phòng?",
+     "tinh_huong": "Cú đánh bay về phía hồ nước; không rõ bóng rơi xuống nước hay vào bụi cây bên cạnh.",
+     "r": [
+      "Đ. 18.3a: bóng dự phòng chỉ được phép khi bóng gốc có thể mất ngoài khu vực phạt hoặc có thể ngoài biên. Nếu khả năng duy nhất là bóng ở trong khu vực phạt, quả bạn đánh “dự phòng” sẽ thành bóng trong cuộc theo đánh lại từ vị trí cũ.",
+      "Được phép khi bóng có thể ở trong khu vực phạt nhưng cũng có thể mất ở nơi khác hoặc ngoài biên.",
+      "Đ. 18.3c(3): nếu bóng gốc được tìm thấy (hoặc biết/gần như chắc chắn) trong khu vực phạt, phải bỏ bóng dự phòng; chơi bóng gốc như nó nằm hoặc giải tỏa theo Đ. 17.1d.",
+      "LĐP mẫu B-3: BTC có thể cho phép đánh bóng dự phòng cho một khu vực phạt không quan sát được từ chỗ đánh."
+     ],
+     "o": [
+      [
+       "+1 gậy",
+       "Đánh bóng dự phòng khi được phép."
+      ],
+      [
+       "+1 gậy",
+       "Bóng gốc trong khu vực phạt: bỏ bóng dự phòng, giải tỏa theo Đ. 17.1d (hoặc đánh như nó nằm, không phạt)."
+      ]
+     ],
+     "q": [
+      "Đ. 18.3a; LĐP B-3",
+      "+1 gậy"
+     ]
+    },
+    {
+     "id": "2.4",
+     "ten": "LĐP mẫu E-5 – thay thế cho đánh lại từ vị trí cũ (+2 gậy)",
+     "tinh_huong": "Sân hoặc giải giao hữu áp dụng E-5; cú phát OB hoặc mất và bạn không muốn quay lại tee.",
+     "r": [
+      "Chỉ áp dụng khi BTC ban hành; không phù hợp với giải chuyên nghiệp hoặc nghiệp dư đỉnh cao (thường dùng ở vòng giải trí, giải câu lạc bộ).",
+      "Phạt 2 gậy. Vùng thả nằm giữa (1) điểm tham chiếu bóng – nơi ước tính bóng dừng lại hoặc nơi bóng cắt mép biên lần cuối, và (2) điểm tham chiếu fairway – điểm trên fairway của lỗ đang chơi gần điểm tham chiếu bóng nhất, không gần lỗ hơn. Vùng này giới hạn bởi đường từ lỗ qua điểm tham chiếu bóng (mở thêm 2 chiều dài gậy ra phía ngoài) và đường từ lỗ qua điểm tham chiếu fairway (mở thêm 2 chiều dài gậy vào phía fairway); phải nằm trong khu vực chung, không gần lỗ hơn điểm tham chiếu bóng.",
+      "Không dùng được khi bóng biết/gần như chắc chắn ở trong khu vực phạt; khi bạn đã đánh bóng dự phòng (nhưng dùng được cho chính bóng dự phòng nếu nó mất hoặc OB); hay cho bóng không đánh được. Sau khi dùng E-5, bóng gốc ngoài cuộc dù tìm thấy sau đó."
+     ],
+     "o": [
+      [
+       "+2 gậy",
+       "Thả trong vùng E-5. Ví dụ: phát bóng OB → thả gần chỗ bóng ra biên, đánh gậy thứ 4."
+      ],
+      [
+       "+1 gậy",
+       "Hoặc đánh lại từ vị trí cũ (Đ. 18.2b)."
+      ]
+     ],
+     "tip": [
+      "E-5 cho kết quả điểm tương đương một bóng dự phòng tốt từ tee. Nếu bạn tự tin cú phát lại, phương án +1 từ tee có thể vẫn có lợi hơn.",
+      "Không dùng E-5 để “né” khu vực phạt – nếu gần như chắc chắn bóng vào khu vực phạt, phải theo Đ. 17."
+     ],
+     "q": [
+      "LĐP E-5",
+      "+2 gậy"
+     ]
+    },
+    {
+     "id": "2.5",
+     "ten": "Bóng mất trong khu vực đang sửa chữa (GUR) hoặc điều kiện sân bất thường",
+     "tinh_huong": "Bóng lăn vào khu GUR cỏ cao hoặc vũng nước lớn và không tìm thấy.",
+     "r": [
+      "Đ. 16.1e: nếu biết hoặc gần như chắc chắn bóng dừng trong/trên điều kiện sân bất thường mà không tìm thấy, được giải tỏa miễn phí – lấy điểm ước tính nơi bóng cắt mép điều kiện đó lần cuối làm vị trí bóng.",
+      "Sau khi đưa bóng khác vào cuộc theo cách này, bóng gốc ngoài cuộc dù tìm thấy trong 3 phút. Nếu không đủ chắc chắn: bóng mất, đánh lại từ vị trí cũ (+1)."
+     ],
+     "o": [
+      [
+       "Không phạt",
+       "Giải tỏa theo Đ. 16.1b (khu vực chung), 16.1c (bẫy cát) hoặc 16.1d (green), từ điểm cắt mép."
+      ]
+     ],
+     "h": [
+      "Xác định điểm bóng cắt mép GUR lần cuối → coi bóng nằm tại đó → tìm điểm giải tỏa hoàn toàn gần nhất (NPCR) → đo 1 chiều dài gậy → thả."
+     ],
+     "err": [
+      "GUR nằm giữa rough rậm, bóng có thể dừng ngoài GUR mà không thấy: không đủ chắc chắn → không được áp dụng; nếu vẫn làm là đánh từ chỗ sai."
+     ],
+     "q": [
+      "Đ. 16.1e",
+      "Không phạt"
+     ]
+    },
+    {
+     "id": "2.6",
+     "ten": "Bóng bị động vật, khán giả lấy hoặc bị người khác đánh nhầm",
+     "tinh_huong": "Thấy quạ tha bóng, khán giả nhặt bóng, hoặc người cùng nhóm đánh nhầm bóng của bạn.",
+     "r": [
+      "Đ. 9.6: bóng đang nằm yên bị tác nhân bên ngoài (người khác, động vật, xe…) nhấc lên hoặc làm di chuyển → đặt lại tại vị trí gốc (ước tính nếu không biết chính xác), không phạt.",
+      "Đ. 18.2b, ngoại lệ: không tìm thấy bóng nhưng biết/gần như chắc chắn nó bị tác nhân bên ngoài di chuyển hoặc bị người khác đánh nhầm → được thay bóng khác, không phạt.",
+      "Đ. 6.3c(2): bóng của bạn bị người khác đánh nhầm → đặt một bóng vào chỗ bóng của bạn đã nằm."
+     ],
+     "o": [
+      [
+       "Không phạt",
+       "Đặt bóng (gốc hoặc bóng khác) tại vị trí bóng đã nằm (Đ. 14.2)."
+      ]
+     ],
+     "tip": [
+      "Bóng đang bay/lăn trúng tác nhân bên ngoài: chơi như nó nằm (Đ. 11.1b). Riêng khi bóng dừng lại trên người, động vật hoặc vật đang di chuyển: không đánh như nó nằm mà thả trong vùng 1 chiều dài gậy quanh điểm ngay dưới chỗ bóng dừng (Đ. 11.1b, ngoại lệ)."
+     ],
+     "err": [
+      "Chỉ nghi ngờ (không có bằng chứng) mà vẫn thay bóng: đánh từ chỗ sai, phạt chung – thực chất bóng bị mất và phải đánh lại từ vị trí cũ."
+     ],
+     "q": [
+      "Đ. 9.6; 18.2b",
+      "Không phạt"
+     ]
+    },
+    {
+     "id": "2.7",
+     "ten": "Bóng mắc trên cây – thấy nhưng chưa nhận dạng được",
+     "tinh_huong": "Nhìn thấy một quả bóng mắc trên cây nhưng không đọc được dấu riêng.",
+     "r": [
+      "Đ. 7.2 và 18.2a(1): bóng phải được nhận dạng là của bạn trong thời gian cho phép; thấy mà không nhận dạng được thì vẫn là bóng mất.",
+      "Được dùng ống nhòm, máy đo khoảng cách, trèo cây để nhận dạng – nhưng không được bẻ cành để cải thiện thế đánh (Đ. 8.1a).",
+      "Đã nhận dạng: có thể đánh như nó nằm, hoặc tuyên bố không đánh được và thả bên theo Đ. 19.2c, với điểm tham chiếu là điểm trên mặt đất ngay dưới quả bóng."
+     ],
+     "o": [
+      [
+       "+1 gậy",
+       "Không nhận dạng được → bóng mất → đánh lại từ vị trí cũ (Đ. 18.2b)."
+      ],
+      [
+       "+1 gậy",
+       "Nhận dạng được → không đánh được: thả bên 2 chiều dài gậy từ điểm ngay dưới bóng (Đ. 19.2c), lùi trên đường thẳng (Đ. 19.2b) hoặc đánh lại từ vị trí cũ (Đ. 19.2a)."
+      ],
+      [
+       "Không phạt",
+       "Đánh như nó nằm trên cây nếu thật sự có thể."
+      ]
+     ],
+     "tip": [
+      "Sau khi quyết định giải tỏa, bạn được dùng bóng khác (Đ. 14.3a) – không cần lấy bóng gốc xuống.",
+      "Cây sát mép fairway: thả bên từ điểm dưới bóng thường đưa bóng ra vị trí rất tốt – kiểm tra phương án này trước khi lùi về sau."
+     ],
+     "err": [
+      "Thả bên dưới cây khi chưa nhận dạng được bóng: đánh từ chỗ sai, phạt chung – đúng ra phải đánh lại từ vị trí cũ."
+     ],
+     "q": [
+      "Đ. 7.2; 18.2; 19.2c",
+      "+1 gậy"
+     ]
+    },
+    {
+     "id": "2.8",
+     "ten": "Biên nội bộ giữa hai lỗ (cập nhật 2026)",
+     "tinh_huong": "Hàng cọc trắng ngăn cách hai lỗ ở góc dogleg; bóng nằm bên kia hàng cọc.",
+     "r": [
+      "LĐP mẫu A-4: BTC có thể đặt biên nội bộ. Từ 01/01/2026, BTC có thêm lựa chọn cho biên nội bộ chỉ áp dụng với cú đánh từ khu vực phát bóng của lỗ đó.",
+      "Nếu thẻ luật ghi biên nội bộ chỉ áp dụng cho cú phát: với các cú đánh tiếp theo, phần sân bên kia hàng cọc vẫn là trong sân."
+     ],
+     "o": [
+      [
+       "+1 gậy",
+       "Biên áp dụng cho cú đánh vừa thực hiện: bóng OB → đánh lại từ vị trí cũ."
+      ],
+      [
+       "Không phạt",
+       "Biên chỉ áp dụng cho cú phát mà bạn đang ở cú đánh sau: bóng trong sân, chơi bình thường."
+      ]
+     ],
+     "tip": [
+      "Đọc kỹ thẻ luật địa phương trước vòng đấu – đây là điểm mới năm 2026 rất dễ bị bỏ sót."
+     ],
+     "q": [
+      "LĐP A-4",
+      "+1 gậy / Không phạt"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "3",
+   "ten": "Khu vực phạt (cọc vàng, cọc đỏ)",
+   "gioi_thieu": "Khu vực phạt gồm hồ, suối, mương và những vùng BTC đánh dấu bằng cọc hoặc vạch vàng/đỏ. Khu vực phạt không được đánh dấu màu được coi là khu vực phạt đỏ. Cọc và vạch thuộc khu vực phạt; khu vực phạt kéo dài thẳng đứng lên trên và xuống dưới. Bóng ở trong khu vực phạt khi bất kỳ phần nào chạm vào, nằm trong mép hoặc nằm phía trên khu vực đó (Đ. 17.1a).",
+   "tinh_huong": [
+    {
+     "id": "3.1",
+     "ten": "Đánh bóng như nó nằm trong khu vực phạt",
+     "tinh_huong": "Bóng nằm trong mương cạn, bãi đá hoặc mép nước nông – vẫn có thể đánh.",
+     "r": [
+      "Đ. 17.1b: được chơi như nó nằm, không phạt, theo đúng các quy định như ở khu vực chung: được đặt gậy chạm đất hoặc nước, vung tập chạm đất, nhặt vật tự nhiên rời (Đ. 15.1) và vật cản di động (Đ. 15.2)."
+     ],
+     "o": [
+      [
+       "Không phạt",
+       "Đánh như nó nằm."
+      ]
+     ],
+     "h": [
+      "Vẫn phải tuân thủ Đ. 8.1: không ấn, bẻ cỏ cây, không san đất để cải thiện thế đánh."
+     ],
+     "tip": [
+      "Kinh nghiệm thực tế: chỉ nên đánh bóng trong nước khi phần lớn quả bóng nằm trên mặt nước; nước sâu làm giảm tốc độ đầu gậy rất nhiều. Tính cả rủi ro bóng chỉ nhích vài mét và vẫn kẹt trong khu vực phạt (xem 3.6)."
+     ],
+     "q": [
+      "Đ. 17.1b",
+      "Không phạt"
+     ]
+    },
+    {
+     "id": "3.2",
+     "ten": "Bóng trong khu vực phạt VÀNG – 2 phương án giải tỏa",
+     "tinh_huong": "Bóng rơi xuống hồ hoặc mương có cọc/vạch vàng.",
+     "r": [
+      "Đ. 17.1d(1): đánh lại từ vị trí cũ (theo Đ. 14.6).",
+      "Đ. 17.1d(2): lùi trên đường thẳng – thả bóng TRÊN đường thẳng nối lỗ với điểm ước tính bóng cắt mép khu vực phạt lần cuối, kéo dài về phía sau, không giới hạn khoảng cách. Bóng phải dừng trong 1 chiều dài gậy (mọi hướng) quanh điểm nó chạm đất; không gần lỗ hơn điểm cắt mép; không nằm trong cùng khu vực phạt; và phải dừng ở cùng khu vực sân mà nó chạm đất khi thả."
+     ],
+     "o": [
+      [
+       "+1 gậy",
+       "Đánh lại từ vị trí cũ."
+      ],
+      [
+       "+1 gậy",
+       "Lùi trên đường thẳng lỗ – điểm cắt mép."
+      ],
+      [
+       "Không phạt",
+       "Hoặc đánh như nó nằm (xem 3.1)."
+      ]
+     ],
+     "h": [
+      "Đứng ở điểm cắt mép, ngắm thẳng lá cờ, lùi về sau trên đường ngắm tới khoảng cách mong muốn; cắm tee đánh dấu.",
+      "Thả bóng từ độ cao đầu gối ngay trên đường. Bóng lăn về phía lỗ nhưng vẫn trong 1 chiều dài gậy và không gần lỗ hơn điểm cắt mép → bóng hợp lệ, không được thả lại."
+     ],
+     "tip": [
+      "Chọn khoảng lùi để có cự ly sở trường (ví dụ một cú wedge đánh trọn) và chỗ đất bằng phẳng.",
+      "Khu vực phạt vàng KHÔNG có phương án thả bên – đừng nhầm với cọc đỏ."
+     ],
+     "err": [
+      "Thả lệch khỏi đường thẳng một chiều dài gậy theo thói quen trước năm 2023: đánh từ chỗ sai, phạt chung. Rory McIlroy bị phạt 2 gậy tại AT&T Pebble Beach Pro-Am 2024 vì đúng lỗi này (khi giải tỏa bóng không đánh được)."
+     ],
+     "q": [
+      "Đ. 17.1d(1)–(2)",
+      "+1 gậy"
+     ]
+    },
+    {
+     "id": "3.3",
+     "ten": "Bóng trong khu vực phạt ĐỎ – 3 phương án giải tỏa",
+     "tinh_huong": "Bóng rơi xuống hồ hoặc mương có cọc/vạch đỏ (hoặc khu vực phạt không đánh dấu màu).",
+     "r": [
+      "Đ. 17.1d: hai phương án như cọc vàng, cộng thêm (3) thả bên: vùng thả 2 chiều dài gậy tính từ điểm ước tính bóng cắt mép khu vực phạt đỏ lần cuối; không gần lỗ hơn điểm đó; không nằm trong cùng khu vực phạt; nếu trong 2 chiều dài gậy có nhiều khu vực sân, bóng phải dừng ở cùng khu vực mà nó chạm đất khi thả."
+     ],
+     "o": [
+      [
+       "+1 gậy",
+       "Đánh lại từ vị trí cũ – Đ. 17.1d(1)."
+      ],
+      [
+       "+1 gậy",
+       "Lùi trên đường thẳng lỗ – điểm cắt mép – Đ. 17.1d(2)."
+      ],
+      [
+       "+1 gậy",
+       "Thả bên trong 2 chiều dài gậy từ điểm cắt mép – Đ. 17.1d(3)."
+      ]
+     ],
+     "h": [
+      "Đo 2 chiều dài gậy bằng gậy dài nhất (trừ putter) từ điểm cắt mép, cắm tee ở mép vùng thả.",
+      "Vùng thả bên có thể ở cả hai phía của điểm cắt mép, dọc theo bờ – miễn là không gần lỗ hơn và không nằm trong khu vực phạt."
+     ],
+     "tip": [
+      "Thả bên thường nhanh nhất, nhưng hãy so lie và góc đánh: đôi khi lùi trên đường thẳng cho vị trí đẹp hơn nhiều.",
+      "Điểm cắt mép là nơi bóng ĐI VÀO khu vực phạt lần cuối, không phải nơi bóng rơi xuống nước."
+     ],
+     "err": [
+      "Lấy điểm bóng rơi trong nước làm điểm tham chiếu – thường gần lỗ hơn → đánh từ chỗ sai, phạt chung."
+     ],
+     "q": [
+      "Đ. 17.1d(3)",
+      "+1 gậy"
+     ],
+     "hinh_cam_nang": "d1"
+    },
+    {
+     "id": "3.4",
+     "ten": "Không tìm thấy bóng nhưng gần như chắc chắn nằm trong khu vực phạt",
+     "tinh_huong": "Thấy bóng bay về phía hồ, nước bắn lên, nhưng không vớt được bóng.",
+     "r": [
+      "Đ. 17.1c: nếu biết hoặc gần như chắc chắn (khoảng 95% trở lên) bóng ở trong khu vực phạt, được giải tỏa theo Đ. 17.1d hoặc 17.2 dù không tìm thấy bóng. Sau khi đưa bóng khác vào cuộc, bóng gốc ngoài cuộc dù tìm thấy trong 3 phút.",
+      "Nếu không đủ chắc chắn và bóng bị mất → đánh lại từ vị trí cũ (Đ. 18.2)."
+     ],
+     "o": [
+      [
+       "+1 gậy",
+       "Giải tỏa theo Đ. 17.1d (2 phương án với cọc vàng, 3 phương án với cọc đỏ)."
+      ]
+     ],
+     "h": [
+      "Căn cứ để “gần như chắc chắn”: thấy bóng rơi xuống nước; xung quanh không có rough cao hay cây cối để bóng lẩn vào; có người cùng chứng kiến.",
+      "Ước tính điểm cắt mép dựa trên quỹ đạo bay và lăn."
+     ],
+     "tip": [
+      "Không chắc bóng xuống hồ hay lăn vào rừng bên cạnh: đánh bóng dự phòng ngay (được phép vì bóng cũng có thể mất ngoài khu vực phạt)."
+     ],
+     "q": [
+      "Đ. 17.1c",
+      "+1 gậy"
+     ]
+    },
+    {
+     "id": "3.5",
+     "ten": "Tranh cãi về điểm bóng cắt mép lần cuối",
+     "tinh_huong": "Nhóm chơi không thống nhất bóng cắt mép hồ ở chỗ nào.",
+     "r": [
+      "Đ. 1.3b(2): khi phải ước tính một điểm, vị trí hay khoảng cách theo luật, người chơi đưa ra phán đoán hợp lý; phán đoán hợp lý được chấp nhận dù sau đó bằng chứng (kể cả video) cho thấy chưa chính xác."
+     ],
+     "h": [
+      "Hỏi người cùng nhóm, caddie, người chứng kiến; đối chiếu với cọc, cây làm mốc.",
+      "Bóng có thể cắt mép nhiều lần (bay qua rồi lăn ngược lại): chỉ điểm CUỐI CÙNG mới tính."
+     ],
+     "tip": [
+      "Ghi nhận mốc ngay khi bóng đang bay – nhìn cây hoặc cọc gần nhất."
+     ],
+     "q": [
+      "Đ. 1.3b(2)",
+      "—"
+     ]
+    },
+    {
+     "id": "3.6",
+     "ten": "Đánh từ khu vực phạt nhưng bóng vẫn nằm trong khu vực phạt",
+     "tinh_huong": "Bạn thử đánh bóng ra khỏi mương nhưng bóng chỉ nhích vài mét, vẫn trong khu vực phạt.",
+     "r": [
+      "Đ. 17.2a: được đánh tiếp như nó nằm, hoặc chịu 1 gậy phạt để chọn: (1) các phương án thường của Đ. 17.1d – đánh lại từ chỗ vừa đánh trong khu vực phạt; lùi trên đường thẳng hay thả bên (cọc đỏ) dựa trên điểm bóng gốc cắt mép khu vực phạt nơi bóng đang nằm; hoặc (2) phương án bổ sung: về chỗ cú đánh cuối cùng được thực hiện từ ngoài khu vực phạt.",
+      "Nếu đã thả bóng trong khu vực phạt theo đánh lại từ vị trí cũ rồi đổi ý không đánh: được giải tỏa ra ngoài với thêm 1 gậy (tổng 2 gậy phạt)."
+     ],
+     "o": [
+      [
+       "Không phạt",
+       "Đánh tiếp như nó nằm."
+      ],
+      [
+       "+1 gậy",
+       "Phương án thường theo Đ. 17.1d."
+      ],
+      [
+       "+1 gậy",
+       "Phương án bổ sung: về chỗ cú đánh cuối từ ngoài khu vực phạt (Đ. 17.2a(2))."
+      ]
+     ],
+     "tip": [
+      "Bài học chiến thuật: chỉ đánh trong khu vực phạt khi khả năng thoát ra cao; nếu không, bạn có thể mất thêm gậy mà vẫn kẹt lại."
+     ],
+     "q": [
+      "Đ. 17.2a",
+      "+1 gậy"
+     ]
+    },
+    {
+     "id": "3.7",
+     "ten": "Đánh từ khu vực phạt, bóng ra OB, mất hoặc không đánh được ở bên ngoài",
+     "tinh_huong": "Cú đánh từ trong mương bay qua hàng rào OB hoặc vào bụi rậm không đánh được.",
+     "r": [
+      "Đ. 17.2b: sau khi chịu 1 gậy phạt đánh lại từ vị trí cũ (Đ. 18.1 hoặc 19.2a), bạn có thể đánh lại từ chỗ vừa đánh trong khu vực phạt; hoặc chịu thêm 1 gậy (tổng 2 gậy) để giải tỏa ra ngoài theo Đ. 17.1d(2), 17.1d(3) (cọc đỏ) dựa trên điểm bóng gốc cắt mép khu vực phạt đó, hoặc về chỗ cú đánh cuối từ ngoài khu vực phạt.",
+      "Bóng không đánh được ở ngoài khu vực phạt: vẫn có thể dùng Đ. 19.2b hoặc 19.2c ngay tại vị trí mới (+1)."
+     ],
+     "o": [
+      [
+       "+1 gậy",
+       "Đánh lại từ chỗ vừa đánh trong khu vực phạt."
+      ],
+      [
+       "+2 gậy",
+       "Ra ngoài khu vực phạt theo Đ. 17.1d(2)/(3) hoặc về chỗ cú đánh cuối ngoài khu vực phạt."
+      ],
+      [
+       "+1 gậy",
+       "Bóng không đánh được ngoài khu vực phạt: Đ. 19.2b/19.2c tại vị trí mới."
+      ]
+     ],
+     "q": [
+      "Đ. 17.2b",
+      "+1 / +2 gậy"
+     ]
+    },
+    {
+     "id": "3.8",
+     "ten": "Bóng đang trôi trong nước",
+     "tinh_huong": "Bóng rơi xuống suối hoặc mương có dòng chảy và đang trôi.",
+     "r": [
+      "Đ. 10.1d, ngoại lệ: được đánh bóng đang di chuyển trong nước ở khu vực phạt (hoặc trong nước đọng tạm thời), không phạt; hoặc lấy giải tỏa theo Đ. 17 (với nước đọng tạm thời: Đ. 16.1). Không được trì hoãn bất hợp lý để chờ gió hay dòng nước đẩy bóng tới chỗ tốt hơn (Đ. 5.6a).",
+      "Bóng đang nằm yên mà bị nước/gió đẩy đi (lực tự nhiên): chơi từ vị trí mới (Đ. 9.3); nếu trôi ra ngoài biên thì là bóng OB."
+     ],
+     "o": [
+      [
+       "Không phạt",
+       "Đánh bóng đang trôi (nếu đủ an toàn và khả thi)."
+      ],
+      [
+       "+1 gậy",
+       "Giải tỏa theo Đ. 17.1d."
+      ]
+     ],
+     "q": [
+      "Đ. 10.1d; 9.3",
+      "Không phạt"
+     ]
+    },
+    {
+     "id": "3.9",
+     "ten": "Bóng nằm trên cầu, kè đá hoặc lối bê tông trong khu vực phạt",
+     "tinh_huong": "Bóng dừng trên cây cầu bắc ngang mương có cọc đỏ.",
+     "r": [
+      "Bóng trên cầu bắc ngang khu vực phạt vẫn ở trong khu vực phạt, vì khu vực phạt kéo dài thẳng đứng lên trên.",
+      "Đ. 16.1a và 17.3: không có giải tỏa miễn phí khỏi vật cản cố định khi bóng ở trong khu vực phạt. Được đặt gậy chạm mặt cầu khi chuẩn bị đánh.",
+      "LĐP mẫu F-24: BTC có thể cho phép giải tỏa miễn phí khỏi vật cản cố định trong khu vực phạt – kiểm tra thẻ luật."
+     ],
+     "o": [
+      [
+       "Không phạt",
+       "Đánh như nó nằm trên cầu."
+      ],
+      [
+       "+1 gậy",
+       "Giải tỏa theo Đ. 17.1d."
+      ],
+      [
+       "Tùy LĐP",
+       "Giải tỏa miễn phí nếu BTC áp dụng F-24."
+      ]
+     ],
+     "q": [
+      "Đ. 17.3; LĐP F-24",
+      "Không phạt / +1"
+     ]
+    },
+    {
+     "id": "3.10",
+     "ten": "Cọc khu vực phạt cản thế đứng hoặc vùng vung gậy",
+     "tinh_huong": "Cọc đỏ/vàng cắm ngay cạnh bóng, vướng đường vung.",
+     "r": [
+      "Cọc khu vực phạt là vật cản di động (trừ khi BTC quy định khác): được nhổ ra, không phạt (Đ. 15.2a). Nếu nhổ làm bóng di chuyển → đặt lại, không phạt.",
+      "Ngược lại, cọc trắng (ngoài biên) là vật đánh dấu biên – không được nhổ."
+     ],
+     "o": [
+      [
+       "Không phạt",
+       "Nhổ cọc, đánh, rồi cắm lại."
+      ]
+     ],
+     "q": [
+      "Đ. 15.2a",
+      "Không phạt"
+     ]
+    },
+    {
+     "id": "3.11",
+     "ten": "Vùng cấm đánh trong khu vực phạt (khu bảo tồn sinh thái)",
+     "tinh_huong": "Bóng nằm trong vùng cấm đánh, hoặc vùng cấm đánh vướng thế đứng khi bóng nằm trong khu vực phạt.",
+     "r": [
+      "Đ. 17.1e(1): bóng nằm trong vùng cấm đánh thuộc khu vực phạt → bắt buộc giải tỏa có phạt theo Đ. 17.1d hoặc 17.2.",
+      "Đ. 17.1e(2): bóng trong khu vực phạt, ngoài vùng cấm đánh, nhưng vùng đó cản thế đứng hoặc vùng vung → hoặc giải tỏa có phạt ra ngoài (Đ. 17.1d/17.2), hoặc giải tỏa MIỄN PHÍ trong chính khu vực phạt đó: vùng thả 1 chiều dài gậy từ điểm giải tỏa hoàn toàn gần nhất, không gần lỗ hơn.",
+      "Đ. 17.1e(3): không có giải tỏa miễn phí nếu đánh như nó nằm vốn đã rõ ràng không hợp lý vì một chướng ngại khác (ví dụ bụi cây)."
+     ],
+     "o": [
+      [
+       "Bắt buộc +1",
+       "Bóng trong vùng cấm đánh: giải tỏa theo Đ. 17.1d/17.2."
+      ],
+      [
+       "Không phạt",
+       "Chỉ thế đứng/vùng vung bị cản: giải tỏa trong khu vực phạt (Đ. 17.1e(2))."
+      ]
+     ],
+     "err": [
+      "Bước vào vùng cấm đánh để đánh bóng: vi phạm, phạt chung."
+     ],
+     "q": [
+      "Đ. 17.1e",
+      "Bắt buộc"
+     ]
+    },
+    {
+     "id": "3.12",
+     "ten": "Muốn giải tỏa miễn phí khi bóng trong khu vực phạt (lún, nước đọng, hố động vật)",
+     "tinh_huong": "Bóng lún trong bùn ở mép hồ có cọc đỏ; hoặc nằm cạnh hố động vật trong khu vực phạt.",
+     "r": [
+      "Đ. 17.3: khi bóng ở trong khu vực phạt, không có giải tỏa theo Đ. 16.1 (điều kiện sân bất thường), Đ. 16.3 (bóng lún) hay Đ. 19 (bóng không đánh được). Lựa chọn duy nhất là giải tỏa có phạt theo Đ. 17 – kể cả khi vũng nước, khu GUR hay đường xe điện nằm bên trong khu vực phạt.",
+      "Ngoại lệ: tình trạng động vật nguy hiểm – được giải tỏa miễn phí ngay trong khu vực phạt hoặc có phạt ra ngoài (Đ. 16.2b(2))."
+     ],
+     "o": [
+      [
+       "Không phạt",
+       "Đánh như nó nằm."
+      ],
+      [
+       "+1 gậy",
+       "Giải tỏa theo Đ. 17.1d."
+      ]
+     ],
+     "q": [
+      "Đ. 17.3",
+      "+1 gậy"
+     ]
+    },
+    {
+     "id": "3.13",
+     "ten": "Giải tỏa phía bên kia khu vực phạt đỏ – LĐP mẫu B-2",
+     "tinh_huong": "Bóng cắt mép hồ ở phía xa; phía bên kia hồ có fairway thuận lợi hơn.",
+     "r": [
+      "Từ 2019, luật chung đã bỏ giải tỏa phía đối diện. LĐP mẫu B-2 cho phép BTC khôi phục phương án này cho từng khu vực phạt đỏ cụ thể: +1 gậy, vùng thả 2 chiều dài gậy tính từ điểm ở mép bên kia có cùng khoảng cách tới lỗ với điểm cắt mép; không gần lỗ hơn, không nằm trong khu vực phạt đó."
+     ],
+     "o": [
+      [
+       "+1 gậy",
+       "Chỉ khi thẻ luật nêu rõ khu vực phạt đó áp dụng B-2."
+      ]
+     ],
+     "q": [
+      "LĐP B-2",
+      "+1 gậy"
+     ]
+    },
+    {
+     "id": "3.14",
+     "ten": "Khu vực thả bóng (dropping zone) – LĐP mẫu E-1",
+     "tinh_huong": "Cạnh hồ có khoanh vùng sơn trắng ghi “Drop Zone”.",
+     "r": [
+      "LĐP mẫu E-1: BTC có thể bố trí khu vực thả bóng như một phương án bổ sung (với khu vực phạt thường là +1 gậy; với GUR có thể miễn phí), hoặc là phương án duy nhất ngoài đánh lại từ vị trí cũ.",
+      "Không cần đứng trong khu vực thả; bóng phải chạm đất và dừng trong khu vực đó; vạch kẻ thuộc khu vực thả. Khi có nhiều khu vực thả, BTC phải nói rõ dùng khu nào."
+     ],
+     "o": [
+      [
+       "+1 gậy",
+       "Thả trong khu vực thả bóng (theo quy định của thẻ luật)."
+      ]
+     ],
+     "q": [
+      "LĐP E-1",
+      "+1 gậy (thường)"
+     ]
+    },
+    {
+     "id": "3.15",
+     "ten": "Bóng nằm ngoài khu vực phạt nhưng phải đứng trong khu vực phạt",
+     "tinh_huong": "Bóng ở mép bờ (khu vực chung), muốn đánh phải đứng dưới mương.",
+     "r": [
+      "Bóng ở khu vực chung nên áp dụng luật khu vực chung. Được đứng trong khu vực phạt (kể cả trong nước) để đánh; không có giải tỏa vì thế đứng bất lợi.",
+      "Vì bóng không ở trong khu vực phạt, bạn được tuyên bố bóng không đánh được theo Đ. 19.2."
+     ],
+     "o": [
+      [
+       "Không phạt",
+       "Đánh như nó nằm."
+      ],
+      [
+       "+1 gậy",
+       "Không đánh được – Đ. 19.2."
+      ]
+     ],
+     "q": [
+      "Đ. 19.2",
+      "Không phạt / +1"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "4",
+   "ten": "Bẫy cát (bunker)",
+   "gioi_thieu": "Bóng ở trong bẫy cát khi bất kỳ phần nào của bóng chạm cát bên trong mép bẫy (Đ. 12.1). Thành và gờ bằng cỏ, đất hoặc vật liệu khác không thuộc bẫy cát. Bóng nằm trên cỏ hay đất bên trong mép bẫy mà không chạm cát thì không ở trong bẫy.",
+   "tinh_huong": [
+    {
+     "id": "4.1",
+     "ten": "Những điều bị cấm trước cú đánh trong bẫy cát",
+     "tinh_huong": "Bạn muốn thử độ cát, vung tập hoặc đặt gậy sát bóng.",
+     "r": [
+      "Đ. 12.2b(1): trước cú đánh, không được cố ý chạm cát bằng tay, gậy, cào hoặc vật khác để thử độ cát; không được chạm gậy vào cát ngay phía trước hoặc ngay phía sau bóng (trừ khi tìm bóng hợp lý hoặc nhặt vật tự nhiên rời/vật cản di động); không được chạm cát khi vung tập hoặc khi đưa gậy lên (backswing).",
+      "Phạt: phạt chung (2 gậy trong đấu gậy, thua lỗ trong đấu lỗ)."
+     ],
+     "tip": [
+      "Vung tập ngoài bẫy, hoặc vung trên không mà không chạm cát.",
+      "Đặt gậy lơ lửng sát trên mặt cát khi chuẩn bị; chỉ cần chạm cát ở backswing là đã vi phạm."
+     ],
+     "q": [
+      "Đ. 12.2b(1)",
+      "Phạt chung nếu vi phạm"
+     ]
+    },
+    {
+     "id": "4.2",
+     "ten": "Những điều được phép làm trong bẫy cát",
+     "tinh_huong": "Bẫy cát có lá cây, đá, cào; bạn cần chống gậy giữ thăng bằng.",
+     "r": [
+      "Đ. 12.2a: được nhặt vật tự nhiên rời (lá, đá, cành) và vật cản di động (cào, chai) – kể cả việc chạm hay di chuyển cát ở mức hợp lý khi nhặt.",
+      "Đ. 12.2b(2): không phạt khi di chân vào cát để lấy thế đứng; san cát để giữ gìn sân; đặt hoặc ném gậy, dụng cụ vào bẫy; đo, đánh dấu, nhấc, đặt lại bóng theo luật; chống gậy để nghỉ, giữ thăng bằng, tránh ngã; đập cát vì bực tức – miễn là các hành động này không cải thiện điều kiện cho cú đánh (Đ. 8.1a)."
+     ],
+     "o": [
+      [
+       "Không phạt",
+       "Nhặt đá, lá, cào… trước khi đánh."
+      ]
+     ],
+     "tip": [
+      "Nhặt vật tự nhiên rời mà làm bóng di chuyển: phạt 1 gậy và đặt lại (Đ. 15.1b, 9.4b). Đá nằm sát bóng: cân nhắc để nguyên."
+     ],
+     "q": [
+      "Đ. 12.2a; 12.2b(2)",
+      "Không phạt"
+     ]
+    },
+    {
+     "id": "4.3",
+     "ten": "Bóng lún sâu trong cát (“trứng ốp la”)",
+     "tinh_huong": "Bóng rơi từ trên cao, cắm sâu vào cát, chỉ lộ một phần nhỏ.",
+     "r": [
+      "Đ. 16.3a: giải tỏa bóng lún chỉ áp dụng ở khu vực chung – trong bẫy cát không có giải tỏa miễn phí.",
+      "Được chơi như nó nằm, hoặc tuyên bố bóng không đánh được theo Đ. 19.3."
+     ],
+     "o": [
+      [
+       "Không phạt",
+       "Đánh như nó nằm."
+      ],
+      [
+       "+1 gậy",
+       "Không đánh được – các phương án Đ. 19.3a (trong bẫy)."
+      ],
+      [
+       "+2 gậy",
+       "Lùi trên đường thẳng ra ngoài bẫy – Đ. 19.3b."
+      ]
+     ],
+     "tip": [
+      "Kỹ thuật thường dùng: mặt gậy vuông hoặc hơi đóng, đánh mạnh vào cát sau bóng, chấp nhận bóng lăn dài. Nếu mép bẫy cao và green dốc xuống, tính đến phương án +2 ra ngoài."
+     ],
+     "q": [
+      "Đ. 16.3a; 19.3",
+      "Không phạt / +1 / +2"
+     ]
+    },
+    {
+     "id": "4.4",
+     "ten": "Bóng bị cát vùi hoàn toàn",
+     "tinh_huong": "Không nhìn thấy bóng vì bị cát phủ (sau cú đánh của người khác hoặc bóng rơi sâu).",
+     "r": [
+      "Đ. 7.1b: bóng có thể bị cát phủ (ở bất kỳ đâu, kể cả bẫy cát) thì được gạt cát để tìm và nhận dạng. Sau đó phải tạo lại lie như cũ bằng cách phủ cát lại, được để lộ một phần nhỏ của bóng.",
+      "Vô tình làm bóng di chuyển khi tìm: không phạt, đặt lại (Đ. 7.4)."
+     ],
+     "o": [
+      [
+       "Không phạt",
+       "Gạt cát tìm bóng, tạo lại lie, để lộ một phần nhỏ."
+      ]
+     ],
+     "err": [
+      "Đánh bóng mà không tạo lại lie như cũ (ví dụ để bóng lộ quá nhiều): phạt chung (Đ. 7.1b)."
+     ],
+     "q": [
+      "Đ. 7.1b",
+      "Không phạt"
+     ]
+    },
+    {
+     "id": "4.5",
+     "ten": "Nước đọng, GUR hoặc hố động vật trong bẫy cát; bẫy ngập nước",
+     "tinh_huong": "Sau mưa, bóng nằm trong vũng nước ở đáy bẫy; thậm chí cả bẫy ngập.",
+     "r": [
+      "Đ. 16.1c(1): giải tỏa miễn phí TRONG bẫy cát – vùng thả 1 chiều dài gậy từ NPCR trong bẫy; nếu trong bẫy không có điểm giải tỏa hoàn toàn, dùng điểm giải tỏa tối đa có thể (nơi ít bị cản trở nhất) trong bẫy.",
+      "Đ. 16.1c(2): hoặc chịu 1 gậy, lùi trên đường thẳng ra NGOÀI bẫy (đường nối lỗ và vị trí bóng), không giới hạn khoảng cách.",
+      "BTC có thể ban hành LĐP mẫu F-16 (bẫy cát ngập nước) với cách xử lý riêng – kiểm tra thẻ luật."
+     ],
+     "o": [
+      [
+       "Không phạt",
+       "Giải tỏa trong bẫy (NPCR hoặc điểm giải tỏa tối đa)."
+      ],
+      [
+       "+1 gậy",
+       "Lùi trên đường thẳng ra ngoài bẫy."
+      ]
+     ],
+     "tip": [
+      "Điểm giải tỏa tối đa có thể vẫn ướt hoặc lún – đánh giá lie trước khi chọn.",
+      "Khi cả bẫy ngập, phương án +1 ra ngoài thường cho kết quả tốt hơn với golfer nghiệp dư."
+     ],
+     "q": [
+      "Đ. 16.1c",
+      "Không phạt / +1"
+     ]
+    },
+    {
+     "id": "4.6",
+     "ten": "Bóng không đánh được trong bẫy cát",
+     "tinh_huong": "Bóng nằm sát dưới mép bẫy dựng đứng, hoặc lún dưới gờ cỏ.",
+     "r": [
+      "Đ. 19.3a: chịu 1 gậy, dùng một trong các phương án của Đ. 19.2; riêng lùi trên đường thẳng và thả bên thì bóng phải thả và dừng TRONG bẫy cát.",
+      "Đ. 19.3b: tổng 2 gậy phạt, lùi trên đường thẳng ra NGOÀI bẫy cát."
+     ],
+     "o": [
+      [
+       "+1 gậy",
+       "Đánh lại từ vị trí cũ."
+      ],
+      [
+       "+1 gậy",
+       "Lùi trên đường thẳng, thả trong bẫy."
+      ],
+      [
+       "+1 gậy",
+       "Thả bên 2 chiều dài gậy, trong bẫy."
+      ],
+      [
+       "+2 gậy",
+       "Lùi trên đường thẳng, thả ngoài bẫy."
+      ]
+     ],
+     "tip": [
+      "Bóng sát mép dựng đứng: thả bên trong bẫy thường chỉ đổi được lie, không hạ được độ cao mép – cân nhắc phương án +2.",
+      "Nếu cú trước đánh từ fairway gần đó, đánh lại từ vị trí cũ (+1) đôi khi là lựa chọn tốt nhất."
+     ],
+     "q": [
+      "Đ. 19.3",
+      "+1 / +2 gậy"
+     ],
+     "hinh_cam_nang": "d4"
+    },
+    {
+     "id": "4.7",
+     "ten": "Cào, chai lọ trong bẫy; bóng tựa vào cào",
+     "tinh_huong": "Bóng dừng tựa vào cào; hoặc bóng nằm trên cán cào.",
+     "r": [
+      "Đ. 15.2a(1): được nhấc vật cản di động ở bất cứ đâu; bóng di chuyển khi nhấc → đặt lại, không phạt.",
+      "Đ. 14.2e: nếu bóng không đứng yên ở vị trí gốc (do dốc cát), đặt lại lần hai; vẫn không đứng thì đặt ở điểm gần nhất, không gần lỗ hơn, trong cùng bẫy cát, nơi bóng đứng yên.",
+      "Đ. 15.2a(2): bóng nằm TRÊN vật cản di động: nhấc bóng, bỏ vật cản, thả bóng trong vùng 1 chiều dài gậy quanh điểm ngay dưới chỗ bóng nằm, trong bẫy cát, không gần lỗ hơn."
+     ],
+     "o": [
+      [
+       "Không phạt",
+       "Nhấc cào, đặt lại hoặc thả bóng theo các bước trên."
+      ]
+     ],
+     "q": [
+      "Đ. 15.2a; 14.2e",
+      "Không phạt"
+     ]
+    },
+    {
+     "id": "4.8",
+     "ten": "Sau khi đánh ra khỏi bẫy: san cát, hoặc bóng rơi trở lại",
+     "tinh_huong": "Đánh ra rồi muốn san ngay; sau đó bóng lăn ngược lại vào bẫy.",
+     "r": [
+      "Đ. 12.2b(3): sau khi bóng đã ra khỏi bẫy (hoặc bạn đã hay định lấy giải tỏa ra ngoài bẫy), được chạm và san cát không phạt – kể cả khi cát nằm trên hướng đánh tiếp theo.",
+      "Nếu bóng rơi trở lại bẫy, hoặc bạn phải thả bóng trong bẫy, hoặc đổi ý không giải tỏa ra ngoài: các hạn chế của Đ. 12.2b(1) và 8.1a áp dụng trở lại."
+     ],
+     "o": [
+      [
+       "Không phạt",
+       "San cát để giữ gìn sân sau khi bóng đã ra khỏi bẫy."
+      ]
+     ],
+     "q": [
+      "Đ. 12.2b(3)",
+      "Không phạt"
+     ]
+    },
+    {
+     "id": "4.9",
+     "ten": "Bóng găm vào thành cỏ (gờ) của bẫy cát",
+     "tinh_huong": "Bóng cắm vào mặt dốc bằng cỏ phía trên bẫy.",
+     "r": [
+      "Thành và gờ cỏ của bẫy không thuộc bẫy cát mà là khu vực chung (Đ. 12.1).",
+      "Nếu bóng lún trong vết lõm do chính cú đánh của bạn tạo ra và một phần bóng thấp hơn mặt đất → giải tỏa miễn phí theo Đ. 16.3b: thả trong vùng 1 chiều dài gậy từ điểm ngay sau bóng, phải trong khu vực chung, không gần lỗ hơn.",
+      "LĐP mẫu F-2: BTC có thể loại trừ giải tỏa bóng lún ở mặt bẫy xếp lớp cỏ (stacked turf face), hoặc chỉ cho phép ở khu vực cắt cỏ ngắn bằng fairway."
+     ],
+     "o": [
+      [
+       "Không phạt",
+       "Giải tỏa bóng lún theo Đ. 16.3b (nếu thẻ luật không loại trừ)."
+      ],
+      [
+       "+1 gậy",
+       "Hoặc không đánh được – Đ. 19.2."
+      ]
+     ],
+     "q": [
+      "Đ. 16.3; LĐP F-2",
+      "Không phạt"
+     ]
+    },
+    {
+     "id": "4.10",
+     "ten": "Bóng ngoài bẫy nhưng phải đứng trong bẫy; bóng nằm vắt mép bẫy",
+     "tinh_huong": "Bóng nằm trên cỏ sát mép bẫy, chân phải đứng trong cát; hoặc bóng chạm một chút cát ở mép.",
+     "r": [
+      "Bóng ở khu vực chung: các hạn chế chạm cát của Đ. 12.2 không áp dụng; được di chân vào cát để lấy thế đứng hợp lý (Đ. 8.1b), nhưng không được tạo dựng thế đứng hay cải thiện điều kiện.",
+      "Đ. 12.1: bất kỳ phần nào của bóng chạm cát bên trong mép bẫy → bóng ở trong bẫy. Đ. 2.2c: bóng nằm một phần ở hai khu vực thì ưu tiên khu vực phạt, rồi bẫy cát, rồi green."
+     ],
+     "o": [
+      [
+       "Không phạt",
+       "Đánh như nó nằm, áp đúng luật của khu vực bóng đang nằm."
+      ]
+     ],
+     "q": [
+      "Đ. 12.1; 2.2c",
+      "—"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "5",
+   "ten": "Khu vực chung – lie khó và chướng ngại tự nhiên",
+   "gioi_thieu": "Khu vực chung là toàn bộ sân trừ bốn khu vực đặc thù (khu vực phát bóng của lỗ đang chơi, khu vực phạt, bẫy cát, green của lỗ đang chơi). Cây cỏ, đá, rễ cây là một phần thử thách tự nhiên – không có giải tỏa miễn phí khỏi chúng; công cụ chính để thoát hiểm là Điều 19 (bóng không đánh được).",
+   "tinh_huong": [
+    {
+     "id": "5.1",
+     "ten": "Bóng lún trong vết lõm của chính nó",
+     "tinh_huong": "Sau mưa, bóng cắm xuống fairway hoặc rough, một phần bóng thấp hơn mặt đất.",
+     "r": [
+      "Đ. 16.3a: bóng lún khi nằm trong vết lõm do chính cú đánh trước của bạn tạo ra VÀ một phần bóng thấp hơn mặt đất. Áp dụng ở mọi nơi trong khu vực chung (fairway lẫn rough), trừ khi lún trong cát ở phần không cắt cỏ ngắn bằng fairway.",
+      "Không tính là lún: bóng bị dẫm lún, bóng cắm thẳng xuống đất mà không bay lên không trung, bóng được thả theo luật.",
+      "Đ. 16.3b: thả trong vùng 1 chiều dài gậy từ điểm ngay phía sau bóng, phải ở khu vực chung, không gần lỗ hơn.",
+      "LĐP mẫu F-2: BTC có thể giới hạn giải tỏa chỉ ở khu vực cắt cỏ bằng hoặc ngắn hơn fairway. Từ 2026, ở giải có truyền hình trực tiếp, trọng tài có thể cho giải tỏa khi bóng nằm trong vết lõm chưa sửa do bóng người khác tạo ra (chỉ ở khu vực cắt cỏ ngắn bằng fairway)."
+     ],
+     "o": [
+      [
+       "Không phạt",
+       "Giải tỏa theo Đ. 16.3b."
+      ]
+     ],
+     "h": [
+      "Không chắc bóng có lún hay không: đánh dấu vị trí, nhấc bóng kiểm tra (không được lau) theo Đ. 16.4. Lún → giải tỏa (lúc này được lau bóng); không lún → đặt lại đúng chỗ."
+     ],
+     "err": [
+      "Lấy giải tỏa khi bóng chỉ “ngồi sâu” trong cỏ, không có phần nào thấp hơn mặt đất: đánh từ chỗ sai, phạt chung."
+     ],
+     "q": [
+      "Đ. 16.3",
+      "Không phạt"
+     ]
+    },
+    {
+     "id": "5.2",
+     "ten": "Bóng lún trong cát ở khu vực chung (bãi cát tự nhiên, waste area)",
+     "tinh_huong": "Bóng cắm vào bãi cát hoang không phải bẫy cát.",
+     "r": [
+      "Đ. 16.3a, ngoại lệ: không có giải tỏa khi bóng lún trong cát ở phần khu vực chung không cắt cỏ ngắn bằng fairway."
+     ],
+     "o": [
+      [
+       "Không phạt",
+       "Đánh như nó nằm."
+      ],
+      [
+       "+1 gậy",
+       "Không đánh được – Đ. 19.2."
+      ]
+     ],
+     "q": [
+      "Đ. 16.3a",
+      "Không phạt / +1"
+     ]
+    },
+    {
+     "id": "5.3",
+     "ten": "Bóng trong bụi rậm hoặc rough rất dày",
+     "tinh_huong": "Bóng chui vào bụi cây thấp, cành lá che kín, không vung gậy trọn vẹn được.",
+     "r": [
+      "Không có giải tỏa miễn phí khỏi cây cỏ tự nhiên. Chơi như nó nằm hoặc tuyên bố không đánh được (Đ. 19.2).",
+      "Đ. 8.1a: không được bẻ, uốn hay di chuyển cây, cành đang mọc để cải thiện lie, thế đứng, vùng vung hoặc hướng đánh.",
+      "Đ. 8.1b: được phép làm cong cành lá khi tìm bóng hợp lý, khi lấy thế đứng hợp lý (kể cả lùi người vào bụi cây) và trong lúc thực hiện cú đánh."
+     ],
+     "o": [
+      [
+       "Không phạt",
+       "Đánh như nó nằm – chấp nhận cú cứu bóng ra fairway."
+      ],
+      [
+       "+1 gậy",
+       "Không đánh được – 3 phương án của Đ. 19.2 (xem 5.5)."
+      ]
+     ],
+     "tip": [
+      "Tự hỏi ba câu: (1) Có chắc đưa bóng ra vị trí tốt trong 1 gậy? (2) Có nguy cơ chấn thương hay gãy gậy? (3) Phương án +1 nào cho cự ly sở trường? Tuyển thủ thường chọn +1 thay vì mạo hiểm mất 2–3 gậy.",
+      "Đánh tay trái, lật ngược mặt gậy, đánh lùi về phía sau – đều hợp lệ."
+     ],
+     "err": [
+      "Dùng tay vén cành khỏi đường vung trước khi đánh: phạt chung (Đ. 8.1a)."
+     ],
+     "q": [
+      "Đ. 19.2; 8.1",
+      "+1 gậy (nếu giải tỏa)"
+     ]
+    },
+    {
+     "id": "5.4",
+     "ten": "Bóng sát gốc cây, rễ cây hoặc đá cố định",
+     "tinh_huong": "Bóng dừng sát gốc cây; rễ nổi chắn ngay đường gậy vào bóng.",
+     "r": [
+      "Gốc cây, rễ cây, đá găm chặt là vật tự nhiên gắn liền – không có giải tỏa miễn phí.",
+      "LĐP mẫu F-9: BTC có thể cho giải tỏa miễn phí khỏi rễ cây trên hoặc gần fairway.",
+      "Gốc cây, cây đổ còn dính gốc: chỉ được giải tỏa nếu BTC đánh dấu là khu vực đang sửa chữa. Thân, cành đã cưa và chất đống chờ chuyển đi là GUR dù không đánh dấu (Đ. 16.1)."
+     ],
+     "o": [
+      [
+       "Không phạt",
+       "Đánh như nó nằm (tay trái, đánh lùi, cú đánh ngắn)."
+      ],
+      [
+       "+1 gậy",
+       "Không đánh được – Đ. 19.2."
+      ]
+     ],
+     "tip": [
+      "Gậy va rễ cây dễ gãy cán, chấn thương cổ tay – an toàn là ưu tiên. Gậy hỏng trong vòng đấu (không do tức giận) được sửa hoặc thay (Đ. 4.1a(2))."
+     ],
+     "q": [
+      "Đ. 19.2; LĐP F-9",
+      "+1 gậy"
+     ]
+    },
+    {
+     "id": "5.5",
+     "ten": "Bóng không đánh được – nguyên tắc chung (Điều 19)",
+     "tinh_huong": "Bất kỳ vị trí nào (trừ khu vực phạt) mà bạn thấy đánh như nó nằm là quá rủi ro.",
+     "r": [
+      "Đ. 19.1: chỉ chính bạn quyết định bóng có “không đánh được” hay không – áp dụng ở mọi nơi trên sân, trừ khu vực phạt.",
+      "Đ. 19.2, chịu 1 gậy, chọn một trong ba: (a) đánh lại từ vị trí cũ – dùng được kể cả khi chưa tìm thấy bóng; (b) lùi trên đường thẳng – thả trên đường nối lỗ qua vị trí bóng, không giới hạn khoảng cách, bóng dừng trong 1 chiều dài gậy quanh điểm chạm đất, không gần lỗ hơn vị trí bóng; (c) thả bên – 2 chiều dài gậy từ vị trí bóng (bóng ở trên cao thì lấy điểm ngay dưới bóng trên mặt đất), không gần lỗ hơn.",
+      "Phương án (b) và (c) đòi hỏi biết vị trí bóng gốc. Vùng thả có thể nằm ở bất kỳ khu vực nào của sân, nhưng bóng phải dừng ở cùng khu vực mà nó chạm đất khi thả."
+     ],
+     "o": [
+      [
+       "+1 gậy",
+       "Đánh lại từ vị trí cũ – Đ. 19.2a."
+      ],
+      [
+       "+1 gậy",
+       "Lùi trên đường thẳng – Đ. 19.2b."
+      ],
+      [
+       "+1 gậy",
+       "Thả bên 2 chiều dài gậy – Đ. 19.2c."
+      ]
+     ],
+     "tip": [
+      "Phương án (a) là “lối thoát cuối cùng” khi cả (b) và (c) đều rơi vào chỗ xấu – nhất là khi cú trước đánh từ fairway.",
+      "Thả bên đôi khi đưa bóng sang hẳn phía bên kia thân cây, mở ra đường đánh về green.",
+      "Cẩn thận: vùng thả có thể lấn vào bẫy cát hoặc khu vực phạt. Bóng chạm đất và dừng ở đâu thì lie mới theo luật của khu vực đó – hãy chọn điểm thả nằm ngoài các khu vực bất lợi."
+     ],
+     "q": [
+      "Đ. 19.1–19.2",
+      "+1 gậy"
+     ],
+     "hinh_cam_nang": "d2"
+    },
+    {
+     "id": "5.6",
+     "ten": "Bóng sát tường, hàng rào hoặc cọc biên",
+     "tinh_huong": "Bóng dừng sát chân hàng rào biên, không có chỗ vung gậy.",
+     "r": [
+      "Hàng rào, tường, cọc đánh dấu biên là vật đánh dấu biên: không có giải tỏa miễn phí; được coi là cố định dù có thể tháo ra.",
+      "Được đứng ngoài biên để đánh bóng còn trong sân (Đ. 18.2a(2)).",
+      "Các LĐP mẫu A-3 (hàng rào biên được xử lý khác), E-6 (hàng rào bảo vệ cản hướng đánh), E-7 (hàng rào điện ở biên), F-26 (cổng trên hàng rào, tường biên) có thể thay đổi cách xử lý – xem thẻ luật."
+     ],
+     "o": [
+      [
+       "Không phạt",
+       "Đánh như nó nằm: tay trái, đánh lùi, đứng ngoài biên."
+      ],
+      [
+       "+1 gậy",
+       "Không đánh được – Đ. 19.2; thả bên 2 chiều dài gậy thường đủ để có chỗ vung."
+      ]
+     ],
+     "err": [
+      "Tháo thanh rào, nhổ cọc để vung gậy rồi đánh: phạt chung (Đ. 8.1a)."
+     ],
+     "q": [
+      "Đ. 19.2",
+      "+1 gậy"
+     ]
+    },
+    {
+     "id": "5.7",
+     "ten": "Bóng trong lỗ divot, vết trượt, vết bánh xe",
+     "tinh_huong": "Cú drive đẹp nhưng bóng nằm gọn trong lỗ divot chưa lấp cát giữa fairway.",
+     "r": [
+      "Không có giải tỏa miễn phí theo luật chung – lỗ divot không phải khu vực đang sửa chữa, trừ khi BTC đánh dấu. Hướng dẫn của R&A/USGA cho BTC nêu rõ giải tỏa miễn phí khỏi lỗ divot trên fairway không phù hợp với nguyên tắc đánh bóng như nó nằm.",
+      "Vết bánh xe sâu, lối mòn: chỉ được giải tỏa khi BTC đánh dấu là khu vực đang sửa chữa (hoặc khi có LĐP mẫu F-4 cho sân hư hại diện rộng do mưa lớn)."
+     ],
+     "o": [
+      [
+       "Không phạt",
+       "Đánh như nó nằm."
+      ],
+      [
+       "+1 gậy",
+       "Không đánh được – Đ. 19.2."
+      ]
+     ],
+     "tip": [
+      "Kỹ thuật: đặt bóng lùi về phía chân sau, đánh dốc xuống, chọn gậy ít loft hơn thường lệ."
+     ],
+     "q": [
+      "—",
+      "Không phạt / +1"
+     ]
+    },
+    {
+     "id": "5.8",
+     "ten": "Bóng dính bùn",
+     "tinh_huong": "Fairway ướt, bóng dính cục bùn lớn.",
+     "r": [
+      "Đ. 14.1c: chỉ được lau bóng khi nhấc lên theo một điều luật cho phép lau (ví dụ khi giải tỏa, hoặc trên green). Không được nhấc bóng chỉ để lau.",
+      "Nhấc để nhận dạng (Đ. 7.3): chỉ lau ở mức cần thiết để nhận dạng. Nhấc để kiểm tra có được giải tỏa không (Đ. 16.4): không được lau, trừ trên green.",
+      "LĐP mẫu E-2 (lau bóng ở khu vực chỉ định) hoặc E-3 (preferred lies – nhấc, lau, đặt lại trong khoảng cách quy định ở khu vực cắt cỏ ngắn bằng fairway) có thể được BTC áp dụng khi sân ướt."
+     ],
+     "o": [
+      [
+       "Không phạt",
+       "Đánh như nó nằm."
+      ],
+      [
+       "Tùy LĐP",
+       "Nhấc, lau, đặt lại nếu thẻ luật có E-2 hoặc E-3."
+      ]
+     ],
+     "tip": [
+      "Kinh nghiệm: bóng thường lệch về phía ngược với phía dính bùn – ngắm bù và chọn mục tiêu rộng."
+     ],
+     "err": [
+      "Nhấc bóng lên lau khi không có luật cho phép: phạt 1 gậy, phải đặt lại (Đ. 9.4b, 14.1c)."
+     ],
+     "q": [
+      "Đ. 14.1c; LĐP E-2/E-3",
+      "Không phạt"
+     ]
+    },
+    {
+     "id": "5.9",
+     "ten": "Thả bóng trên dốc – bóng không chịu dừng trong vùng thả",
+     "tinh_huong": "Vùng thả nằm trên sườn dốc, bóng thả xuống lăn ra ngoài.",
+     "r": [
+      "Đ. 14.3c(2): thả lần 1 mà bóng dừng ngoài vùng thả → thả lần 2; vẫn ngoài → đặt bóng tại điểm bóng chạm đất ở lần thả thứ hai.",
+      "Đ. 14.2e: đặt mà bóng không đứng yên → đặt lần nữa; vẫn không đứng → đặt ở điểm gần nhất nơi bóng đứng yên, không gần lỗ hơn, trong giới hạn khu vực sân theo Đ. 14.2e – điểm này có thể nằm ngoài vùng thả."
+     ],
+     "o": [
+      [
+       "Không phạt",
+       "Thả hai lần, rồi đặt theo đúng trình tự."
+      ]
+     ],
+     "h": [
+      "Bóng chạm người hoặc dụng cụ SAU khi đã chạm đất vẫn hợp lệ. Chạm trước khi chạm đất là thả sai cách – thả lại, không phạt."
+     ],
+     "tip": [
+      "Bạn được chủ động chọn điểm thả bên trong vùng thả: hãy chọn chỗ phẳng nhất để bóng dừng ổn định và có lie tốt."
+     ],
+     "q": [
+      "Đ. 14.3c; 14.2e",
+      "Không phạt"
+     ]
+    },
+    {
+     "id": "5.10",
+     "ten": "Đổi kiểu cú đánh để được giải tỏa (đánh tay trái, đánh hướng khác)",
+     "tinh_huong": "Cây chắn khiến bạn phải đánh tay trái; khi đánh tay trái thì đầu tưới lại cản thế đứng.",
+     "r": [
+      "Đ. 16.1a(3): không có giải tỏa miễn phí nếu cản trở chỉ xảy ra do bạn chọn gậy, thế đứng, kiểu vung hay hướng đánh rõ ràng không hợp lý trong hoàn cảnh đó; cũng không có giải tỏa nếu đánh như nó nằm vốn đã rõ ràng không hợp lý vì một chướng ngại khác (ví dụ bóng kẹt trong bụi cây cạnh đầu tưới).",
+      "Nếu kiểu đánh khác (ví dụ tay trái vì cây chắn) là hợp lý, NPCR được xác định theo kiểu đánh đó. Sau khi giải tỏa, bạn được đánh theo bất kỳ kiểu nào; nếu khi đó điều kiện lại gây cản trở thì được giải tỏa tiếp."
+     ],
+     "o": [
+      [
+       "Không phạt",
+       "Giải tỏa theo cú đánh hợp lý mà bạn thực sự định thực hiện."
+      ]
+     ],
+     "err": [
+      "Giả vờ chọn cú đánh vô lý chỉ để “ăn” giải tỏa: không có giải tỏa → đánh từ chỗ sai, phạt chung."
+     ],
+     "q": [
+      "Đ. 16.1a(3)",
+      "Không phạt"
+     ]
+    },
+    {
+     "id": "5.11",
+     "ten": "Vết nứt đất mùa khô, đường nối cỏ mới, hư hại do động vật",
+     "tinh_huong": "Mùa khô đất nứt toác; hoặc fairway vừa được vá cỏ; hoặc có ụ kiến, phân, vết móng động vật.",
+     "r": [
+      "Theo luật chung: không có giải tỏa (riêng ụ kiến và phân động vật là vật tự nhiên rời, được nhặt bỏ theo Đ. 15.1).",
+      "Các LĐP mẫu có thể được BTC áp dụng: F-8 (vết nứt đất – coi là khu vực đang sửa chữa, giải tỏa khi ảnh hưởng lie và vùng vung, không áp dụng khi chỉ cản thế đứng), F-7 (đường nối cỏ cắt), F-10 (hư hại do động vật), F-11 (ụ kiến), F-12 (phân động vật), F-13 (vết móng động vật)."
+     ],
+     "o": [
+      [
+       "Không phạt",
+       "Đánh như nó nằm, hoặc nhặt vật tự nhiên rời."
+      ],
+      [
+       "Tùy LĐP",
+       "Giải tỏa theo LĐP nếu có."
+      ]
+     ],
+     "q": [
+      "LĐP F-7 … F-13",
+      "Tùy LĐP"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "6",
+   "ten": "Vật cản và điều kiện sân bất thường",
+   "gioi_thieu": "Điều kiện sân bất thường gồm bốn loại: hang/lỗ động vật, khu vực đang sửa chữa (GUR), vật cản cố định và nước đọng tạm thời. Được giải tỏa miễn phí ở mọi nơi trừ khu vực phạt, khi điều kiện chạm hoặc chứa bóng, hoặc cản thế đứng hay vùng vung dự định; trên green còn tính cả cản hướng gạt. Chỉ cản tầm nhìn hay hướng bay thì không có giải tỏa. Giải tỏa miễn phí là quyền, không phải nghĩa vụ (trừ vùng cấm đánh và green sai).",
+   "tinh_huong": [
+    {
+     "id": "6.1",
+     "ten": "Bóng trên đường xe điện, hoặc chân đứng trên đường",
+     "tinh_huong": "Bóng nằm trên đường xe điện trải nhựa; hoặc bóng ở mép cỏ nhưng chân phải đứng trên đường.",
+     "r": [
+      "Đường có bề mặt nhân tạo (bê tông, nhựa, sỏi rải, dăm gỗ…) là vật cản cố định. Lối mòn đất tự nhiên không phải vật cản, trừ khi BTC quy định (LĐP mẫu F-17).",
+      "Đ. 16.1b: thả trong vùng 1 chiều dài gậy từ NPCR; vùng thả phải ở khu vực chung, không gần lỗ hơn NPCR và phải giải tỏa HOÀN TOÀN (cả bóng, thế đứng và vùng vung).",
+      "Đ. 16.1a: bóng chạm/nằm trên vật cản, hoặc vật cản cản thế đứng/vùng vung dự định → có cản trở."
+     ],
+     "o": [
+      [
+       "Không phạt",
+       "Giải tỏa theo Đ. 16.1b."
+      ],
+      [
+       "Không phạt",
+       "Hoặc đánh như nó nằm trên mặt đường."
+      ],
+      [
+       "+1 gậy",
+       "Hoặc tuyên bố không đánh được ngay tại vị trí trên đường (Đ. 19.2) nếu NPCR rơi vào chỗ xấu."
+      ]
+     ],
+     "h": [
+      "Bước 1: Chọn gậy, thế đứng, kiểu vung, hướng đánh bạn sẽ dùng nếu không có con đường.",
+      "Bước 2: Tìm điểm gần bóng nhất, không gần lỗ hơn, nơi cả bóng, thế đứng và vùng vung đều không còn bị đường cản – đó là NPCR; cắm tee đánh dấu.",
+      "Bước 3: Đo 1 chiều dài gậy từ NPCR (không gần lỗ hơn) và thả bóng từ độ cao đầu gối.",
+      "Bước 4: Bóng phải dừng trong vùng thả hợp lệ; nếu dừng ở chỗ chân vẫn phải đứng trên đường thì đó không phải vùng thả hợp lệ – thả lại."
+     ],
+     "tip": [
+      "Người thuận tay phải đứng ở bên trái bóng (nhìn về phía lỗ). Vì thế bóng nằm giữa hoặc lệch phải mặt đường thì NPCR thường ở bên phải, cách mép đường khoảng bằng khoảng cách từ bóng tới chân; bóng sát mép trái thì NPCR thường ngay ngoài mép trái.",
+      "Mô phỏng thế đứng bằng gậy định dùng (không vung thật) để xác định NPCR chính xác."
+     ],
+     "err": [
+      "Chọn bên “đẹp” hơn thay vì NPCR thật: đánh từ chỗ sai, phạt chung.",
+      "Chỉ đưa bóng ra khỏi đường mà chân vẫn đứng trên đường: chưa giải tỏa hoàn toàn → đánh từ chỗ sai."
+     ],
+     "q": [
+      "Đ. 16.1b",
+      "Không phạt"
+     ],
+     "hinh_cam_nang": "d3"
+    },
+    {
+     "id": "6.2",
+     "ten": "NPCR rơi vào bụi rậm, sau gốc cây hoặc chỗ tệ hơn",
+     "tinh_huong": "Điểm giải tỏa hoàn toàn gần nhất khỏi đường xe điện nằm ngay trong bụi cây.",
+     "r": [
+      "Không được chọn điểm giải tỏa “đẹp” hơn NPCR.",
+      "Giải tỏa miễn phí là quyền chứ không bắt buộc: bạn được đánh như nó nằm.",
+      "Sau khi giải tỏa, bóng ở vị trí mới là một tình huống mới: nếu xấu, được tuyên bố không đánh được (+1) và áp dụng Đ. 19.2 từ vị trí mới."
+     ],
+     "o": [
+      [
+       "Không phạt",
+       "Đánh như nó nằm trên mặt đường (gậy ít loft, cú đánh quét)."
+      ],
+      [
+       "Không phạt",
+       "Giải tỏa về NPCR rồi chơi tiếp."
+      ],
+      [
+       "+1 gậy",
+       "Tuyên bố không đánh được ngay tại vị trí gốc (Đ. 19.2) – thả bên 2 chiều dài gậy, có thể sang phía thuận lợi hơn."
+      ]
+     ],
+     "tip": [
+      "Đây là bài toán thứ tự: đôi khi +1 gậy theo Đ. 19.2c từ vị trí gốc cho lie tốt hơn nhiều so với NPCR miễn phí nằm trong bụi. Đánh giá cả hai phương án trước khi thả bóng."
+     ],
+     "q": [
+      "Đ. 16.1; 19.2",
+      "Không phạt / +1"
+     ]
+    },
+    {
+     "id": "6.3",
+     "ten": "Đầu tưới, nắp hố ga, biển báo, ghế cố định cản thế đứng hoặc vùng vung",
+     "tinh_huong": "Chân phải đứng lên nắp hố ga; hoặc biển chỉ dẫn cố định vướng đường vung.",
+     "r": [
+      "Đ. 16.1a–16.1b: đây là vật cản cố định → giải tỏa miễn phí ở khu vực chung khi cản bóng, thế đứng hoặc vùng vung dự định. Ở bẫy cát theo Đ. 16.1c; trên green theo Đ. 16.1d (tính cả cản hướng gạt).",
+      "Vật nhấc ra được dễ dàng mà không làm hỏng (ghế nhựa, biển cắm lỏng) là vật cản di động: nhấc đi theo Đ. 15.2."
+     ],
+     "o": [
+      [
+       "Không phạt",
+       "Giải tỏa theo Đ. 16.1, hoặc nhấc vật cản di động."
+      ]
+     ],
+     "q": [
+      "Đ. 16.1",
+      "Không phạt"
+     ]
+    },
+    {
+     "id": "6.4",
+     "ten": "Vật cản cố định chỉ chắn tầm nhìn hoặc đường bay",
+     "tinh_huong": "Nhà vệ sinh trên sân, cột đèn chắn thẳng hướng về green, nhưng không vướng thế đứng hay đường vung.",
+     "r": [
+      "Đ. 16.1a: chắn tầm nhìn hoặc hướng đánh KHÔNG được coi là cản trở – không có giải tỏa (ngoài green).",
+      "Ngoại lệ do BTC ban hành: LĐP mẫu F-5 (vật cản cố định gần green – xem 8.3), F-23 (vật cản tạm thời như khán đài, lều, màn hình), E-6 (hàng rào bảo vệ)."
+     ],
+     "o": [
+      [
+       "Không phạt",
+       "Đánh như nó nằm (đánh vòng, đánh bổng)."
+      ],
+      [
+       "+1 gậy",
+       "Không đánh được – Đ. 19.2."
+      ],
+      [
+       "Tùy LĐP",
+       "Giải tỏa theo F-5, F-23 hoặc E-6 nếu có."
+      ]
+     ],
+     "q": [
+      "Đ. 16.1a",
+      "Không có giải tỏa"
+     ]
+    },
+    {
+     "id": "6.5",
+     "ten": "Khu vực đang sửa chữa (GUR)",
+     "tinh_huong": "Bóng nằm trong vòng sơn trắng ghi GUR; hoặc trong hố nhân viên đào sửa ống nước.",
+     "r": [
+      "Khu vực đang sửa chữa gồm vùng BTC đánh dấu (thường khoanh sơn trắng) và – dù không đánh dấu – các hố do BTC hay nhân viên bảo dưỡng đào khi chuẩn bị hoặc bảo dưỡng sân; đống cỏ cắt, lá, vật liệu chất đống chờ chuyển đi; nơi trú của động vật (ví dụ tổ chim) ở gần bóng đến mức cú đánh hay thế đứng có thể làm hỏng (trừ của giun, côn trùng).",
+      "Vạch đánh dấu thuộc khu vực đang sửa chữa. Giải tỏa theo Đ. 16.1b, 16.1c hoặc 16.1d tùy khu vực."
+     ],
+     "o": [
+      [
+       "Không phạt",
+       "Giải tỏa theo Đ. 16.1 (tùy chọn)."
+      ]
+     ],
+     "tip": [
+      "Cỏ cắt vương vãi trên sân (không chất đống chờ dọn) không phải GUR – chỉ là vật tự nhiên rời.",
+      "Vùng có cọc đầu xanh lá thường là vùng cấm đánh – bắt buộc giải tỏa (xem 6.16)."
+     ],
+     "q": [
+      "Đ. 16.1",
+      "Không phạt"
+     ]
+    },
+    {
+     "id": "6.6",
+     "ten": "Nước đọng tạm thời",
+     "tinh_huong": "Sau mưa lớn, bóng nằm trong vũng nước trên fairway, hoặc nước rỉ lên quanh giày khi đứng.",
+     "r": [
+      "Nước đọng tạm thời là mọi vũng nước tạm trên mặt đất (do mưa, tưới, tràn…) ngoài khu vực phạt, nhìn thấy được trước hoặc sau khi bạn lấy thế đứng (không dẫm quá mạnh).",
+      "Không phải nước đọng: sương, sương giá. Tuyết và băng tự nhiên: bạn tùy chọn coi là vật tự nhiên rời hoặc nước đọng. Băng nhân tạo là vật cản.",
+      "Giải tỏa theo Đ. 16.1b, 16.1c hoặc 16.1d."
+     ],
+     "o": [
+      [
+       "Không phạt",
+       "Giải tỏa theo Đ. 16.1."
+      ]
+     ],
+     "tip": [
+      "Đặt chân tự nhiên; nếu nước rỉ lên quanh giày thì được giải tỏa. Không được nhún, dẫm mạnh để ép nước lên."
+     ],
+     "q": [
+      "Đ. 16.1",
+      "Không phạt"
+     ]
+    },
+    {
+     "id": "6.7",
+     "ten": "Hang hoặc lỗ động vật",
+     "tinh_huong": "Bóng rơi vào hang chuột, lỗ cua, lỗ rắn; hoặc ụ đất đùn lên cạnh hang vướng thế đứng.",
+     "r": [
+      "Hang/lỗ động vật là lỗ do động vật đào xuống đất (trừ giun, côn trùng và loài tương tự – chúng là vật tự nhiên rời), bao gồm cả đất đào lên, lối mòn dẫn vào hang và phần đất bị đội lên do động vật đào ngầm. Vết chân động vật không dẫn vào hang thì không phải.",
+      "Giải tỏa theo Đ. 16.1. Không có giải tỏa khi bóng ở trong khu vực phạt."
+     ],
+     "o": [
+      [
+       "Không phạt",
+       "Giải tỏa theo Đ. 16.1."
+      ]
+     ],
+     "tip": [
+      "Hang có thể có rắn hoặc côn trùng nguy hiểm: không thò tay vào lấy bóng – dùng bóng khác khi giải tỏa (Đ. 14.3a), hoặc áp dụng Đ. 16.2 (xem 6.8)."
+     ],
+     "q": [
+      "Đ. 16.1",
+      "Không phạt"
+     ]
+    },
+    {
+     "id": "6.8",
+     "ten": "Động vật nguy hiểm gần bóng (rắn, ong, kiến lửa, cá sấu)",
+     "tinh_huong": "Bóng nằm cạnh tổ ong vò vẽ hoặc có rắn cuộn gần đó.",
+     "r": [
+      "Đ. 16.2: khi động vật nguy hiểm ở gần bóng có thể gây thương tích nghiêm trọng nếu bạn đánh như nó nằm, được giải tỏa ở bất cứ đâu trên sân.",
+      "Ngoài khu vực phạt: giải tỏa miễn phí theo Đ. 16.1b, 16.1c hoặc 16.1d. Trong khu vực phạt: miễn phí trong chính khu vực phạt, hoặc +1 gậy ra ngoài theo Đ. 17.1d.",
+      "Không áp dụng cho cây xương rồng, cây có gai (không phải động vật), hoặc khi đánh như nó nằm vốn đã rõ ràng không hợp lý vì lý do khác."
+     ],
+     "o": [
+      [
+       "Không phạt",
+       "Giải tỏa theo Đ. 16.2b."
+      ],
+      [
+       "+1 gậy",
+       "Bóng trong khu vực phạt: có thể giải tỏa ra ngoài theo Đ. 17.1d."
+      ]
+     ],
+     "tip": [
+      "An toàn trên hết: không xua đuổi rắn, không chọc tổ ong. LĐP mẫu E-13 có thể cho phép xua những động vật (không phải vật tự nhiên rời) ra khỏi gần bóng."
+     ],
+     "q": [
+      "Đ. 16.2",
+      "Không phạt"
+     ]
+    },
+    {
+     "id": "6.9",
+     "ten": "Vật cản di động cạnh bóng (khăn, chai, xe đẩy, biển di động)",
+     "tinh_huong": "Chai nước, xe đẩy gậy hoặc biển báo di động nằm cạnh bóng.",
+     "r": [
+      "Đ. 15.2a(1): được nhấc vật cản di động ở bất cứ đâu trên sân, không phạt; nếu bóng di chuyển khi nhấc → đặt lại, không phạt.",
+      "Không được di chuyển vật cản nhằm tác động tới một quả bóng đang chuyển động (Đ. 11.3)."
+     ],
+     "o": [
+      [
+       "Không phạt",
+       "Nhấc vật cản đi."
+      ]
+     ],
+     "q": [
+      "Đ. 15.2a(1)",
+      "Không phạt"
+     ]
+    },
+    {
+     "id": "6.10",
+     "ten": "Bóng nằm trên hoặc trong vật cản di động",
+     "tinh_huong": "Bóng dừng trên khăn, trong túi rác, trên giỏ xe đẩy để ngoài fairway.",
+     "r": [
+      "Đ. 15.2a(2): nhấc bóng, bỏ vật cản, thả bóng (gốc hoặc bóng khác) trong vùng 1 chiều dài gậy quanh điểm ước tính ngay dưới chỗ bóng nằm, cùng khu vực sân, không gần lỗ hơn. Đ. 15.2a(3) – trên green: đặt bóng tại điểm ngay dưới.",
+      "Đ. 15.2b: không tìm thấy bóng nhưng biết hoặc gần như chắc chắn nó nằm trong vật cản di động: được thay bóng, lấy điểm ngay dưới chỗ bóng cắt mép vật cản đó trên sân làm vị trí bóng."
+     ],
+     "o": [
+      [
+       "Không phạt",
+       "Giải tỏa theo Đ. 15.2a(2) hoặc 15.2b."
+      ]
+     ],
+     "q": [
+      "Đ. 15.2a(2)",
+      "Không phạt"
+     ]
+    },
+    {
+     "id": "6.11",
+     "ten": "Vật tự nhiên rời quanh bóng (lá, cành rời, đá, phân, côn trùng)",
+     "tinh_huong": "Cành khô, đá nhỏ, lá rụng nằm sát bóng hoặc trên đường vung.",
+     "r": [
+      "Đ. 15.1a: được nhặt vật tự nhiên rời ở bất cứ đâu trên sân (kể cả bẫy cát và khu vực phạt), bằng bất kỳ cách nào.",
+      "Đ. 15.1b: nếu việc nhặt làm bóng di chuyển → đặt lại; phạt 1 gậy (Đ. 9.4b), trừ khi bóng nằm trên green hoặc trong khu vực phát bóng.",
+      "Vật tự nhiên rời gồm: đá, lá, cành, nhánh rời; xác và phân động vật; giun, côn trùng và ụ, tổ chúng tạo ra; cục đất nén (kể cả lõi đất thông khí). Không phải vật tự nhiên rời: vật đang mọc hoặc gắn liền, vật găm chặt vào đất, vật dính vào bóng; cát và đất rời (chỉ được dọn trên green); sương, sương giá, nước."
+     ],
+     "o": [
+      [
+       "Không phạt",
+       "Nhặt vật tự nhiên rời."
+      ],
+      [
+       "+1 gậy",
+       "Nếu làm bóng di chuyển (ngoài green, khu vực phát bóng): đặt lại và chịu phạt."
+      ]
+     ],
+     "tip": [
+      "Cành gãy nhưng còn dính vào cây là vật gắn liền – không được bẻ bỏ. Cành đã rời hẳn trên mặt đất mới được nhặt.",
+      "Nhặt vật sát bóng: nhấc từ phía xa bóng, không kéo lê; thấy nguy cơ bóng lăn thì để nguyên."
+     ],
+     "q": [
+      "Đ. 15.1",
+      "Không phạt (+1 nếu bóng di chuyển)"
+     ]
+    },
+    {
+     "id": "6.12",
+     "ten": "Vật cản tạm thời (khán đài, lều, màn hình, xe truyền hình) – LĐP mẫu F-23",
+     "tinh_huong": "Tại giải lớn, khán đài tạm chắn giữa bóng và green.",
+     "r": [
+      "Chỉ áp dụng khi BTC ban hành LĐP mẫu F-23. Khác vật cản cố định thông thường, F-23 có thể cho giải tỏa cả khi vật cản tạm thời chắn tầm nhìn/hướng đánh về lỗ, và có thể quy định khu vực thả riêng – làm theo đúng thẻ luật của giải.",
+      "Dây cáp, đường dây tạm thời: LĐP mẫu F-22."
+     ],
+     "o": [
+      [
+       "Không phạt",
+       "Giải tỏa theo F-23/F-22 khi có."
+      ]
+     ],
+     "q": [
+      "LĐP F-23; F-22",
+      "Không phạt"
+     ]
+    },
+    {
+     "id": "6.13",
+     "ten": "Cây non có cọc chống, khu bảo vệ cây – LĐP mẫu E-10",
+     "tinh_huong": "Bóng nằm cạnh cây non có cọc tre chống và dây buộc.",
+     "r": [
+      "LĐP mẫu E-10: BTC có thể coi cây non được đánh dấu là vùng cấm đánh (bắt buộc giải tỏa theo Đ. 16.1f) hoặc là điều kiện sân bất thường (giải tỏa tùy chọn).",
+      "Không có LĐP: cây non là vật tự nhiên; cọc chống là vật cản (di động hoặc cố định tùy mức độ cắm chặt)."
+     ],
+     "o": [
+      [
+       "Không phạt",
+       "Giải tỏa theo E-10 hoặc theo Đ. 15.2/16.1 với cọc chống."
+      ]
+     ],
+     "q": [
+      "LĐP E-10",
+      "Không phạt"
+     ]
+    },
+    {
+     "id": "6.14",
+     "ten": "Lỗ thông khí (aeration) – LĐP mẫu E-4",
+     "tinh_huong": "Sân vừa xới thông khí; bóng nằm trong một lỗ nhỏ trên fairway hoặc green.",
+     "r": [
+      "Luật chung: không có giải tỏa (lỗ thông khí không phải GUR) và không được sửa lỗ thông khí trên green.",
+      "LĐP mẫu E-4: bóng nằm trong hoặc chạm lỗ thông khí → giải tỏa theo Đ. 16.1b (khu vực chung) hoặc 16.1d (green); bóng rơi vào lỗ khác thì được giải tỏa tiếp. Không tính cản trở khi lỗ chỉ ảnh hưởng thế đứng, vùng vung, hay (trên green) hướng gạt."
+     ],
+     "o": [
+      [
+       "Không phạt",
+       "Đánh như nó nằm."
+      ],
+      [
+       "Tùy LĐP",
+       "Giải tỏa theo E-4 khi có."
+      ]
+     ],
+     "q": [
+      "LĐP E-4",
+      "Tùy LĐP"
+     ]
+    },
+    {
+     "id": "6.15",
+     "ten": "Vật thể gắn liền (integral object)",
+     "tinh_huong": "Bóng nằm sát bức tường đá kè hồ, hoặc dây cáp quấn quanh thân cây mà thẻ luật ghi là “integral object”.",
+     "r": [
+      "Vật nhân tạo được BTC xác định là một phần thử thách của sân: không có giải tỏa miễn phí và không được di chuyển, bẻ (Đ. 8.1a). Thẻ luật (LĐP mẫu F-1) sẽ liệt kê những vật này."
+     ],
+     "o": [
+      [
+       "Không phạt",
+       "Đánh như nó nằm."
+      ],
+      [
+       "+1 gậy",
+       "Không đánh được – Đ. 19.2."
+      ]
+     ],
+     "q": [
+      "Đ. 8.1a; LĐP F-1",
+      "+1 (nếu giải tỏa)"
+     ]
+    },
+    {
+     "id": "6.16",
+     "ten": "Vùng cấm đánh ở khu vực chung, bẫy cát hoặc green",
+     "tinh_huong": "Bóng lăn vào vườn hoa, khu ươm cây được đánh dấu cấm đánh.",
+     "r": [
+      "Đ. 16.1f(1): bóng nằm trong vùng cấm đánh → BẮT BUỘC giải tỏa theo Đ. 16.1b, 16.1c hoặc 16.1d.",
+      "Đ. 16.1f(2): bóng ngoài vùng cấm đánh nhưng vùng đó cản thế đứng hoặc vùng vung → không được đánh như nó nằm; phải giải tỏa theo Đ. 16.1b/c/d nếu được phép, hoặc giải tỏa bóng không đánh được theo Đ. 19 (+1).",
+      "Đánh bóng khi vi phạm các quy định trên: phạt chung."
+     ],
+     "o": [
+      [
+       "Bắt buộc",
+       "Giải tỏa miễn phí theo Đ. 16.1."
+      ],
+      [
+       "+1 gậy",
+       "Hoặc Đ. 19 khi không thể giải tỏa theo Đ. 16.1."
+      ]
+     ],
+     "q": [
+      "Đ. 16.1f",
+      "Bắt buộc, không phạt"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "7",
+   "ten": "Bóng di chuyển, va chạm và hư hỏng",
+   "gioi_thieu": "Nguyên tắc: bóng đứng yên bị bạn làm di chuyển thì đặt lại và thường bị phạt 1 gậy; bị lực tự nhiên làm di chuyển thì chơi từ vị trí mới; bị người khác hay tác nhân bên ngoài làm di chuyển thì đặt lại, không phạt. Bóng đang chuyển động vô tình trúng bất kỳ ai hay vật gì thì không ai bị phạt (trừ đấu gậy: bóng gạt trên green trúng bóng khác cũng trên green – xem 8.8).",
+   "tinh_huong": [
+    {
+     "id": "7.1",
+     "ten": "Bóng tự di chuyển (gió, trọng lực, nước)",
+     "tinh_huong": "Bóng đang nằm trên dốc bất ngờ lăn đi khi bạn chưa chạm vào.",
+     "r": [
+      "Đ. 9.3: bóng đứng yên bị lực tự nhiên làm di chuyển → chơi từ vị trí mới, không phạt.",
+      "Ngoại lệ trên green: bóng đã được nhấc lên và đặt lại rồi mới bị lực tự nhiên làm di chuyển → đặt lại chỗ cũ (Đ. 13.1d(2))."
+     ],
+     "o": [
+      [
+       "Không phạt",
+       "Chơi từ vị trí mới (hoặc đặt lại nếu thuộc ngoại lệ trên green)."
+      ]
+     ],
+     "q": [
+      "Đ. 9.3; 13.1d",
+      "Không phạt"
+     ]
+    },
+    {
+     "id": "7.2",
+     "ten": "Bạn vô tình làm bóng di chuyển",
+     "tinh_huong": "Khi đặt gậy hoặc vung tập, gậy chạm làm bóng nhích đi.",
+     "r": [
+      "Đ. 9.2: chỉ coi là bạn làm bóng di chuyển khi biết hoặc gần như chắc chắn điều đó; bóng di chuyển sau khi bạn đặt gậy không mặc nhiên là lỗi của bạn.",
+      "Đ. 9.4b: bạn nhấc hoặc làm bóng di chuyển → phạt 1 gậy và đặt lại. Không phạt khi: đang tìm bóng (Đ. 7.4); bóng trên green (Đ. 13.1d); vô tình làm bóng di chuyển trong khi đang áp dụng một điều luật (đánh dấu, nhấc, đặt lại, đo…).",
+      "LĐP mẫu E-14 (mới 2026, dùng cho giải truyền hình): nếu bạn hoàn toàn không biết mình đã làm bóng di chuyển nên không đặt lại, chỉ bị phạt 1 gậy theo Đ. 9.4b, không bị tính là đánh từ chỗ sai."
+     ],
+     "o": [
+      [
+       "+1 gậy",
+       "Đặt lại bóng (trừ các trường hợp không phạt kể trên)."
+      ]
+     ],
+     "err": [
+      "Không đặt lại mà đánh từ vị trí mới: phạt chung (2 gậy trong đấu gậy) thay cho 1 gậy – không cộng dồn."
+     ],
+     "q": [
+      "Đ. 9.4b",
+      "+1 gậy"
+     ]
+    },
+    {
+     "id": "7.3",
+     "ten": "Bóng di chuyển trong lúc tìm kiếm",
+     "tinh_huong": "Đang dò bóng trong cỏ dày, bạn vô tình đá trúng bóng.",
+     "r": [
+      "Đ. 7.4: vô tình làm bóng di chuyển khi tìm hoặc nhận dạng → không phạt, đặt lại vị trí gốc (ước tính nếu không biết chính xác)."
+     ],
+     "o": [
+      [
+       "Không phạt",
+       "Đặt lại bóng."
+      ]
+     ],
+     "q": [
+      "Đ. 7.4",
+      "Không phạt"
+     ]
+    },
+    {
+     "id": "7.4",
+     "ten": "Người khác, đối thủ hoặc động vật làm bóng di chuyển",
+     "tinh_huong": "Người cùng nhóm vô tình đá bóng của bạn; chó chạy qua làm bóng lăn đi.",
+     "r": [
+      "Đ. 9.6: tác nhân bên ngoài (kể cả người chơi khác trong đấu gậy, động vật) nhấc hoặc làm bóng di chuyển → đặt lại, không ai bị phạt.",
+      "Đ. 9.5 (đấu lỗ): đối thủ hoặc caddie của họ nhấc hay làm bóng của bạn di chuyển → đặt lại; đối thủ bị phạt 1 gậy (trừ một số trường hợp như khi đang tìm bóng, trên green, hoặc khi bạn đề nghị nhấc)."
+     ],
+     "o": [
+      [
+       "Không phạt",
+       "Đặt lại bóng."
+      ]
+     ],
+     "q": [
+      "Đ. 9.5; 9.6",
+      "Không phạt"
+     ]
+    },
+    {
+     "id": "7.5",
+     "ten": "Bóng đang bay hoặc lăn trúng người, dụng cụ, xe",
+     "tinh_huong": "Bóng bật ra từ cây trúng chính bạn; hoặc trúng xe golf, túi gậy.",
+     "r": [
+      "Đ. 11.1a: không ai bị phạt khi bóng đang chuyển động vô tình trúng người hay tác nhân bên ngoài – kể cả chính bạn, caddie hay dụng cụ của bạn.",
+      "Đ. 11.1b: chơi bóng như nó nằm. Ngoại lệ: bóng dừng trên người, động vật hay vật đang di chuyển → thả ở vùng 1 chiều dài gậy quanh điểm ngay dưới chỗ bóng dừng; bóng đánh từ green trúng người khác, động vật hoặc vật cản di động → phải đánh lại (xem 8.9, có ngoại lệ)."
+     ],
+     "o": [
+      [
+       "Không phạt",
+       "Chơi như nó nằm (trừ các ngoại lệ)."
+      ]
+     ],
+     "q": [
+      "Đ. 11.1",
+      "Không phạt"
+     ]
+    },
+    {
+     "id": "7.6",
+     "ten": "Đánh trúng bóng hai lần trong một cú (double hit)",
+     "tinh_huong": "Cú chip ngắn trong rough dày, mặt gậy chạm bóng hai lần.",
+     "r": [
+      "Đ. 10.1a: vô tình đánh trúng bóng nhiều lần trong một cú đánh → chỉ tính 1 gậy, không phạt."
+     ],
+     "o": [
+      [
+       "Không phạt",
+       "Chơi tiếp như nó nằm."
+      ]
+     ],
+     "q": [
+      "Đ. 10.1a",
+      "Không phạt"
+     ]
+    },
+    {
+     "id": "7.7",
+     "ten": "Bóng trúng dây điện – LĐP mẫu E-11",
+     "tinh_huong": "Cú phát trúng đường dây điện chạy ngang sân.",
+     "r": [
+      "Khi BTC áp dụng LĐP mẫu E-11 và biết hoặc gần như chắc chắn bóng trúng dây điện hay cột đỡ: BẮT BUỘC hủy cú đánh và đánh lại từ vị trí cũ, không phạt. Không đánh lại thì cú đó vẫn tính và bị phạt chung."
+     ],
+     "o": [
+      [
+       "Bắt buộc",
+       "Đánh lại từ vị trí cũ, không phạt."
+      ]
+     ],
+     "q": [
+      "LĐP E-11",
+      "Bắt buộc, không phạt"
+     ]
+    },
+    {
+     "id": "7.8",
+     "ten": "Bóng bị cắt, nứt hoặc vỡ",
+     "tinh_huong": "Sau cú đánh trúng đá, bóng bị nứt; hoặc vỡ thành nhiều mảnh.",
+     "r": [
+      "Đ. 4.2c: nghi bóng bị cắt hoặc nứt trong khi chơi lỗ → được nhấc lên kiểm tra (phải đánh dấu, không được lau); đúng là cắt/nứt thì thay bóng khác đặt vào vị trí gốc. Chỉ trầy xước, bong sơn thì không được thay.",
+      "Đ. 4.2b: bóng vỡ thành nhiều mảnh do cú đánh → hủy cú, đánh lại từ vị trí cũ, không phạt."
+     ],
+     "o": [
+      [
+       "Không phạt",
+       "Thay bóng (bóng cắt/nứt) hoặc đánh lại (bóng vỡ)."
+      ]
+     ],
+     "q": [
+      "Đ. 4.2b–c",
+      "Không phạt"
+     ]
+    },
+    {
+     "id": "7.9",
+     "ten": "Bóng của người khác cản trở hoặc có thể hỗ trợ",
+     "tinh_huong": "Bóng của bạn chơi nằm ngay trên hướng đánh hoặc sát chỗ bạn đứng.",
+     "r": [
+      "Đ. 15.3b: bóng của người khác có thể cản trở cú đánh của bạn → bạn được yêu cầu họ đánh dấu và nhấc bóng. Không được tự ý nhấc bóng của người khác.",
+      "Đ. 15.3a: trên green, nếu một quả bóng có thể hỗ trợ ai đó, có thể yêu cầu nhấc; các người chơi không được thỏa thuận để bóng lại nhằm giúp nhau – phạt chung."
+     ],
+     "o": [
+      [
+       "Không phạt",
+       "Yêu cầu người chơi kia đánh dấu và nhấc bóng."
+      ]
+     ],
+     "q": [
+      "Đ. 15.3",
+      "Không phạt"
+     ]
+    },
+    {
+     "id": "7.10",
+     "ten": "Bóng đang lăn bị người cố ý chặn lại hoặc làm chệch hướng",
+     "tinh_huong": "Khán giả nhặt quả bóng đang lăn; hoặc ai đó cố ý đặt vật cản để bóng dừng lại.",
+     "r": [
+      "Đ. 11.2a: áp dụng khi biết hoặc gần như chắc chắn một người cố ý chạm vào bóng đang chuyển động (kể cả khi bóng trúng dụng cụ, vật hay người được cố ý đặt sẵn để chặn bóng).",
+      "Đ. 11.2b: người chơi nào cố ý làm chệch hay chặn bất kỳ bóng đang chuyển động nào thì bị phạt chung.",
+      "Đ. 11.2c (bóng tìm thấy hay không đều áp dụng): cú đánh từ ngoài green → ước tính chỗ bóng lẽ ra sẽ dừng, thả trong vùng 1 chiều dài gậy quanh điểm đó, cùng khu vực sân, không gần lỗ hơn. Nếu điểm ước tính nằm trong khu vực phạt → được giải tỏa theo Đ. 17.1d; nếu nằm ngoài biên → đánh lại từ vị trí cũ (Đ. 18.2). Cú đánh từ green → phải đánh lại.",
+      "Đ. 11.3: khi bóng đang chuyển động, không ai được cố ý nhặt vật tự nhiên rời, vật cản di động hay thay đổi điều kiện để tác động tới đường đi của bóng – phạt chung."
+     ],
+     "o": [
+      [
+       "Không phạt",
+       "Thả bóng quanh điểm ước tính bóng sẽ dừng (hoặc đánh lại nếu cú đánh từ green)."
+      ],
+      [
+       "+1 gậy",
+       "Điểm ước tính trong khu vực phạt hoặc ngoài biên: theo Đ. 17.1d hoặc Đ. 18.2."
+      ]
+     ],
+     "q": [
+      "Đ. 11.2–11.3",
+      "Không phạt"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "8",
+   "ten": "Green và quanh green",
+   "gioi_thieu": "Trên green, luật cho phép nhiều thao tác hơn: đánh dấu, nhấc, lau bóng; sửa phần lớn hư hại; vô tình làm bóng hoặc dấu bóng di chuyển không bị phạt; giải tỏa điều kiện sân bất thường tính cả cản hướng gạt.",
+   "tinh_huong": [
+    {
+     "id": "8.1",
+     "ten": "Vết bóng, vết giày, vật găm trên đường gạt",
+     "tinh_huong": "Đường gạt có vết bóng chưa sửa, vết đinh giày, tee găm xuống mặt green.",
+     "r": [
+      "Đ. 13.1c(2): trên green được sửa vết bóng, vết giày (kể cả vết đinh giày), vết lõm do dụng cụ hoặc cột cờ, nắp lỗ cũ, miếng cỏ vá, đường nối cỏ, vết trầy do dụng cụ bảo dưỡng, vết chân và móng động vật, vật găm (đá, quả, tee).",
+      "Không được sửa: khuyết điểm tự nhiên của mặt green, lỗ thông khí, rãnh do bảo dưỡng định kỳ, mòn tự nhiên của mép lỗ.",
+      "Đ. 13.1c(1): được dọn cát và đất rời trên green. Đ. 13.1e: không được cố ý thử mặt green (chà tay, lăn bóng) – phạt chung."
+     ],
+     "o": [
+      [
+       "Không phạt",
+       "Sửa hư hại được phép, dọn cát và đất rời."
+      ]
+     ],
+     "q": [
+      "Đ. 13.1c",
+      "Không phạt"
+     ]
+    },
+    {
+     "id": "8.2",
+     "ten": "Nước đọng hoặc GUR trên đường gạt",
+     "tinh_huong": "Bóng trên green, giữa bóng và lỗ có vũng nước nhỏ.",
+     "r": [
+      "Đ. 16.1d: trên green, cản hướng gạt cũng là cản trở. Đặt (không thả) bóng tại NPCR – có thể ở trên green hoặc ở khu vực chung; nếu không có điểm giải tỏa hoàn toàn thì dùng điểm giải tỏa tối đa.",
+      "Bóng ở ngoài green mà vũng nước trên green chắn hướng gạt: không có giải tỏa theo luật chung (cản hướng chỉ tính khi bóng ở trên green)."
+     ],
+     "o": [
+      [
+       "Không phạt",
+       "Đặt bóng tại NPCR theo Đ. 16.1d."
+      ]
+     ],
+     "tip": [
+      "NPCR có thể làm đường gạt dài hoặc dốc hơn – bạn có quyền không lấy giải tỏa."
+     ],
+     "q": [
+      "Đ. 16.1d",
+      "Không phạt"
+     ]
+    },
+    {
+     "id": "8.3",
+     "ten": "Đầu tưới, rãnh viền sát green chắn đường chip/putt – LĐP mẫu F-5",
+     "tinh_huong": "Bóng ở fringe, đầu tưới nằm thẳng trên đường bạn định gạt bóng vào green.",
+     "r": [
+      "Luật chung: bóng ngoài green và vật cản cố định chỉ chắn hướng đánh → không có giải tỏa.",
+      "LĐP mẫu F-5 (“2 + 2”): bóng ở khu vực chung; vật cản cố định nằm trên hoặc trong vòng 2 chiều dài gậy của green VÀ trong vòng 2 chiều dài gậy của bóng, chắn hướng đánh → thêm phương án giải tỏa miễn phí, phải giải tỏa hoàn toàn (kể cả hướng đánh); không có giải tỏa nếu hướng đánh đó rõ ràng không hợp lý. F-5.2 có thể giới hạn chỉ ở khu vực cắt cỏ ngắn bằng fairway.",
+      "Từ 2026, BTC có thể mở rộng F-5 cho một số loại GUR gần green. Rãnh viền gần green: LĐP mẫu F-19."
+     ],
+     "o": [
+      [
+       "Không phạt",
+       "Đánh như nó nằm."
+      ],
+      [
+       "Tùy LĐP",
+       "Giải tỏa theo F-5 khi có."
+      ]
+     ],
+     "q": [
+      "LĐP F-5",
+      "Không phạt"
+     ]
+    },
+    {
+     "id": "8.4",
+     "ten": "Bóng nằm trên green sai (kể cả green tập)",
+     "tinh_huong": "Bóng dừng trên green của lỗ khác, hoặc chân phải đứng trên green khác.",
+     "r": [
+      "Đ. 13.1f: bóng chạm hoặc nằm trên green sai, hoặc green sai cản thế đứng hay vùng vung dự định → BẮT BUỘC giải tỏa miễn phí: thả trong vùng 1 chiều dài gậy từ NPCR, cùng khu vực sân với điểm tham chiếu, không gần lỗ hơn. Không được đánh từ green sai.",
+      "Green sai gồm green của các lỗ khác, green chính của lỗ đang chơi khi đang dùng green tạm, và mọi green tập gạt/chip (trừ khi BTC loại trừ). Không có giải tỏa nếu cản trở chỉ do lựa chọn gậy, thế đứng, hướng đánh rõ ràng không hợp lý.",
+      "LĐP mẫu D-3: BTC có thể bỏ giải tỏa khi green sai chỉ cản thế đứng. D-4: cấm đánh từ fringe của green sai."
+     ],
+     "o": [
+      [
+       "Bắt buộc",
+       "Giải tỏa miễn phí theo Đ. 13.1f."
+      ]
+     ],
+     "err": [
+      "Đánh bóng từ trên green sai: phạt chung."
+     ],
+     "q": [
+      "Đ. 13.1f",
+      "Bắt buộc, không phạt"
+     ]
+    },
+    {
+     "id": "8.5",
+     "ten": "Bóng tựa vào cột cờ trong lỗ",
+     "tinh_huong": "Cú gạt chạm cột cờ và bóng kẹt giữa cột cờ với mép lỗ.",
+     "r": [
+      "Đ. 13.2c: nếu bất kỳ phần nào của bóng thấp hơn mặt green → bóng đã vào lỗ.",
+      "Nếu không có phần nào của bóng thấp hơn mặt green → bóng chưa vào lỗ, chơi như nó nằm. Khi rút cờ mà bóng di chuyển (rơi vào lỗ hoặc bật ra): không phạt, đặt bóng lại trên mép lỗ rồi đánh tiếp."
+     ],
+     "o": [
+      [
+       "Không phạt",
+       "Xử lý theo Đ. 13.2c."
+      ]
+     ],
+     "q": [
+      "Đ. 13.2c",
+      "Không phạt"
+     ]
+    },
+    {
+     "id": "8.6",
+     "ten": "Bóng treo mép lỗ",
+     "tinh_huong": "Bóng dừng lơ lửng ở mép lỗ.",
+     "r": [
+      "Đ. 13.3a: được thời gian hợp lý để đi tới lỗ cộng thêm 10 giây chờ. Bóng rơi vào trong thời gian đó → vào lỗ với cú trước.",
+      "Hết thời gian chờ mà bóng chưa rơi thì bóng được coi là đứng yên; nếu sau đó bóng rơi vào trước khi bạn đánh → vẫn tính vào lỗ với cú trước nhưng cộng 1 gậy phạt (Đ. 13.3a).",
+      "Đ. 13.3b: bóng bị người khác nhấc hoặc làm di chuyển trước khi hết thời gian chờ → coi như đứng yên, đặt lại trên mép lỗ. Đấu gậy: người chơi khác cố ý làm việc đó bị phạt chung; đấu lỗ: đối thủ cố ý làm vậy thì bóng của bạn được tính vào lỗ."
+     ],
+     "o": [
+      [
+       "Không phạt",
+       "Bóng rơi trong thời gian chờ."
+      ],
+      [
+       "+1 gậy",
+       "Bóng rơi sau thời gian chờ."
+      ]
+     ],
+     "q": [
+      "Đ. 13.3a–b",
+      "Không phạt / +1"
+     ]
+    },
+    {
+     "id": "8.7",
+     "ten": "Bóng di chuyển trên green",
+     "tinh_huong": "Gió mạnh làm bóng lăn; hoặc bạn đánh rơi dấu bóng lên bóng.",
+     "r": [
+      "Đ. 13.1d(1): bạn, caddie hoặc đối thủ vô tình làm bóng hay dấu bóng di chuyển trên green → không phạt, đặt lại.",
+      "Đ. 13.1d(2): lực tự nhiên làm bóng di chuyển – nếu bóng đã được nhấc và đặt lại trước đó → đặt lại chỗ cũ; nếu chưa từng nhấc → chơi từ vị trí mới."
+     ],
+     "o": [
+      [
+       "Không phạt",
+       "Đặt lại hoặc chơi từ vị trí mới theo Đ. 13.1d."
+      ]
+     ],
+     "tip": [
+      "Ngày gió lớn, hãy đánh dấu, nhấc và đặt lại bóng sớm: nếu sau đó gió thổi bóng đi, bạn được đặt lại vị trí cũ."
+     ],
+     "q": [
+      "Đ. 13.1d",
+      "Không phạt"
+     ]
+    },
+    {
+     "id": "8.8",
+     "ten": "Gạt bóng trúng bóng khác trên green (đấu gậy)",
+     "tinh_huong": "Cả hai bóng đều trên green; cú gạt của bạn trúng bóng người kia.",
+     "r": [
+      "Đ. 11.1a, ngoại lệ: trong đấu gậy, nếu cả hai bóng đều ở trên green trước cú đánh và bóng bạn trúng bóng kia → bạn bị phạt 2 gậy; chơi bóng của bạn như nó nằm; bóng kia được đặt lại (Đ. 9.6). Đấu lỗ: không phạt."
+     ],
+     "o": [
+      [
+       "+2 gậy",
+       "Đấu gậy: phạt 2 gậy, chơi như nó nằm."
+      ]
+     ],
+     "tip": [
+      "Luôn yêu cầu đánh dấu bóng của người khác khi có khả năng va chạm (Đ. 15.3)."
+     ],
+     "q": [
+      "Đ. 11.1a",
+      "+2 gậy (đấu gậy)"
+     ]
+    },
+    {
+     "id": "8.9",
+     "ten": "Bóng gạt trúng người, động vật hoặc vật cản di động trên green",
+     "tinh_huong": "Bóng đang lăn trên green trúng chân caddie của người khác hoặc trúng một quả bóng đang lăn.",
+     "r": [
+      "Đ. 11.1b(2): khi biết hoặc gần như chắc chắn bóng đánh từ green vô tình trúng người khác, động vật hoặc vật cản di động (kể cả một bóng khác đang chuyển động) → phải đánh lại từ chỗ cũ, không phạt. Không đánh lại: cú đánh vẫn tính và bị phạt chung.",
+      "Không áp dụng (chơi như nó nằm) khi bóng trúng: chính bạn; người giữ cờ hoặc cột cờ (Đ. 13.2b(2)); gậy vừa dùng để đánh; dấu bóng; bóng đang nằm yên (xem 8.8); côn trùng hay động vật là vật tự nhiên rời."
+     ],
+     "o": [
+      [
+       "Không phạt",
+       "Đánh lại từ chỗ cũ (trừ các trường hợp chơi như nó nằm)."
+      ]
+     ],
+     "q": [
+      "Đ. 11.1b(2)",
+      "Không phạt"
+     ]
+    },
+    {
+     "id": "8.10",
+     "ten": "Bóng trúng cột cờ cắm trong lỗ",
+     "tinh_huong": "Bạn gạt bóng từ trên green mà không rút cờ; bóng trúng cột cờ.",
+     "r": [
+      "Đ. 13.2a(2): bóng trúng cột cờ đang để trong lỗ → không phạt, chơi như nó nằm (từ 2019 được phép để cờ khi gạt)."
+     ],
+     "o": [
+      [
+       "Không phạt",
+       "Chơi như nó nằm."
+      ]
+     ],
+     "q": [
+      "Đ. 13.2a(2)",
+      "Không phạt"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "9",
+   "ten": "Thủ tục giải tỏa và sai lầm thường gặp",
+   "gioi_thieu": "Nhiều gậy phạt không đến từ tình huống khó mà từ việc thực hiện sai thủ tục. Phần này tổng hợp các lỗi hay gặp nhất và cách sửa trước khi đánh.",
+   "tinh_huong": [
+    {
+     "id": "9.1",
+     "ten": "Thả bóng sai cách",
+     "tinh_huong": "Thả từ độ cao vai theo thói quen cũ; hoặc nhờ caddie thả hộ.",
+     "r": [
+      "Đ. 14.3b: chính người chơi thả; cầm bóng ở độ cao đầu gối (khi đứng thẳng), thả thẳng xuống, không ném, xoay hay lăn; bóng không được chạm người hay dụng cụ trước khi chạm đất; phải chạm đất trong vùng thả.",
+      "Thả sai cách: thả lại cho đúng, không giới hạn số lần, không phạt nếu sửa trước khi đánh (Đ. 14.5).",
+      "Đánh bóng thả sai cách nhưng nằm trong vùng thả → +1 gậy. Đánh bóng nằm ngoài vùng thả, hoặc đặt bóng khi lẽ ra phải thả → phạt chung (đánh từ chỗ sai)."
+     ],
+     "o": [
+      [
+       "Không phạt",
+       "Sửa trước khi đánh."
+      ],
+      [
+       "+1 gậy",
+       "Đã đánh bóng thả sai cách (trong vùng thả)."
+      ]
+     ],
+     "q": [
+      "Đ. 14.3b",
+      "+1 / Phạt chung"
+     ]
+    },
+    {
+     "id": "9.2",
+     "ten": "Đánh từ chỗ sai và vi phạm nghiêm trọng",
+     "tinh_huong": "Giải tỏa sai NPCR, thả sai vùng, hoặc quên đặt lại bóng rồi đánh.",
+     "r": [
+      "Đ. 14.7a: đánh từ chỗ sai → phạt chung.",
+      "Đ. 14.7b (đấu gậy): nếu là vi phạm nghiêm trọng (được lợi thế đáng kể so với chỗ đúng) thì phải sửa bằng cách chơi lại từ chỗ đúng trước khi phát bóng lỗ kế tiếp (hoặc trước khi nộp thẻ ở lỗ cuối); không sửa → truất quyền. Không chắc có nghiêm trọng hay không: hoàn tất lỗ bằng cả hai bóng và báo BTC (Đ. 20.1c(3))."
+     ],
+     "o": [
+      [
+       "Phạt chung",
+       "2 gậy (đấu gậy) / thua lỗ (đấu lỗ)."
+      ]
+     ],
+     "q": [
+      "Đ. 14.7",
+      "Phạt chung"
+     ]
+    },
+    {
+     "id": "9.3",
+     "ten": "Đánh nhầm bóng",
+     "tinh_huong": "Hai người dùng cùng hiệu bóng, bóng nằm gần nhau trong rough.",
+     "r": [
+      "Đ. 6.3c: đánh nhầm bóng → phạt chung. Đấu gậy: các gậy với bóng nhầm không tính, phải sửa bằng cách chơi đúng bóng của mình; không sửa trước khi phát bóng lỗ kế tiếp → truất quyền. Đấu lỗ: thua lỗ.",
+      "Ngoại lệ (Đ. 6.3c(1)): không phạt khi đánh nhầm một bóng đang di chuyển trong nước ở khu vực phạt hoặc trong nước đọng tạm thời – cú đó không tính, phải chơi đúng bóng của mình.",
+      "Bóng của bạn bị người khác đánh nhầm → đặt một bóng vào chỗ bóng đã nằm (Đ. 6.3c(2))."
+     ],
+     "o": [
+      [
+       "Phạt chung",
+       "Sửa sai trong đấu gậy."
+      ]
+     ],
+     "tip": [
+      "Luôn nhận dạng bóng trước khi đánh. Được nhấc bóng để nhận dạng (Đ. 7.3): đánh dấu trước, chỉ lau đủ để nhận dạng."
+     ],
+     "q": [
+      "Đ. 6.3c",
+      "Phạt chung"
+     ]
+    },
+    {
+     "id": "9.4",
+     "ten": "Nhấc bóng để xem có được giải tỏa không",
+     "tinh_huong": "Nghi bóng lún hoặc nằm trong hố động vật nhưng không nhìn rõ.",
+     "r": [
+      "Đ. 16.4: khi có cơ sở hợp lý để tin bóng nằm trong điều kiện được giải tỏa miễn phí (theo Đ. 15.2, 16.1 hoặc 16.3) mà không nhấc lên thì không xác định được → đánh dấu, nhấc bóng, không được lau (trừ trên green).",
+      "Có giải tỏa và lấy giải tỏa → không phạt. Không có giải tỏa (hoặc không lấy) → đặt lại; phạt 1 gậy nếu không đánh dấu hoặc đã lau. Nhấc khi không có cơ sở hợp lý → phạt 1 gậy."
+     ],
+     "o": [
+      [
+       "Không phạt",
+       "Làm đúng trình tự Đ. 16.4."
+      ]
+     ],
+     "q": [
+      "Đ. 16.4",
+      "Không phạt"
+     ]
+    },
+    {
+     "id": "9.5",
+     "ten": "Không chắc luật – chơi hai bóng hoặc yêu cầu phán quyết",
+     "tinh_huong": "Nhóm chơi tranh cãi bóng có được giải tỏa hay không; không có trọng tài.",
+     "r": [
+      "Đ. 20.1c(3) – đấu gậy: quyết định chơi bóng thứ hai trước khi đánh tiếp; nên tuyên bố với người ghi điểm bóng nào sẽ được tính nếu luật cho phép (không tuyên bố thì bóng đánh trước được tính); phải báo BTC trước khi nộp thẻ, kể cả khi hai bóng cùng điểm – không báo → truất quyền.",
+      "Đ. 20.1b – đấu lỗ: không có thủ tục hai bóng; khi có tranh chấp, phải yêu cầu phán quyết kịp thời (trước khi bất kỳ ai phát bóng lỗ kế tiếp), hoặc gọi trọng tài ngay.",
+      "Đ. 20.2: phán quyết của trọng tài hoặc BTC là cuối cùng."
+     ],
+     "o": [
+      [
+       "Không phạt",
+       "Chơi hai bóng (đấu gậy) và báo BTC."
+      ]
+     ],
+     "q": [
+      "Đ. 20.1",
+      "—"
+     ]
+    },
+    {
+     "id": "9.6",
+     "ten": "Cải thiện điều kiện trái phép",
+     "tinh_huong": "Bẻ cành vướng đường vung, ấn cỏ sau bóng, dẫm phẳng chỗ lồi.",
+     "r": [
+      "Đ. 8.1a: không được cải thiện lie, vùng thế đứng/vung dự định, hướng đánh hoặc vùng thả bằng cách: di chuyển, bẻ, uốn vật đang mọc hay gắn liền, vật cản cố định, vật thể gắn liền, vật đánh dấu biên, mốc tee (khi đánh từ khu vực phát bóng); tạo hoặc xóa chỗ lồi lõm; dọn cát, đất rời (ngoài green); lau sương, nước.",
+      "Đ. 8.1b: được phép: tìm bóng hợp lý; nhặt vật tự nhiên rời và vật cản di động; lấy thế đứng hợp lý (kể cả di chân vào cát, đất rời); thực hiện cú đánh; đặt gậy nhẹ ngay trước hoặc sau bóng (không ấn xuống); sửa green theo Đ. 13.1c.",
+      "Vi phạm: phạt chung."
+     ],
+     "o": [
+      [
+       "Phạt chung",
+       "Nếu vi phạm Đ. 8.1a."
+      ]
+     ],
+     "q": [
+      "Đ. 8.1",
+      "Phạt chung"
+     ]
+    },
+    {
+     "id": "9.7",
+     "ten": "Đổi phương án giải tỏa, hoặc bóng đã thả nằm xấu",
+     "tinh_huong": "Đã thả bóng hợp lệ nhưng lie xấu, muốn thả lại; hoặc đang thả bên thì muốn đổi sang lùi trên đường thẳng.",
+     "r": [
+      "Đ. 14.4: bóng chỉ trở lại cuộc khi được thả hoặc đặt với ý định đưa vào cuộc. Trước thời điểm đó, bạn được đổi sang phương án khác.",
+      "Đ. 14.5b: đã thả đúng chỗ nhưng bóng lăn ra ngoài và phải thả lại → phải giữ đúng phương án đã chọn; thả sai chỗ theo một điều luật đúng → được đổi phương án trong cùng điều luật; dùng nhầm điều luật → được chọn điều luật phù hợp.",
+      "Đ. 14.5: trước khi đánh, được sửa sai sót khi thay bóng, đặt lại, thả hoặc đặt bóng (thả sai vùng, dùng sai thủ tục) mà không bị phạt.",
+      "Bóng đã thả đúng và dừng hợp lệ là bóng trong cuộc: không được nhấc lên thả lại chỉ vì không thích lie (nhấc là bị phạt 1 gậy theo Đ. 9.4b). Muốn thay đổi thì phải lấy một giải tỏa mới theo luật áp dụng cho vị trí mới, ví dụ không đánh được (+1)."
+     ],
+     "o": [
+      [
+       "Không phạt",
+       "Đổi phương án trước khi bóng vào cuộc."
+      ],
+      [
+       "+1 gậy",
+       "Giải tỏa mới từ vị trí bóng đang nằm."
+      ]
+     ],
+     "q": [
+      "Đ. 14.4–14.5",
+      "—"
+     ]
+    },
+    {
+     "id": "9.8",
+     "ten": "Caddie hỗ trợ trong khi giải tỏa",
+     "tinh_huong": "Muốn caddie nhấc bóng, đo vùng thả, thả bóng hộ.",
+     "r": [
+      "Đ. 14.1b: caddie được nhấc bóng của bạn mà không cần cho phép khi bóng ở trên green, hoặc khi có thể kết luận hợp lý rằng bạn sẽ lấy giải tỏa. Ngoài hai trường hợp đó phải được bạn cho phép mỗi lần; caddie nhấc khi không được phép → bạn bị phạt 1 gậy.",
+      "Đ. 14.3b: chỉ chính bạn được thả bóng – caddie thả là thả sai cách (sửa trước khi đánh thì không phạt).",
+      "Caddie được giúp đo vùng thả, cắm tee đánh dấu, tư vấn phương án."
+     ],
+     "o": [
+      [
+       "Không phạt",
+       "Phân công đúng vai trò."
+      ]
+     ],
+     "q": [
+      "Đ. 14.1b; 14.3b",
+      "—"
+     ]
+    }
+   ]
+  }
+ ]
+}
