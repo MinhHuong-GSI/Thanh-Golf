@@ -105,7 +105,11 @@
   "label": [
    "2 chiều dài gậy",
    "Mép trước hai mốc tee"
-  ]
+  ],
+  "title": {
+   "k": "Khu vực phát bóng",
+   "t": "Sâu 2 chiều dài gậy"
+  }
  },
  {
   "scene": 3,
@@ -176,7 +180,11 @@
   ],
   "label": [
    "Thế đứng tốt hơn"
-  ]
+  ],
+  "title": {
+   "k": "Mẹo nhỏ",
+   "t": "Chọn thế đứng tốt hơn"
+  }
  },
  {
   "scene": 4,
@@ -214,7 +222,11 @@
   ],
   "label": [
    "Luật 3.3b(3): truất quyền"
-  ]
+  ],
+  "title": {
+   "k": "Đấu gậy · Luật 3.3b(3)",
+   "t": "Ghi đủ mọi cú đánh"
+  }
  },
  {
   "scene": 5,
@@ -230,7 +242,7 @@
    "items": [
     "Bóng rơi trước cú đánh: đặt lại",
     "Không phạt, không tính gậy",
-    "Đã vung đánh: tính 1 gậy"
+    "Vung để đánh: luôn tính gậy"
    ]
   },
   "shot": "Thẻ luật trên nền khu vực phát bóng làm mờ, bụi vàng; ý 1-2-3 hiện theo lời đọc."

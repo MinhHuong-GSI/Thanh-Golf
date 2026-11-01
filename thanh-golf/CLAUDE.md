@@ -61,6 +61,7 @@ Skill và agent nằm ở `.claude/` **ở gốc repo** (cạnh thư mục `than
   - `film_quytac17.js`: cọc vàng/đỏ, có cảnh phiếu ghi điểm.
   - `film_dieu16-1.js`: thả bóng miễn phí cạnh gốc cây và đường xe điện; có thẻ luật `CARDS`.
   - `film_luat17-1d.js`: dựng từ giọng AI; bunker → hồ cọc vàng; có chia đôi màn hình và hình học luật tự kiểm (`CHECK`).
+  - `film_1-1.js`: tình huống 1.1, dựng từ giọng AI, không logo đầu. Gồm khu vực phát bóng tính bằng hình học (mốc tee, sâu 2 chiều dài gậy), tee gỗ 7 cm, đầu driver 3D (`makeDriver`/`poseDriver`), cú vung dạng con lắc, bộ đếm gậy, huy hiệu KHÔNG PHẠT, phiếu ghi điểm (lấy từ `film_quytac17.js`), thẻ luật. Có `window.camTest` và `window.H` để thử góc máy.
 - **Render:**
   - `render.js`: `PAGE=<film>.html QS='?rs=0.6667' node render.js times t1,t2,… <thư_mục>` để render khung thử; `… range <đầu> <cuối> <thư_mục>` để render một dải khung.
   - 3D render ở 720×1280 có MSAA rồi phóng lên 1080×1920; chữ vẽ ở độ phân giải đầy đủ. 24 fps.
@@ -116,7 +117,7 @@ Skill và agent nằm ở `.claude/` **ở gốc repo** (cạnh thư mục `than
   - Luật 17.1d – bunker → hồ cọc vàng (3D, giọng AI, 70,4 s).
   - "Chào buổi sáng ngày đầu tháng 11" (footage, 71 s, có/không phụ đề + cover).
 - Đang chờ chị nghe và duyệt:
-  - **Tình huống 1.1**: bóng rơi khỏi tee hoặc bị chạm rơi trước khi đánh (Luật 6.2b(5)–(6)). Đã có kịch bản `kich-ban/kich-ban_1-1.md` và giọng AI `kich-ban/am-thanh/1-1/` (66,8 s, không logo đầu). Duyệt xong thì dựng phim 3D.
+  - **Tình huống 1.1**: bóng rơi khỏi tee hoặc bị chạm rơi trước khi đánh (Luật 6.2b(5)–(6)). Kịch bản và giọng đã được duyệt. Phim `film_1-1.js` đang chờ chị duyệt 15 khung thử (`xem-truoc/contact-sheet_1-1.jpg`). Duyệt xong thì render toàn bộ 1516 khung + 87 khung logo cuối (`bumper.html?m=outro&img=frames_1-1/f_01515.jpg&s0=0.2&s1=3.335`).
   - **Tình huống 3.3**: cọc đỏ – 3 phương án (`kich-ban/kich-ban_3-3.md`). Mới có kịch bản, chưa tạo giọng.
 - Từ 01/11/2026: **tạo giọng AI ngay sau khi viết và soát luật kịch bản**, không chờ chị duyệt. Chị nghe bản giọng rồi mới duyệt để dựng phim.
 - Lịch sử chi tiết: `docs/lich-su-du-an.md`.
