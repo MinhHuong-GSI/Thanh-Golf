@@ -75,6 +75,7 @@ thanh-golf/
 │   ├── render.js, render_all.sh, run_full.sh, encode.sh
 │   ├── bumper.js/.html       ← logo TTGolf cuối video
 │   ├── logo_ttgolf_*.png     ← logo đã tách nền · golfer_cut.png ← ảnh người chơi
+│   ├── golfer3d.js           ← nhân vật golfer 3D tham số (18 tư thế + cú đánh) · golfer_preview.html để xem thử
 │   ├── kich-ban/             ← 92 tình huống (tinh-huong.json), kịch bản 3.3, công cụ xem bảng duyệt
 │   └── tts/                  ← giọng AI tiếng Việt offline
 ├── footage-edit/             ← dựng video từ footage HDR iPhone + mp3

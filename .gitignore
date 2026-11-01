@@ -1,0 +1,13 @@
+# phụ thuộc và file lớn không đưa vào git (xem README: frames, video, model giọng)
+node_modules/
+**/node_modules/
+**/frames/
+**/shots/
+**/xem/
+*.mp4
+*.mov
+*.wav
+*.onnx
+thanh-golf/golf-video-engine/tts/models/
+.venv/
+__pycache__/

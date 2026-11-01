@@ -59,3 +59,8 @@ Tóm tắt từ các cuộc trò chuyện trong project, để Claude Code nắm
   - 3 skill (`/dung-video-3d`, `/kich-ban-giong-ai`, `/dung-video-footage`) và subagent `kiem-tra-luat-golf`.
   - Logo đã tách nền `golf-video-engine/logo_ttgolf_flat.png` và `logo_ttgolf_gloss.png`, tạo lại bằng `logo_cut.py`. Ghi chú: bản logo phẳng hơi trong khi đặt trên nền tối; trên thẻ kem thì đẹp.
 - Bộ nhớ (memory) của project trên claude.ai không đọc được từ phiên chuyển đổi. Nếu có ghi nhớ quan trọng, chị dán vào `CLAUDE.md`.
+
+## 7. Nhân vật golfer 3D (01/11, Claude Code)
+- Chị hỏi: có thể nghiên cứu tư thế đứng đánh bóng chuẩn của Rory McIlroy rồi dựng 3D người đánh theo mẫu trong repo không (không dùng ảnh người thật, chỉ học tư thế).
+- Kết quả: `golf-video-engine/golfer3d.js` – nhân vật tham số theo mẫu golfer cổ điển của `golfer_cut.png`, 10 khung cú đánh + 8 tư thế tình huống, IK tay/chân, tự giải để đầu gậy chạm bóng. Trang xem thử `golfer_preview.html`, tài liệu `docs/tu-the-golfer-3d.md`, ảnh xem thử `docs/golfer-3d-xem-thu.jpg`. `film_dieu16-1.js` thêm tuỳ chọn `?g3d=1`.
+- Các trang golf (golf.com, golfmonthly.com…) không mở được trong phiên đám mây; tư thế dựa trên tóm tắt kết quả tìm kiếm và số liệu cơ sinh học chung.

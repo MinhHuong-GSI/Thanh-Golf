@@ -9,6 +9,7 @@ import { BokehPass } from 'three/addons/postprocessing/BokehPass.js';
 import { OutputPass } from 'three/addons/postprocessing/OutputPass.js';
 import { RoomEnvironment } from 'three/addons/environments/RoomEnvironment.js';
 import { mergeGeometries, mergeVertices } from 'three/addons/utils/BufferGeometryUtils.js';
+import { createGolfer } from './golfer3d.js';
 
 // ------------------------------------------------------------------ basics
 console.log('module start', performance.now()|0);
@@ -29,6 +30,7 @@ const win = (t, a, b, fi = .35, fo = .35) => Math.min(sstep(a, a + fi, t), 1 - s
 const V = (x, y, z) => new THREE.Vector3(x, y, z);
 
 const QS = new URLSearchParams(location.search);
+const G3D = QS.get('g3d') === '1'; // ?g3d=1: dùng nhân vật golfer 3D (golfer3d.js) thay cho tấm ảnh golfer_cut.png
 const RS = parseFloat(QS.get('rs') || '1'), AA = QS.get('aa') !== '0', RW = Math.round(W * RS), RH = Math.round(H * RS);
 const renderer = new THREE.WebGLRenderer({ antialias: AA, preserveDrawingBuffer: true });
 renderer.setPixelRatio(1); renderer.setSize(RW, RH);
@@ -828,6 +830,9 @@ function buildHero() {
     C.golfer.position.copy(C.golferPos); C.golfer.visible = false; C.golfer.renderOrder = 20; scene.add(C.golfer);
     const sh = new THREE.Mesh(new THREE.CircleGeometry(0.42, 32).rotateX(-Math.PI / 2), new THREE.MeshBasicMaterial({ color: '#000', transparent: true, opacity: 0.28, depthWrite: false }));
     sh.scale.set(1, 1, 0.55); sh.position.copy(C.golferPos).setY(heightAt(C.golferPos.x, C.golferPos.z) + 0.04); sh.visible = false; scene.add(sh); C.golferShadow = sh; }
+  // golfer 3D (tuỳ chọn ?g3d=1): tư thế "watch" – nhìn theo bóng, tay che mắt; đứng cùng chỗ với tấm ảnh, bóng đổ thật
+  if (G3D) { C.golfer3d = createGolfer({ club: 'iron', hand: 'R' }); C.golfer3d.setPose('watch');
+    C.golfer3d.group.position.copy(C.golferPos).setY(heightAt(C.golferPos.x, C.golferPos.z)); C.golfer3d.group.visible = false; scene.add(C.golfer3d.group); }
 }
 function grassPatch(N, okFn, center, radius, h0, h1, w0 = 0.012) {
   const seg = 4, pos = [], col = [], idx = [];
@@ -1176,8 +1181,10 @@ function updateCourse16(t, shot) {
   for (let i = 0; i < fp.count; i++) { const x = fb[i * 3], y = fb[i * 3 + 1]; fp.setXYZ(i, x, y - 0.03 * x * x, Math.sin(x * 9 - t * 6) * 0.05 * x / 0.5 + Math.sin(y * 10 + t * 3) * 0.008 * x / 0.5); }
   fp.needsUpdate = true; C.flag.geometry.computeVertexNormals();
   // golfer card faces the camera
-  C.golfer.visible = C.golferShadow.visible = !!shot.golfer;
+  C.golfer.visible = C.golferShadow.visible = !!shot.golfer && !G3D;
   if (shot.golfer) C.golfer.rotation.y = Math.atan2(camera.position.x - C.golfer.position.x, camera.position.z - C.golfer.position.z);
+  if (G3D) { C.golfer3d.group.visible = !!shot.golfer; // quay người chếch 28° so với máy quay, mắt nhìn theo hướng bóng bay
+    if (shot.golfer) C.golfer3d.group.rotation.y = Math.atan2(camera.position.x - C.golferPos.x, camera.position.z - C.golferPos.z) - 0.49; }
   // opening: driver strikes the ball off the tee
   const tImp = 1.33;
   { const u = prog(t, 1.08, 1.55), S0 = C.S0; const vis = t > 1.0 && t < 1.8;

@@ -47,11 +47,12 @@ Bước kiểm tra luật giao cho subagent **`kiem-tra-luat-golf`** để soát
 - **Tỉ lệ thật (mét):** bóng 0,0214 (bán kính) · gậy 1,15 · tee 0,07 · cờ 2,13.
 
 ## Nhân vật
-- Không dùng nhân vật hoạt hình hay ma-nơ-canh.
-- Cần người thì dùng ảnh người thật chị cung cấp (hiện có `golf-video-engine/golfer_cut.png`, đã tách nền):
-  - Tách nền bằng rembg, model `isnet-general-use` (`tach_nen_rembg.py`). Sửa alpha các chi tiết mảnh như cán gậy.
-  - Đặt vào cảnh như tấm ảnh quay về camera, khung từ gối trở lên, hướng sáng khớp ảnh.
-- Các động tác khác (vung gậy, cắm tee, thả bóng) thể hiện bằng đồ vật 3D và đồ hoạ bóng mờ. Cần tư thế khác thì **hỏi chị xin ảnh**.
+- Không dùng nhân vật hoạt hình. Hai cách thể hiện người chơi:
+  1. **Ảnh người thật** chị cung cấp (hiện có `golf-video-engine/golfer_cut.png`, đã tách nền): tách nền bằng rembg, model `isnet-general-use` (`tach_nen_rembg.py`), sửa alpha các chi tiết mảnh như cán gậy; đặt vào cảnh như tấm ảnh quay về camera, khung từ gối trở lên, hướng sáng khớp ảnh. Cần tư thế khác thì hỏi chị xin ảnh.
+  2. **Golfer 3D tham số** `golf-video-engine/golfer3d.js` (từ 01/11/2026): dựng theo mẫu golfer cổ điển của ảnh trên (mũ lưỡi trai, gi-lê, plus-fours), tư thế tham số hoá theo mô tả kỹ thuật công khai về setup/swing của Rory McIlroy và số liệu cơ sinh học (không dùng ảnh người thật). Có cú đánh đầy đủ (`setSwing(u)`) và các tư thế tình huống: `address`, `addressDriver`, `top`, `impact`, `finish`, `watch`, `stand`, `drop`, `tee`, `mark`, `point`, `think`, `aim`. Tài liệu: `docs/tu-the-golfer-3d.md`; xem thử: `golfer_preview.html`; ảnh xem thử: `docs/golfer-3d-xem-thu.jpg`.
+  - Nhân vật 3D là hình khối trơn: dùng **ngược sáng, có sương và DOF, khung từ gối trở lên hoặc toàn thân ở xa**, tránh cận mặt. Khi cần góc máy khác hoặc động tác (vung gậy, thả bóng, cắm tee) thì dùng 3D; cảnh phản ứng tĩnh vẫn có thể dùng ảnh.
+  - `film_dieu16-1.js` có tuỳ chọn `?g3d=1` để thay tấm ảnh bằng nhân vật 3D ở cảnh 15,0–18,6 s (mặc định vẫn dùng ảnh).
+- Đồ hoạ giải thích (dấu chân, đường vung gậy bóng mờ) vẫn giữ như cũ, có thể kết hợp với nhân vật 3D.
 
 ## Kỹ thuật – `golf-video-engine/`
 - three.js 0.169 chạy trong Chromium headless (Playwright). Phục vụ trang bằng `python -m http.server 8765` **trong thư mục `golf-video-engine/`**.
@@ -109,6 +110,7 @@ Bước kiểm tra luật giao cho subagent **`kiem-tra-luat-golf`** để soát
   - Luật 17.1d – bunker → hồ cọc vàng (3D, giọng AI, 70,4 s).
   - "Chào buổi sáng ngày đầu tháng 11" (footage, 71 s, có/không phụ đề + cover).
 - Đang chờ: **kịch bản mẫu tình huống 3.3** (cọc đỏ – 3 phương án, `kich-ban/kich-ban_3-3.md`) chờ chị duyệt. Được duyệt thì tạo giọng và dựng video đầu tiên của loạt cẩm nang.
+- 01/11: thêm **nhân vật golfer 3D** (`golfer3d.js`, 18 tư thế + cú đánh), chưa dùng trong video bàn giao nào; chờ chị xem `docs/golfer-3d-xem-thu.jpg` và quyết định có dùng thay ảnh hay không.
 - Lịch sử chi tiết: `docs/lich-su-du-an.md`.
 
 ## Bản đồ tài liệu
@@ -117,5 +119,6 @@ Bước kiểm tra luật giao cho subagent **`kiem-tra-luat-golf`** để soát
 - `golf-video-engine/kich-ban/tinh-huong.json`: dữ liệu 92 tình huống (căn cứ luật, phương án, phạt, mẹo, sai lầm).
 - `golf-video-engine/tts/README.md`: cài đặt và chạy giọng AI.
 - `footage-edit/README.md`: dựng video từ footage HDR iPhone.
+- `docs/tu-the-golfer-3d.md`: nhân vật golfer 3D – tư thế tham khảo, tham số, cách dùng và xem thử.
 - `docs/project-instructions-claude-ai.md`: bản gốc ô Project instructions trên claude.ai.
 - `docs/tham-khao/`: tài liệu tham khảo khác (prompt giao việc cho GitHub Copilot coding agent với repo Thanh-Golf).
