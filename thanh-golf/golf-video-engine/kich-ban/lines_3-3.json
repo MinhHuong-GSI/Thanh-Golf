@@ -1,0 +1,248 @@
+[
+ {
+  "scene": 1,
+  "sub": "Cú đánh của bạn bay thẳng xuống hồ có cọc đỏ.",
+  "tts": "Cú đánh của bạn bay thẳng xuống hồ có cọc đỏ.",
+  "title": {
+   "k": "Luật golf · Luật 17.1d",
+   "t": "Bóng xuống hồ cọc đỏ"
+  },
+  "shot": "Flycam giờ vàng theo đường bay từ fairway, bóng rơi xuống hồ, bọt nước bắn lên.",
+  "fx": [
+   "Đường bay vàng nhạt",
+   "Viền đỏ mép hồ sáng lên"
+  ],
+  "label": [
+   "Hồ có cọc đỏ"
+  ]
+ },
+ {
+  "scene": 1,
+  "sub": "Bóng đã chìm, không thể đánh tiếp.",
+  "tts": "Bóng đã chìm, không thể đánh tiếp.",
+  "shot": "Cận cảnh mặt nước gợn sóng, cọc đỏ tiền cảnh, nhoè sâu.",
+  "label": [
+   "Bóng chìm dưới hồ"
+  ]
+ },
+ {
+  "scene": 1,
+  "sub": "Theo luật golf, bạn có những lựa chọn nào?",
+  "tts": "Theo luật gôn, bạn có những lựa chọn nào?",
+  "gap": 0.9,
+  "title": {
+   "k": "Khu vực phạt đỏ",
+   "t": [
+    "Bạn có những",
+    "lựa chọn nào?"
+   ]
+  },
+  "shot": "Golfer (ảnh cắt nền) ngược sáng, nhìn về phía hồ."
+ },
+ {
+  "scene": 2,
+  "sub": "Luật 17.1d cho bạn ba phương án, đều chịu một gậy phạt.",
+  "tts": "Luật mười bảy chấm một đê cho bạn ba phương án, đều chịu một gậy phạt.",
+  "title": {
+   "k": "Luật 17.1d",
+   "t": "3 phương án · +1 gậy"
+  },
+  "shot": "Toàn cảnh từ trên cao: hồ, green, chỗ đánh cú trước.",
+  "fx": [
+   "Huy hiệu +1 GẬY PHẠT"
+  ]
+ },
+ {
+  "scene": 2,
+  "sub": "Phương án một: đánh lại từ vị trí của cú đánh trước.",
+  "tts": "Phương án một, đánh lại từ vị trí của cú đánh trước.",
+  "title": {
+   "k": "Phương án 1 · Luật 17.1d(1)",
+   "t": "Đánh lại từ vị trí cũ"
+  },
+  "shot": "Bay ngược từ hồ về chỗ đánh cú trước trên fairway.",
+  "label": [
+   "Vị trí cú đánh trước"
+  ]
+ },
+ {
+  "scene": 2,
+  "sub": "Thả bóng trong một chiều dài gậy quanh chỗ đó, không gần lỗ hơn.",
+  "tts": "Thả bóng trong một chiều dài gậy quanh chỗ đó, không gần lỗ hơn.",
+  "shot": "Cận cảnh: gậy 1,15 m đặt xuống đo, vùng thả nửa hình tròn.",
+  "fx": [
+   "Gậy đo 1 chiều dài gậy",
+   "Vùng thả vàng; phần gần lỗ hơn gạch đỏ"
+  ],
+  "label": [
+   "1 chiều dài gậy",
+   "Không gần lỗ hơn"
+  ]
+ },
+ {
+  "scene": 2,
+  "sub": "Phương án hai: lùi trên đường thẳng, theo Luật 17.1d(2).",
+  "tts": "Phương án hai, lùi trên đường thẳng, theo luật mười bảy chấm một đê hai.",
+  "title": {
+   "k": "Phương án 2 · Luật 17.1d(2)",
+   "t": "Lùi trên đường thẳng"
+  },
+  "shot": "Flycam cao nhìn hồ và lá cờ."
+ },
+ {
+  "scene": 2,
+  "sub": "Kéo một đường thẳng từ lỗ qua điểm bóng cắt mép khu vực phạt lần cuối.",
+  "tts": "Kéo một đường thẳng từ lỗ, qua điểm bóng cắt mép khu vực phạt lần cuối.",
+  "shot": "Đường gạch vàng chạy từ lỗ qua điểm X ra sau hồ.",
+  "fx": [
+   "Điểm X nhấp nháy trên mép đỏ",
+   "Đường gạch lỗ → X → phía sau"
+  ],
+  "label": [
+   "Điểm cắt mép lần cuối",
+   "Lỗ"
+  ]
+ },
+ {
+  "scene": 2,
+  "sub": "Bạn thả bóng ngay trên đường thẳng này, lùi xa bao nhiêu cũng được.",
+  "tts": "Bạn thả bóng ngay trên đường thẳng này, lùi xa bao nhiêu cũng được.",
+  "shot": "Bóng thả từ độ cao đầu gối, chạm đất đúng trên đường.",
+  "fx": [
+   "Mũi tên chạy lùi dọc đường: không giới hạn"
+  ],
+  "label": [
+   "Thả trên đường thẳng"
+  ]
+ },
+ {
+  "scene": 2,
+  "sub": "Bóng phải dừng trong một chiều dài gậy quanh điểm chạm đất, không gần lỗ hơn điểm cắt mép.",
+  "tts": "Bóng phải dừng trong một chiều dài gậy quanh điểm chạm đất, không gần lỗ hơn điểm cắt mép.",
+  "gap": 0.9,
+  "shot": "Vòng tròn 1 chiều dài gậy quanh điểm chạm đất; bóng lăn nhẹ về phía lỗ nhưng vẫn trong vòng.",
+  "fx": [
+   "Vòng 1 gậy quanh điểm chạm đất",
+   "Huy hiệu +1 GẬY PHẠT"
+  ],
+  "label": [
+   "Vùng 1 gậy, ngoài khu vực phạt"
+  ]
+ },
+ {
+  "scene": 3,
+  "sub": "Phương án ba chỉ dành cho cọc đỏ: thả bên, theo Luật 17.1d(3).",
+  "tts": "Phương án ba chỉ dành cho cọc đỏ, thả bên, theo luật mười bảy chấm một đê ba.",
+  "title": {
+   "k": "Phương án 3 · Luật 17.1d(3)",
+   "t": "Thả bên 2 gậy",
+   "sub": "Chỉ áp dụng cọc đỏ"
+  },
+  "shot": "Hạ thấp về điểm X trên bờ hồ, cọc đỏ hai bên."
+ },
+ {
+  "scene": 3,
+  "sub": "Từ điểm cắt mép, đo hai chiều dài gậy bằng cây gậy dài nhất, trừ putter.",
+  "tts": "Từ điểm cắt mép, đo hai chiều dài gậy bằng cây gậy dài nhất, trừ pút tơ.",
+  "shot": "Gậy dài nhất đặt hai lần từ X, vòng 2 gậy mở ra.",
+  "fx": [
+   "Gậy đo x2",
+   "Vòng bán kính 2 chiều dài gậy"
+  ],
+  "label": [
+   "2 chiều dài gậy"
+  ]
+ },
+ {
+  "scene": 3,
+  "sub": "Bóng phải dừng trong vùng này, không gần lỗ hơn và ngoài khu vực phạt.",
+  "tts": "Bóng phải dừng trong vùng này, không gần lỗ hơn, và ngoài khu vực phạt.",
+  "gap": 0.9,
+  "shot": "Vùng thả tô vàng; phần gần lỗ hơn và phần trên mặt nước tô gạch đỏ.",
+  "fx": [
+   "Vùng thả vàng",
+   "Gạch đỏ: gần lỗ hơn / trong khu vực phạt",
+   "Huy hiệu +1 GẬY PHẠT"
+  ],
+  "label": [
+   "Không gần lỗ hơn",
+   "Không thả trong khu vực phạt"
+  ]
+ },
+ {
+  "scene": 4,
+  "sub": "Vậy có lấy chỗ bóng rơi xuống nước làm mốc được không?",
+  "tts": "Vậy có lấy chỗ bóng rơi xuống nước làm mốc được không?",
+  "speed": 1.03,
+  "title": {
+   "k": "Sai lầm thường gặp",
+   "t": [
+    "Lấy chỗ bóng rơi",
+    "làm mốc?"
+   ]
+  },
+  "shot": "Cận cảnh vòng gợn sóng nơi bóng chìm.",
+  "fx": [
+   "Dấu X đỏ ở chỗ bóng chìm"
+  ]
+ },
+ {
+  "scene": 4,
+  "sub": "Câu trả lời là không!",
+  "tts": "Câu trả lời là không!",
+  "speed": 1.03,
+  "title": {
+   "k": "Luật 17.1d",
+   "t": "Không!"
+  }
+ },
+ {
+  "scene": 4,
+  "sub": "Mốc đúng là điểm bóng cắt mép khu vực phạt lần cuối, không phải chỗ bóng chìm.",
+  "tts": "Mốc đúng là điểm bóng cắt mép khu vực phạt lần cuối, không phải chỗ bóng chìm.",
+  "speed": 1.03,
+  "gap": 0.9,
+  "shot": "Từ chỗ bóng chìm lùi theo quỹ đạo về điểm X trên mép hồ.",
+  "fx": [
+   "Quỹ đạo tua ngược",
+   "Dấu tick vàng ở X, dấu X đỏ ở chỗ bóng chìm"
+  ],
+  "label": [
+   "Mốc đúng: điểm cắt mép"
+  ]
+ },
+ {
+  "scene": 5,
+  "sub": "Nhớ nhé: cọc đỏ có ba phương án, cọc vàng chỉ có hai.",
+  "tts": "Nhớ nhé, cọc đỏ có ba phương án, cọc vàng chỉ có hai.",
+  "speed": 1.03,
+  "card": {
+   "k": "◆ ĐIỀU 17.1d ◆",
+   "t": [
+    "Khu vực phạt đỏ",
+    "3 phương án · +1 gậy"
+   ],
+   "items": [
+    "Đánh lại từ vị trí cũ",
+    "Lùi trên đường thẳng",
+    "Thả bên 2 chiều dài gậy (chỉ cọc đỏ)"
+   ]
+  },
+  "shot": "Thẻ luật trên nền hồ làm mờ, bụi vàng; ý 1-2-3 hiện theo lời đọc."
+ },
+ {
+  "scene": 5,
+  "sub": "Hiểu đúng luật để chọn phương án có lợi nhất!",
+  "tts": "Hiểu đúng luật để chọn phương án có lợi nhất!",
+  "speed": 1.03,
+  "title": {
+   "k": "Luật golf chuẩn",
+   "t": [
+    "Cọc đỏ:",
+    "3 phương án giải tỏa"
+   ],
+   "sub": "Căn cứ: Luật 17.1d"
+  },
+  "shot": "Golfer ngược sáng chuẩn bị cú đánh tiếp theo."
+ }
+]

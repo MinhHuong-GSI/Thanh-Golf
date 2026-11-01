@@ -1,0 +1,2 @@
+{ "name": "golf-video-engine", "private": true,
+  "dependencies": { "three": "0.169.0", "@fontsource/cormorant-garamond": "5.1.0", "@fontsource/be-vietnam-pro": "5.1.0" } }
