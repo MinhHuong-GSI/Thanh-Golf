@@ -6,7 +6,7 @@ import json, re, sys
 RATE_097 = 4.6                    # âm tiết / giây ở speed 0.97
 LEAD, TAIL = 0.6, 1.8             # giống assemble.py
 GAP_IN, GAP_SCENE = 0.42, 0.9     # nghỉ mặc định trong cảnh / khi sang cảnh mới
-FILM_MIN, FILM_MAX = 45, 64       # thời lượng phim chính (chưa gồm 3 s logo đầu + 3,6 s logo cuối)
+FILM_MIN, FILM_MAX = 45, 64       # thời lượng phim chính (chưa gồm 3,6 s logo cuối; không logo đầu)
 EN_WORDS = r"\b(golf|bunker|green|fairway|rough|tee|putter|driver|caddie|drop|follow|stroke|distance|provisional|relief|lateral|line|back|out|bounds|penalty|ttgolf)\b"
 
 def syllables(s):
@@ -39,7 +39,7 @@ def main():
     print("\nCảnh  bắt đầu  kết thúc")
     for s, (a, b) in scene_t.items(): print(f"{s:>4} {a:>8.1f} {b:>9.1f}")
     print(f"\nTổng âm tiết: {sum(syllables(l.get('tts', '')) for l in L)}  |  phim chính ≈ {t:.1f} s  |  "
-          f"cả video ≈ {t + 3.0 + 3.6:.1f} s (thêm 3 s logo đầu, 3,6 s logo cuối)")
+          f"cả video ≈ {t + 3.6:.1f} s (thêm 3,6 s logo cuối, không logo đầu)")
     if t > FILM_MAX: warn.append(f"phim chính ~{t:.0f} s > {FILM_MAX} s → rút gọn")
     if t < FILM_MIN: warn.append(f"phim chính ~{t:.0f} s < {FILM_MIN} s → có thể thêm ý")
     print("\n" + ("\n".join("⚠ " + w for w in warn) if warn else "✓ Không có cảnh báo"))

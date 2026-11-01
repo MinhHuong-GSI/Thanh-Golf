@@ -1,8 +1,8 @@
 [
  {
   "scene": 1,
-  "sub": "Đang vào thế hoặc vung tập, gậy của bạn vô tình chạm làm bóng rơi khỏi tee.",
-  "tts": "Đang vào thế hoặc vung tập, gậy của bạn vô tình chạm làm bóng rơi khỏi ti.",
+  "sub": "Khi vào thế hoặc vung tập, gậy của bạn vô tình chạm, làm bóng rơi khỏi tee.",
+  "tts": "Khi vào thế hoặc vung tập, gậy của bạn vô tình chạm, làm bóng rơi khỏi ti.",
   "speed": 0.98,
   "title": {
    "k": "Luật golf · Luật 6.2b(5)",
@@ -44,8 +44,8 @@
  },
  {
   "scene": 2,
-  "sub": "Luật 6.2b(5) trả lời: không tính gậy, không bị phạt.",
-  "tts": "Luật sáu chấm hai bê năm trả lời, không tính gậy, không bị phạt.",
+  "sub": "Luật 6.2b(5) trả lời: không tính là một gậy, không bị phạt.",
+  "tts": "Luật sáu chấm hai bê năm trả lời, không tính là một gậy, không bị phạt.",
   "title": {
    "k": "Luật 6.2b(5)",
    "t": [
@@ -73,9 +73,9 @@
  },
  {
   "scene": 2,
-  "sub": "Bạn chỉ cần đặt lại bóng lên tee, ở bất kỳ đâu trong khu vực phát bóng.",
-  "tts": "Bạn chỉ cần đặt lại bóng lên ti, ở bất kỳ đâu trong khu vực phát bóng.",
-  "speed": 0.98,
+  "sub": "Bạn chỉ cần đặt bóng lại trên tee, ở bất kỳ đâu trong khu vực phát bóng.",
+  "tts": "Bạn chỉ cần đặt bóng lại trên ti, ở bất kỳ đâu trong khu vực phát bóng.",
+  "speed": 0.95,
   "title": {
    "k": "Trường hợp 1 · Luật 6.2b(5)",
    "t": "Đặt lại lên tee"
@@ -156,7 +156,7 @@
   "scene": 3,
   "sub": "Rồi đặt lại trên tee hoặc ngay trên mặt đất, ở bất kỳ đâu trong khu vực.",
   "tts": "Rồi đặt lại trên ti, hoặc ngay trên mặt đất, ở bất kỳ đâu trong khu vực.",
-  "speed": 0.98,
+  "speed": 0.95,
   "shot": "Hai bóng mờ gợi ý ở hai chỗ khác nhau trong khung: một trên tee, một trên mặt cỏ.",
   "label": [
    "Trên tee",
@@ -165,8 +165,8 @@
  },
  {
   "scene": 3,
-  "sub": "Mẹo nhỏ: dời bóng sang chỗ có thế đứng tốt hơn, miễn bóng vẫn trong khu vực.",
-  "tts": "Mẹo nhỏ, dời bóng sang chỗ có thế đứng tốt hơn, miễn bóng vẫn trong khu vực.",
+  "sub": "Mẹo nhỏ: dời bóng sang chỗ có thế đứng tốt hơn, miễn là bóng vẫn trong khu vực.",
+  "tts": "Mẹo nhỏ, dời bóng sang chỗ có thế đứng tốt hơn, miễn là bóng vẫn trong khu vực.",
   "gap": 0.9,
   "shot": "Dấu chân bóng mờ: chỗ cũ mặt đất lồi lõm (cam) → chỗ mới bằng phẳng (xanh nhạt); bóng dời theo, vẫn trong khung.",
   "fx": [
@@ -204,9 +204,9 @@
  },
  {
   "scene": 4,
-  "sub": "Cú trượt vẫn là một gậy. Trong đấu gậy, nộp thẻ ghi thiếu gậy này là bị truất quyền.",
-  "tts": "Cú trượt vẫn là một gậy. Trong đấu gậy, nộp thẻ ghi thiếu gậy này, là bị truất quyền.",
-  "speed": 1.03,
+  "sub": "Cú trượt vẫn là một gậy. Trong đấu gậy, nộp thẻ điểm thiếu gậy này sẽ bị truất quyền.",
+  "tts": "Cú trượt vẫn là một gậy. Trong đấu gậy, nộp thẻ điểm thiếu gậy này, sẽ bị truất quyền.",
+  "speed": 1.0,
   "gap": 0.9,
   "shot": "Cảnh thẻ điểm (tái dùng cảnh phiếu ghi điểm của film_quytac17.js): ô lỗ đang chơi ghi thiếu 1 gậy bị gạch đỏ, sửa lại số đúng trước khi nộp thẻ.",
   "fx": [
@@ -218,8 +218,8 @@
  },
  {
   "scene": 5,
-  "sub": "Nhớ nhé: bóng rơi trước cú đánh thì đặt lại, không phạt; đã vung đánh thì luôn tính gậy.",
-  "tts": "Nhớ nhé, bóng rơi trước cú đánh thì đặt lại, không phạt, đã vung đánh thì luôn tính gậy.",
+  "sub": "Nhớ nhé: bóng rơi trước cú đánh thì đặt lại, không phạt; vung để đánh thì luôn tính gậy.",
+  "tts": "Nhớ nhé, bóng rơi trước cú đánh thì đặt lại, không phạt, vung để đánh thì luôn tính gậy.",
   "speed": 1.03,
   "card": {
    "k": "◆ ĐIỀU 6.2b ◆",

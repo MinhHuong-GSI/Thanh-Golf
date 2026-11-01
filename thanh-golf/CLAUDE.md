@@ -13,10 +13,12 @@ Sản xuất video dọc 1080×1920 giải thích luật golf. Hình là phim mi
 | Việc | Skill | Khi nào |
 |---|---|---|
 | Dựng lại video luật golf **có sẵn âm thanh gốc** thành phim 3D | `/dung-video-3d` | Chị gửi một video (mp4/mov) cần làm lại phần hình |
-| Video theo **Cẩm nang giải cứu bóng ở thế khó** (92 tình huống, mã 1.1–9.8): viết kịch bản → chị duyệt → giọng AI → phim 3D | `/kich-ban-giong-ai` | "Viết kịch bản tình huống 4.6", "kịch bản 4.6 đã duyệt, dựng video" |
+| Video theo **Cẩm nang giải cứu bóng ở thế khó** (92 tình huống, mã 1.1–9.8): viết kịch bản → soát luật → **tạo giọng AI ngay** (không chờ duyệt) → chị nghe & duyệt → phim 3D | `/kich-ban-giong-ai` | "Viết kịch bản tình huống 4.6", "4.6 đã duyệt, dựng video" |
 | Dựng video từ **footage quay thật + file mp3** (ví dụ "Chào buổi sáng") | `/dung-video-footage` | Chị gửi các clip .mov và một file âm thanh |
 
 Bước kiểm tra luật giao cho subagent **`kiem-tra-luat-golf`** để soát độc lập, không tự chấm bài của mình.
+
+Skill và agent nằm ở `.claude/` **ở gốc repo** (cạnh thư mục `thanh-golf/`), không nằm trong `thanh-golf/.claude/`. Xem `../CLAUDE.md`.
 
 ## Quy tắc bắt buộc
 1. **Giữ nguyên âm thanh và lời thoại gốc.** Chỉ làm lại phần hình. Không sửa lời thoại. Nếu nội dung gốc dễ hiểu sai, báo chị và làm rõ bằng hình hoặc nhãn.
@@ -28,7 +30,7 @@ Bước kiểm tra luật giao cho subagent **`kiem-tra-luat-golf`** để soát
 7. **Mấy giây đầu không được là màn hình trắng hay thẻ trống.** Khung 0 phải là cảnh phim, dùng được làm thumbnail. Không fade từ đen ở khung đầu.
 8. **Luôn kèm ảnh cover** (jpg 1080×1920): một khung đẹp đã chỉnh màu, thêm kicker vàng, tiêu đề Cormorant Garamond, gạch vàng, câu phụ. Mẫu: `footage-edit/cover.py`.
 
-> **Lưu ý chưa thống nhất:** `KICH_BAN_VOICE.md`, `PROJECT_INSTRUCTION.md` và `bumper.js` vẫn mô tả 3 s logo bóng **ở đầu** video (cách làm của video 17.1d). Quy tắc 6–7 ở trên là chỉ đạo mới hơn của chị nên được ưu tiên: không dùng logo đầu, trừ khi chị yêu cầu.
+> **Lưu ý chưa thống nhất:** phần âm thanh trong `KICH_BAN_VOICE.md`, `PROJECT_INSTRUCTION.md` và `tts/` đã bỏ 3 s lặng của logo đầu (01/11/2026). Riêng `bumper.js` và các phim mẫu vẫn còn logo bóng **ở đầu** video (cách làm của video 17.1d). Quy tắc 6–7 ở trên là chỉ đạo mới hơn của chị nên được ưu tiên: không dùng logo đầu, trừ khi chị yêu cầu.
 
 ## Phong cách hình ảnh
 - **Màu:** xanh lục bảo `#0B4733` / `#04281C`; vàng kim `#C9A55C` / `#E8D29A`; kem `#F6F1E6`; cọc vàng `#E4B41F`; cọc đỏ `#BC2A30`.
@@ -70,7 +72,8 @@ Bước kiểm tra luật giao cho subagent **`kiem-tra-luat-golf`** để soát
   - Phản chiếu nước 300×534; cây và đồi xa đặt ở layer 1.
   - Độ sâu trường ảnh (Bokeh) chỉ bật ở cận cảnh; nền thẻ luật render một lần rồi lưu đệm.
   - Khoảng 3–5 giây mỗi khung, tức khoảng 1,5 giờ cho 60 giây video (SwiftShader). Máy có GPU thường nhanh hơn.
-- **Giọng AI** (`golf-video-engine/tts/`): sherpa-onnx < 2 + piper `vi_VN-vais1000-medium`, offline. Quy trình: `check_script.py` → `make_tts.py 0.97` → `asr_check.py` → `assemble.py` → `timing.json`. Chi tiết trong `tts/README.md` và `KICH_BAN_VOICE.md`.
+- **Giọng AI** (`golf-video-engine/tts/`): sherpa-onnx < 2 + piper `vi_VN-vais1000-medium`, offline. Quy trình: `check_script.py` → `make_tts.py 0.97` → `chon_ban_tot.py` (ASR chấm từng câu, tạo lại câu lệch, giữ bản khớp nhất) → `assemble.py` → `ghep_tong.py kich-ban/am-thanh/<mã>` (câu kết + loudnorm → `narration_ttgolf.m4a`, `timing.json`). Chi tiết trong `tts/README.md` và `KICH_BAN_VOICE.md`.
+- **Lưu âm thanh vào git:** môi trường đám mây bị xoá sau mỗi phiên, nên âm thanh đã tạo (`narration_ttgolf.m4a`, `timing.json`, `lines.json`, `asr_report.json`) được lưu trong `golf-video-engine/kich-ban/am-thanh/<mã>/` và commit. Lúc dựng phim thì dùng lại các file này, không tạo giọng lại.
 
 ## Chạy trên máy Windows của chị
 - Lệnh Bash chạy trong **Git Bash**. Trên Windows dùng `python` (hoặc `py -3`) thay cho `python3`; khi chạy các script `.sh` hay lệnh trong tài liệu có ghi `python3`, đổi lại cho phù hợp (ví dụ `PY=python`), đừng sửa file gốc chỉ vì lý do này.
@@ -97,7 +100,11 @@ Bước kiểm tra luật giao cho subagent **`kiem-tra-luat-golf`** để soát
   - Khi xuất bản giới hạn đỉnh, ví dụ `-maxrate 12M -bufsize 24M -profile:v high -level 4.1`.
   - Kiểm tra bitrate theo từng giây trước khi gửi. Bản nhẹ để gửi Zalo: khoảng 30–40 MB.
 - **Thời lượng:** giọng AI cộng logo làm video dài hơn kịch bản (17.1d: 70,4 s so với 60 s dự kiến). Ước tính bằng `check_script.py` (≈4,6 âm tiết/giây ở speed 0,97).
-- **Phát âm đã kiểm bằng ASR:** gôn · băng kơ · phô lô tê tê gôn · xì trốc, en, đít tần · mười bảy chấm một đê một. Các cách đọc grin, ti, pút tơ, đờ rai vơ **chưa kiểm**, phải chạy `asr_check.py`.
+- **Phát âm đã kiểm bằng ASR:** gôn · băng kơ · phô lô tê tê gôn · xì trốc, en, đít tần · mười bảy chấm một đê một · sáu chấm hai bê năm · ti (tee). Các cách đọc grin, pút tơ, đờ rai vơ **chưa kiểm**, phải chạy `chon_ban_tot.py`.
+- **Giọng AI có yếu tố ngẫu nhiên** (tình huống 1.1): mỗi lần tạo, cùng một câu có thể đọc hơi khác, nên `chon_ban_tot.py` tạo lại câu lệch và giữ bản khớp nhất.
+  - **"ti"** đứng ngay sau "lên" hay bị nuốt ("lên ti" thành "laty"). Viết "đặt bóng lại **trên** ti" và đặt speed 0,95.
+  - Cụm "không tính gậy" ASR nghe thành "không tin cậy". Viết "không tính là một gậy". Viết "nộp thẻ điểm thiếu…" thay cho "ghi thiếu" (ASR nghe thành "khi thiếu").
+  - ASR hay nghe nhầm "vung" thành "vùng", "gậy" thành "cậy", "truất" thành "chuốt", "gôn" thành "gồm". Nhiều khả năng đó là do ASR nghe giọng Bắc (đổi cách viết thế nào cũng vẫn lệch), nhưng chưa nghe bằng tai để xác nhận. Câu nào còn lệch thì ghi vào báo cáo để chị nghe lại.
 - **Khung đầu của phim mẫu:** cả 3 file `film_*.js` mở đầu bằng fade từ nền lục bảo (dòng `const st = sstep(0, 0.3x, t); if (st < 1) …` trong `renderFrame`), nên khung 0 là màu trơn. Bỏ dòng này ở video mới để khung 0 là cảnh phim (quy tắc 7).
 - **Logo bóng** (`TTGolf_logo-bong_nen-caro.png`) có nền caro in sẵn trong ảnh, phải tách nền như ảnh chụp (`logo_cut.py`).
 - **Phụ đề tự viết:** nếu video gốc không có bản chép lời, nói rõ với chị rằng phụ đề là do mình viết.
@@ -108,7 +115,10 @@ Bước kiểm tra luật giao cho subagent **`kiem-tra-luat-golf`** để soát
   - Điều 16.1 – thả bóng miễn phí cạnh gốc cây (3D, âm thanh gốc).
   - Luật 17.1d – bunker → hồ cọc vàng (3D, giọng AI, 70,4 s).
   - "Chào buổi sáng ngày đầu tháng 11" (footage, 71 s, có/không phụ đề + cover).
-- Đang chờ: **kịch bản mẫu tình huống 3.3** (cọc đỏ – 3 phương án, `kich-ban/kich-ban_3-3.md`) chờ chị duyệt. Được duyệt thì tạo giọng và dựng video đầu tiên của loạt cẩm nang.
+- Đang chờ chị nghe và duyệt:
+  - **Tình huống 1.1**: bóng rơi khỏi tee hoặc bị chạm rơi trước khi đánh (Luật 6.2b(5)–(6)). Đã có kịch bản `kich-ban/kich-ban_1-1.md` và giọng AI `kich-ban/am-thanh/1-1/` (66,8 s, không logo đầu). Duyệt xong thì dựng phim 3D.
+  - **Tình huống 3.3**: cọc đỏ – 3 phương án (`kich-ban/kich-ban_3-3.md`). Mới có kịch bản, chưa tạo giọng.
+- Từ 01/11/2026: **tạo giọng AI ngay sau khi viết và soát luật kịch bản**, không chờ chị duyệt. Chị nghe bản giọng rồi mới duyệt để dựng phim.
 - Lịch sử chi tiết: `docs/lich-su-du-an.md`.
 
 ## Bản đồ tài liệu

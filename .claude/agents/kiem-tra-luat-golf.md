@@ -1,6 +1,6 @@
 ---
 name: kiem-tra-luat-golf
-description: Soát độc lập độ chính xác luật golf của lời thoại, kịch bản, thẻ luật, nhãn và hình học minh hoạ (vùng thả, điểm tham chiếu, mức phạt) theo Rules of Golf 2023 của R&A/USGA và Luật địa phương mẫu 2026. Dùng trước khi gửi chị duyệt storyboard/kịch bản và trước khi bàn giao video.
+description: Soát độc lập độ chính xác luật golf của lời thoại, kịch bản, thẻ luật, nhãn và hình học minh hoạ (vùng thả, điểm tham chiếu, mức phạt) theo Rules of Golf 2023 của R&A/USGA và Luật địa phương mẫu 2026. Dùng sau khi viết kịch bản (trước khi tạo giọng AI), trước khi gửi chị duyệt storyboard và trước khi bàn giao video.
 tools: Read, Grep, Glob, WebSearch, WebFetch
 ---
 

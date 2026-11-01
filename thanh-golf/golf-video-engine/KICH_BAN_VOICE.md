@@ -11,12 +11,13 @@ Dùng khi video **không có âm thanh gốc**: mỗi video giải thích 1 tìn
 1. **Đọc tình huống** theo mã; chọn 1 ý “bẫy sai lầm” từ `err`/`tip`.
 2. **Viết kịch bản** theo khung 5 cảnh (mục 3) → `kich-ban/lines_<mã>.json` (mã dùng gạch ngang: 3-3, 4-10).
 3. **Tự kiểm**: `python3 tts/check_script.py kich-ban/lines_<mã>.json` – hết cảnh báo, phim chính 55–64 s.
-4. **Gửi duyệt**: `python3 kich-ban/xem_kich_ban.py kich-ban/lines_<mã>.json <mã> > kich-ban/kich-ban_<mã>.md`, gửi bảng cho người dùng. **Chưa tạo giọng khi chưa được duyệt.**
-5. **Tạo giọng** (mục 8), nghe lại bằng ASR, sửa chữ đọc nếu sai.
-6. **Ghép âm** → `narration.m4a` + `timing.json` → dựng phim theo `PROJECT_INSTRUCTION.md` (SUBS, TITLES, LABELS, CARDS, SHOTS lấy từ các trường trong lines JSON).
-7. Lưu `lines_<mã>.json` và `kich-ban_<mã>.md` bản cuối vào Project (`golf-video-engine/kich-ban/`).
+4. **Soát luật**: giao subagent `kiem-tra-luat-golf` soát độc lập, sửa các điểm sai.
+5. **Tạo giọng ngay, không chờ duyệt** (từ 01/11/2026, mục 8): ASR chấm từng câu, tạo lại câu lệch (`chon_ban_tot.py`), sửa chữ đọc nếu vẫn sai.
+6. **Ghép âm** → `narration_ttgolf.m4a` + `timing.json`, lưu bản giữ lại vào `kich-ban/am-thanh/<mã>/` (`ghep_tong.py`).
+7. **Gửi duyệt**: `python3 kich-ban/xem_kich_ban.py kich-ban/lines_<mã>.json <mã> > kich-ban/kich-ban_<mã>.md` (dùng mốc thật nếu đã có `am-thanh/<mã>/timing.json`). Gửi bảng kèm file `narration_ttgolf.m4a` để người dùng nghe. Commit kịch bản, bảng và `am-thanh/<mã>/`.
+8. **Được duyệt** → dựng phim theo `PROJECT_INSTRUCTION.md` (SUBS, TITLES, LABELS, CARDS, SHOTS lấy từ các trường trong lines JSON; mốc lấy từ `am-thanh/<mã>/timing.json`). Không tạo giọng lại, vì giọng có yếu tố ngẫu nhiên.
 
-Có thể viết kịch bản theo lô (cả một chương) để duyệt trước, rồi tạo giọng – dựng hình từng video.
+Có thể viết kịch bản theo lô (cả một chương). Mỗi tình huống vẫn tạo giọng luôn, rồi gửi cả lô để duyệt một lần.
 
 ## 3. Khung kịch bản 5 cảnh (mỗi cảnh ↔ một nhịp hình, chuyển cảnh crossfade 0,4 s vào khoảng nghỉ)
 | Cảnh | Thời lượng | Nội dung | Số câu |
@@ -31,7 +32,7 @@ Tình huống ngắn (1 phương án) có thể gộp cảnh 2–3 (4 cảnh). T
 
 ## 4. Ngân sách thời lượng (đo từ video 17.1d: 249 âm tiết → phim 63,9 s)
 - Giọng piper vi_VN ở speed 0,97 đọc **≈ 4,6 âm tiết/giây**; tính cả khoảng nghỉ **≈ 3,9 âm tiết/giây**.
-- **Phim chính 55–64 s ⇒ 200–245 âm tiết, 14–20 câu.** Cả video = 3 s logo đầu + phim + 3,6 s logo cuối ≈ 62–70 s.
+- **Phim chính 55–64 s ⇒ 200–245 âm tiết, 14–20 câu.** Cả video = phim + 3,6 s logo cuối ≈ 59–68 s (không logo đầu, quy tắc 6–7 trong `CLAUDE.md`).
 - Mỗi câu 5–22 âm tiết (tối đa 28); phụ đề ≤ 90 ký tự (≤ 2 dòng khi hiển thị). Câu dài → tách thành 2 câu, nối bằng `gap` 0,12–0,2.
 - `check_script.py` ước tính lệch < 1 s so với thực tế (đã đối chiếu video 17.1d).
 
@@ -87,12 +88,15 @@ Ví dụ một câu:
 ```bash
 cp ../kich-ban/lines_<mã>.json lines.json
 python3 make_tts.py 0.97          # từng câu → wav/, durs.json
-python3 asr_check.py              # nghe lại bằng nhận dạng giọng nói; sửa tts nếu đọc sai rồi chạy lại
+python3 chon_ban_tot.py 0.97 8    # ASR chấm từng câu, tạo lại câu lệch (tối đa 8 lần), giữ bản khớp nhất → asr_report.json
 python3 assemble.py               # ghép + khoảng nghỉ (gap) → narration_raw.wav, timing.json
+python3 ghep_tong.py ../kich-ban/am-thanh/<mã>   # + câu kết ở logo cuối → loudnorm → narration_ttgolf.m4a; lưu bản giữ lại
 ```
-Câu kết đọc riêng cho logo cuối: `tts` = “Hãy phô lô tê tê gôn, để biết thêm nhiều kiến thức về gôn nhé!”, speed 0,97 × 1,03, bắt đầu 0,2 s sau khi vào logo cuối. Âm thanh tổng = 3 s im lặng (logo đầu) + lời đọc phim + câu kết → `loudnorm` → `narration_ttgolf.m4a` (âm thanh gốc cho `encode.sh`, so MD5).
+Giọng piper có yếu tố ngẫu nhiên: cùng một câu, mỗi lần tạo đọc hơi khác. Câu vẫn lệch ở từ quan trọng (số điều luật, "ti", mức phạt) thì đổi cách viết (xem mục Bài học trong `CLAUDE.md`). `asr_check.py` vẫn dùng được để nghe lại nhanh toàn bộ.
 
-## 9. Kiểm tra trước khi gửi duyệt
+Câu kết đọc riêng cho logo cuối: `tts` = “Hãy phô lô tê tê gôn, để biết thêm nhiều kiến thức về gôn nhé!”, speed 0,97 × 1,03, bắt đầu 0,2 s sau khi vào logo cuối. Âm thanh tổng = lời đọc phim (bắt đầu ngay ở khung 0, không logo đầu) + câu kết → `loudnorm` → `narration_ttgolf.m4a` (âm thanh gốc cho `encode.sh`, so MD5).
+
+## 9. Kiểm tra trước khi tạo giọng và gửi duyệt
 - [ ] Đúng điều luật, đúng mức phạt từng phương án; khớp `tinh-huong.json`.
 - [ ] Vùng thả mô tả đủ: điểm tham chiếu, 1/2 chiều dài gậy, không gần lỗ hơn, giới hạn khu vực.
 - [ ] Có câu hỏi móc ở cảnh 1 và bẫy sai lầm ở cảnh 4.
