@@ -73,11 +73,11 @@
  },
  {
   "scene": 2,
-  "sub": "Phương án một: đặt lại bóng lên tee, ở bất kỳ đâu trong khu vực phát bóng.",
-  "tts": "Phương án một, đặt lại bóng lên ti, ở bất kỳ đâu trong khu vực phát bóng.",
+  "sub": "Bạn chỉ cần đặt lại bóng lên tee, ở bất kỳ đâu trong khu vực phát bóng.",
+  "tts": "Bạn chỉ cần đặt lại bóng lên ti, ở bất kỳ đâu trong khu vực phát bóng.",
   "speed": 0.98,
   "title": {
-   "k": "Phương án 1 · Luật 6.2b(5)",
+   "k": "Trường hợp 1 · Luật 6.2b(5)",
    "t": "Đặt lại lên tee"
   },
   "shot": "Nhìn từ trên cao: khu vực phát bóng tô vàng nhạt; bóng nhấc khỏi cỏ, đặt lên tee ở một vị trí mới lệch sang bên, vẫn trong khung.",
@@ -96,7 +96,7 @@
   "tts": "Khu vực này sâu hai chiều dài gậy, tính từ đường nối mép trước hai mốc ti.",
   "speed": 0.98,
   "gap": 0.9,
-  "shot": "Gậy dài nhất (1,15 m) đặt hai lần từ đường mép trước lùi ra sau; hai cạnh bên kéo thẳng về sau từ mép ngoài hai mốc tee, khép thành hình chữ nhật.",
+  "shot": "Gậy dài nhất trừ putter (driver ≈ 1,15 m) đặt hai lần từ đường mép trước lùi ra sau; hai cạnh bên kéo thẳng về sau từ mép ngoài hai mốc tee, khép thành hình chữ nhật.",
   "fx": [
    "Đường gạch nối mép trước hai mốc tee",
    "Gậy đo x2 theo chiều sâu",
@@ -114,7 +114,10 @@
   "gap": 0.15,
   "title": {
    "k": "Chi tiết then chốt",
-   "t": "Đã vung là tính gậy"
+   "t": [
+    "Vung để đánh",
+    "là tính gậy"
+   ]
   },
   "shot": "Máy ngang tầm bóng trên tee: vệt vung gậy bóng mờ quét qua, trượt ngay phía trên bóng; bóng vẫn đứng yên trên tee.",
   "fx": [
@@ -140,7 +143,7 @@
   "tts": "Nếu bóng còn trong khu vực phát bóng, bạn được nhấc lên, không phạt.",
   "gap": 0.15,
   "title": {
-   "k": "Phương án 2 · Luật 6.2b(6)",
+   "k": "Trường hợp 2 · Luật 6.2b(6)",
    "t": "Sau cú vung trượt"
   },
   "shot": "Flycam từ trên cao: bóng vẫn trên tee trong khung chữ nhật vàng nhạt; bóng nâng lên khỏi tee.",
@@ -162,13 +165,14 @@
  },
  {
   "scene": 3,
-  "sub": "Mẹo nhỏ: tận dụng quyền này để dời bóng sang chỗ có thế đứng tốt hơn.",
-  "tts": "Mẹo nhỏ, tận dụng quyền này, để dời bóng sang chỗ có thế đứng tốt hơn.",
+  "sub": "Mẹo nhỏ: dời bóng sang chỗ có thế đứng tốt hơn, miễn bóng vẫn trong khu vực.",
+  "tts": "Mẹo nhỏ, dời bóng sang chỗ có thế đứng tốt hơn, miễn bóng vẫn trong khu vực.",
   "gap": 0.9,
   "shot": "Dấu chân bóng mờ: chỗ cũ mặt đất lồi lõm (cam) → chỗ mới bằng phẳng (xanh nhạt); bóng dời theo, vẫn trong khung.",
   "fx": [
    "Dấu chân cam ở chỗ cũ",
-   "Dấu chân xanh nhạt ở chỗ mới"
+   "Dấu chân xanh nhạt ở chỗ mới",
+   "Khung khu vực phát bóng sáng viền vàng"
   ],
   "label": [
    "Thế đứng tốt hơn"
@@ -204,7 +208,7 @@
   "tts": "Cú trượt vẫn là một gậy. Trong đấu gậy, nộp thẻ ghi thiếu gậy này, là bị truất quyền.",
   "speed": 1.03,
   "gap": 0.9,
-  "shot": "Cảnh thẻ điểm (tái dùng cảnh phiếu ghi điểm của film_quytac17.js): ô lỗ đang chơi ghi thiếu 1 gậy bị gạch đỏ, sửa lại số đúng.",
+  "shot": "Cảnh thẻ điểm (tái dùng cảnh phiếu ghi điểm của film_quytac17.js): ô lỗ đang chơi ghi thiếu 1 gậy bị gạch đỏ, sửa lại số đúng trước khi nộp thẻ.",
   "fx": [
    "Thẻ điểm: số ghi thiếu gạch đỏ → số đúng, dấu tick vàng"
   ],
