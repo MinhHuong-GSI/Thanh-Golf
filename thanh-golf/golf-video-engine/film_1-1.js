@@ -1521,6 +1521,19 @@ async function init() {
   };
   const PTS = { P0, P0R, P1, PN, PG, TAC, MK0: MK[0], MK1: MK[1] };
   window.H = { at: (n, x, y, z) => A3(onGround(PTS[n]).add(V(x, y, z))), bt: n => A3(ballOnTee(PTS[n])), g: n => A3(onGround(PTS[n], BALL_R)), h: heightAt(TAC.x, TAC.z) };
+  // cover (jpg 1080x1920): clean 3D frame + kicker, serif title, gold rule, sub-line
+  window.renderCover = (t, o) => {
+    let i = SHOTS.findIndex(s => t >= s.t0 && t < s.t1); if (i < 0) i = 0;
+    ctx.globalAlpha = 1; ctx.fillStyle = '#04281c'; ctx.fillRect(0, 0, W, H); layer(SHOTS[i], t, 1); softGlow(0.22);
+    let g = ctx.createLinearGradient(0, 0, 0, 860); g.addColorStop(0, 'rgba(4,40,28,0.74)'); g.addColorStop(1, 'rgba(4,40,28,0)'); ctx.fillStyle = g; ctx.fillRect(0, 0, W, 860);
+    g = ctx.createRadialGradient(W / 2, H * 0.55, 420, W / 2, H * 0.55, 1250); g.addColorStop(0, 'rgba(0,0,0,0)'); g.addColorStop(1, 'rgba(0,12,6,0.42)'); ctx.fillStyle = g; ctx.fillRect(0, 0, W, H);
+    ctx.save(); ctx.textAlign = 'center'; ctx.shadowColor = 'rgba(0,18,10,0.6)'; ctx.shadowBlur = 24;
+    ctx.fillStyle = GOLD_L; ctx.font = '500 30px "Be Vietnam Pro"'; spaced(ctx, o.k, W / 2, 226, 9);
+    ctx.fillStyle = CREAM; ctx.font = '500 116px "Cormorant Garamond"'; o.t.forEach((l, k) => ctx.fillText(l, W / 2, 366 + k * 116));
+    const ly = 366 + (o.t.length - 1) * 116 + 50; ctx.shadowBlur = 0; ctx.fillStyle = GOLD; ctx.fillRect(W / 2 - 70, ly, 140, 2);
+    ctx.shadowBlur = 18; ctx.fillStyle = CREAM; ctx.font = '300 38px "Be Vietnam Pro"'; ctx.fillText(o.sub, W / 2, ly + 74);
+    ctx.restore(); return out.toDataURL('image/jpeg', 0.93);
+  };
   window.ready = true;
 }
 init().catch(e => { console.error('INIT FAIL', e.stack || e); window.initError = String(e.stack || e); });
