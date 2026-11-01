@@ -1,0 +1,131 @@
+{
+ "dur": 66.805,
+ "lines": [
+  {
+   "i": 0,
+   "scene": 1,
+   "t0": 0.6,
+   "t1": 4.362,
+   "sub": "Khi vào thế hoặc vung tập, gậy của bạn vô tình chạm, làm bóng rơi khỏi tee."
+  },
+  {
+   "i": 1,
+   "scene": 1,
+   "t0": 4.782,
+   "t1": 7.498,
+   "sub": "Cú chạm đó có bị tính là một gậy, có bị phạt không?"
+  },
+  {
+   "i": 2,
+   "scene": 1,
+   "t0": 7.918,
+   "t1": 9.706,
+   "sub": "Theo luật golf, bạn xử lý thế nào?"
+  },
+  {
+   "i": 3,
+   "scene": 2,
+   "t0": 10.606,
+   "t1": 14.201,
+   "sub": "Luật 6.2b(5) trả lời: không tính là một gậy, không bị phạt."
+  },
+  {
+   "i": 4,
+   "scene": 2,
+   "t0": 14.621,
+   "t1": 17.64,
+   "sub": "Vô tình chạm không phải là cú đánh, nên bóng vẫn chưa trong cuộc."
+  },
+  {
+   "i": 5,
+   "scene": 2,
+   "t0": 18.06,
+   "t1": 21.648,
+   "sub": "Bạn chỉ cần đặt bóng lại trên tee, ở bất kỳ đâu trong khu vực phát bóng."
+  },
+  {
+   "i": 6,
+   "scene": 2,
+   "t0": 22.068,
+   "t1": 25.906,
+   "sub": "Khu vực này sâu hai chiều dài gậy, tính từ đường nối mép trước hai mốc tee."
+  },
+  {
+   "i": 7,
+   "scene": 3,
+   "t0": 26.806,
+   "t1": 30.149,
+   "sub": "Khác hẳn nếu bạn đã vung với ý định đánh bóng, dù trượt hoàn toàn."
+  },
+  {
+   "i": 8,
+   "scene": 3,
+   "t0": 30.299,
+   "t1": 32.679,
+   "sub": "Cú đó vẫn tính một gậy, và bóng đã trong cuộc."
+  },
+  {
+   "i": 9,
+   "scene": 3,
+   "t0": 33.099,
+   "t1": 36.294,
+   "sub": "Nếu bóng còn trong khu vực phát bóng, bạn được nhấc lên, không phạt."
+  },
+  {
+   "i": 10,
+   "scene": 3,
+   "t0": 36.444,
+   "t1": 40.067,
+   "sub": "Rồi đặt lại trên tee hoặc ngay trên mặt đất, ở bất kỳ đâu trong khu vực."
+  },
+  {
+   "i": 11,
+   "scene": 3,
+   "t0": 40.487,
+   "t1": 44.527,
+   "sub": "Mẹo nhỏ: dời bóng sang chỗ có thế đứng tốt hơn, miễn là bóng vẫn trong khu vực."
+  },
+  {
+   "i": 12,
+   "scene": 4,
+   "t0": 45.427,
+   "t1": 47.795,
+   "sub": "Vậy vung trượt hụt bóng thì có bị tính gậy không?"
+  },
+  {
+   "i": 13,
+   "scene": 4,
+   "t0": 48.215,
+   "t1": 49.307,
+   "sub": "Câu trả lời là có!"
+  },
+  {
+   "i": 14,
+   "scene": 4,
+   "t0": 49.727,
+   "t1": 53.954,
+   "sub": "Cú trượt vẫn là một gậy. Trong đấu gậy, nộp thẻ điểm thiếu gậy này sẽ bị truất quyền."
+  },
+  {
+   "i": 15,
+   "scene": 5,
+   "t0": 54.854,
+   "t1": 59.161,
+   "sub": "Nhớ nhé: bóng rơi trước cú đánh thì đặt lại, không phạt; vung để đánh thì luôn tính gậy."
+  },
+  {
+   "i": 16,
+   "scene": 5,
+   "t0": 59.581,
+   "t1": 61.38,
+   "sub": "Hiểu đúng luật, phát bóng thật tự tin!"
+  }
+ ],
+ "film_dur": 63.18,
+ "logo_dur": 3.625,
+ "outro": {
+  "t0": 63.38,
+  "t1": 66.515,
+  "sub": "Hãy follow TTGolf để biết thêm\nnhiều kiến thức về golf nhé"
+ }
+}

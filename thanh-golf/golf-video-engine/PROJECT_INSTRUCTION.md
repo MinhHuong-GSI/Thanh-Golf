@@ -16,8 +16,8 @@ Dùng cho loạt video theo *Cẩm nang giải cứu bóng ở thế khó* (92 t
 - **Dữ liệu:** `kich-ban/tinh-huong.json` (căn cứ luật, phương án, mức phạt, sai lầm hay gặp). Mẫu: `kich-ban/lines_3-3.json`, `kich-ban/kich-ban_3-3.md`.
 - **Kịch bản:** 5 cảnh – Mở (câu hỏi móc) → Luật & phương án chính → Phương án còn lại / chi tiết then chốt → Bẫy sai lầm (“Câu trả lời là…”) → Chốt (thẻ luật + khẩu hiệu). 14–20 câu, 200–245 âm tiết, phim chính 55–64 s. Mỗi phương án nói rõ mức phạt; vùng thả nói đủ điểm tham chiếu, chiều dài gậy, không gần lỗ hơn.
 - **File kịch bản** `kich-ban/lines_<mã>.json`: `scene`, `sub`, `tts` (chữ đọc đã chuẩn hoá: số điều luật viết thành chữ, golf → gôn, bunker → băng kơ…), `speed`, `gap`, và các trường hình `title`, `label`, `fx`, `card`, `shot`.
-- **Trình tự:** `tts/check_script.py` → xuất bảng duyệt `kich-ban/xem_kich_ban.py` → **người dùng duyệt** → `make_tts.py 0.97` → `asr_check.py` → `assemble.py` → `timing.json` làm mốc dựng phim (thay cho bước 1 ở trên). Âm thanh tổng (3 s im lặng logo đầu + lời đọc + câu kết) là “âm thanh gốc” cho bước 6.
-- **Logo & câu kết:** 3 s logo TTGolf bản bóng ở đầu, 3,6 s logo phẳng ở cuối (`bumper.js`), câu kết “Hãy follow TTGolf để biết thêm nhiều kiến thức về golf nhé” (`tts`: “Hãy phô lô tê tê gôn, để biết thêm nhiều kiến thức về gôn nhé!”) có phụ đề.
+- **Trình tự:** `tts/check_script.py` → soát luật (`kiem-tra-luat-golf`) → **tạo giọng ngay, không chờ duyệt**: `make_tts.py 0.97` → `chon_ban_tot.py` → `assemble.py` → `ghep_tong.py kich-ban/am-thanh/<mã>` → xuất bảng duyệt `kich-ban/xem_kich_ban.py` → **người dùng nghe và duyệt** → dựng phim, với `timing.json` làm mốc (thay cho bước 1 ở trên). Âm thanh tổng (lời đọc + câu kết, không logo đầu) là “âm thanh gốc” cho bước 6.
+- **Logo & câu kết:** không logo đầu (khung 0 là cảnh phim), 3,6 s logo phẳng ở cuối (`bumper.js`), câu kết “Hãy follow TTGolf để biết thêm nhiều kiến thức về golf nhé” (`tts`: “Hãy phô lô tê tê gôn, để biết thêm nhiều kiến thức về gôn nhé!”) có phụ đề.
 
 ## Phong cách hình ảnh
 - **Màu:** xanh lục bảo #0B4733 / #04281C, vàng kim #C9A55C / #E8D29A, kem #F6F1E6. Cọc vàng #E4B41F, cọc đỏ #BC2A30.

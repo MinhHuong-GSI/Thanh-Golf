@@ -59,3 +59,19 @@ Tóm tắt từ các cuộc trò chuyện trong project, để Claude Code nắm
   - 3 skill (`/dung-video-3d`, `/kich-ban-giong-ai`, `/dung-video-footage`) và subagent `kiem-tra-luat-golf`.
   - Logo đã tách nền `golf-video-engine/logo_ttgolf_flat.png` và `logo_ttgolf_gloss.png`, tạo lại bằng `logo_cut.py`. Ghi chú: bản logo phẳng hơi trong khi đặt trên nền tối; trên thẻ kem thì đẹp.
 - Bộ nhớ (memory) của project trên claude.ai không đọc được từ phiên chuyển đổi. Nếu có ghi nhớ quan trọng, chị dán vào `CLAUDE.md`.
+
+## 7. Tình huống 1.1 và quy trình giọng AI không chờ duyệt (01/11, Claude Code trên web)
+- **Kịch bản 1.1** (bóng rơi khỏi tee hoặc bị chạm rơi trước khi đánh, Luật 6.2b(5)–(6)): 17 câu, 5 cảnh. Agent soát luật độc lập đã kiểm. Sửa theo góp ý:
+  - Tiêu đề "Vung để đánh là tính gậy", vì vung tập không phải cú đánh.
+  - Gọi "Trường hợp 1/2" thay cho "Phương án 1/2".
+  - Mẹo dời bóng nhắc bóng phải còn trong khu vực phát bóng.
+- **Chị chốt: tạo giọng AI ngay sau khi viết và soát luật, không chờ duyệt.** Cổng duyệt chuyển sang sau khi có giọng, trước khi dựng phim. Đã cập nhật skill `kich-ban-giong-ai`, `KICH_BAN_VOICE.md`, `PROJECT_INSTRUCTION.md`, `tts/README.md`, `CLAUDE.md`.
+- Công cụ mới trong `tts/`:
+  - `chon_ban_tot.py`: ASR chấm từng câu, tạo lại câu lệch, giữ bản khớp nhất.
+  - `ghep_tong.py`: thêm câu kết, loudnorm, lưu bản giữ lại vào `kich-ban/am-thanh/<mã>/`.
+  - `xem_kich_ban.py` dùng mốc thật và liệt kê câu cần nghe kỹ. Công cụ ước tính bỏ 3 s logo đầu.
+- Giọng 1.1: 66,8 s (phim 63,2 s + logo cuối 3,6 s). 11/17 câu ASR khớp hoàn toàn; các câu còn lại lệch ở "vung", "gậy", "gôn", "truất".
+- **Sắp xếp repo:**
+  - Chị upload skill và agent qua trang web GitHub nên mất thư mục `.claude/`. Đã chuyển vào `.claude/` ở gốc repo, kèm `CLAUDE.md` gốc nạp `thanh-golf/CLAUDE.md`.
+  - Thêm `.gitignore`.
+  - Xoá 10 file trùng ở gốc repo, vốn là bản sao y hệt các file trong `thanh-golf/`.

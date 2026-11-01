@@ -1,0 +1,121 @@
+[
+ {
+  "i": 0,
+  "loi": 1,
+  "lan_tao": 1,
+  "tts": "Khi vào thế hoặc vung tập, gậy của bạn vô tình chạm, làm bóng rơi khỏi ti.",
+  "asr": "khi vào thế hoặc vùng tập gậy của bạn vô tình chạm làm bóng rơi khỏi ti"
+ },
+ {
+  "i": 1,
+  "loi": 1,
+  "lan_tao": 1,
+  "tts": "Cú chạm đó có bị tính là một gậy, có bị phạt không?",
+  "asr": "cú chạm đó có bị tính là một khậy có bị phạt không"
+ },
+ {
+  "i": 2,
+  "loi": 1,
+  "lan_tao": 1,
+  "tts": "Theo luật gôn, bạn xử lý thế nào?",
+  "asr": "theo luật gồm bạn xử lý thế nào"
+ },
+ {
+  "i": 3,
+  "loi": 0,
+  "lan_tao": 1,
+  "tts": "Luật sáu chấm hai bê năm trả lời, không tính là một gậy, không bị phạt.",
+  "asr": "luật sáu chấm hai b năm trả lời không tính là một gậy không bị phạt"
+ },
+ {
+  "i": 4,
+  "loi": 0,
+  "lan_tao": 1,
+  "tts": "Vô tình chạm không phải là cú đánh, nên bóng vẫn chưa trong cuộc.",
+  "asr": "vô tình chạm không phải là cú đánh nên bóng vẫn chưa trong cuộc"
+ },
+ {
+  "i": 5,
+  "loi": 0,
+  "lan_tao": 1,
+  "tts": "Bạn chỉ cần đặt bóng lại trên ti, ở bất kỳ đâu trong khu vực phát bóng.",
+  "asr": "bạn chỉ cần đặt bóng lại trên ti ở bất kì đâu trong khu vực phát bóng"
+ },
+ {
+  "i": 6,
+  "loi": 0,
+  "lan_tao": 1,
+  "tts": "Khu vực này sâu hai chiều dài gậy, tính từ đường nối mép trước hai mốc ti.",
+  "asr": "khu vực này sâu hai chiều dài gậy tính từ đường nối mép trước hai mốc ti"
+ },
+ {
+  "i": 7,
+  "loi": 0,
+  "lan_tao": 1,
+  "tts": "Khác hẳn nếu bạn đã vung với ý định đánh bóng, dù trượt hoàn toàn.",
+  "asr": "khác hẳn nếu bạn đã vung với ý định đánh bóng dù trượt hoàn toàn"
+ },
+ {
+  "i": 8,
+  "loi": 0,
+  "lan_tao": 1,
+  "tts": "Cú đó vẫn tính một gậy, và bóng đã trong cuộc.",
+  "asr": "cú đó vẫn tính một gậy và bóng đã trong cuộc"
+ },
+ {
+  "i": 9,
+  "loi": 0,
+  "lan_tao": 1,
+  "tts": "Nếu bóng còn trong khu vực phát bóng, bạn được nhấc lên, không phạt.",
+  "asr": "nếu bóng còn trong khu vực phát bóng bạn được nhấc lên không phạt"
+ },
+ {
+  "i": 10,
+  "loi": 0,
+  "lan_tao": 1,
+  "tts": "Rồi đặt lại trên ti, hoặc ngay trên mặt đất, ở bất kỳ đâu trong khu vực.",
+  "asr": "rồi đặt lại trên ti hoặc ngay trên mặt đất ở bất kỳ đâu trong khu vực"
+ },
+ {
+  "i": 11,
+  "loi": 0,
+  "lan_tao": 1,
+  "tts": "Mẹo nhỏ, dời bóng sang chỗ có thế đứng tốt hơn, miễn là bóng vẫn trong khu vực.",
+  "asr": "mẹo nhỏ rời bóng sang chỗ có thế đứng tốt hơn miễn là bóng vẫn trong khu vực"
+ },
+ {
+  "i": 12,
+  "loi": 2,
+  "lan_tao": 1,
+  "tts": "Vậy vung trượt hụt bóng thì có bị tính gậy không?",
+  "asr": "vậy vùng trượt hụt bóng thì có bị tính gậy cống"
+ },
+ {
+  "i": 13,
+  "loi": 0,
+  "lan_tao": 1,
+  "tts": "Câu trả lời là có!",
+  "asr": "câu trả lời là có"
+ },
+ {
+  "i": 14,
+  "loi": 1,
+  "lan_tao": 1,
+  "tts": "Cú trượt vẫn là một gậy. Trong đấu gậy, nộp thẻ điểm thiếu gậy này, sẽ bị truất quyền.",
+  "asr": "cú trượt vẫn là một gậy trong đấu gậy nộp thẻ điểm thiếu gậy này sẽ bị chuốt quyền"
+ },
+ {
+  "i": 15,
+  "loi": 1,
+  "lan_tao": 1,
+  "tts": "Nhớ nhé, bóng rơi trước cú đánh thì đặt lại, không phạt, vung để đánh thì luôn tính gậy.",
+  "asr": "nhớ nhé bóng rơi trước cú đánh thì đặt lại không phạt vùng để đánh thì luôn tính gậy"
+ },
+ {
+  "i": 16,
+  "loi": 0,
+  "lan_tao": 1,
+  "tts": "Hiểu đúng luật, phát bóng thật tự tin!",
+  "asr": "hiểu đúng luật phát bóng thật tự tin"
+ }
+]

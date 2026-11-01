@@ -4,6 +4,7 @@ Thư mục này chứa toàn bộ project "Thanh golf" từ claude.ai, đã sắ
 - Hướng dẫn cho Claude: `CLAUDE.md`.
 - Quy trình làm video: 3 skill trong `.claude/skills/`.
 - Subagent kiểm tra luật golf: `.claude/agents/`.
+- Trên GitHub, thư mục `.claude/` nằm ở **gốc repo** (cạnh `thanh-golf/`), không nằm trong `thanh-golf/`. Lý do: phiên Claude Code trên web mở ở gốc repo. Clone repo về rồi mở Claude trong `thanh-golf/` thì Claude Code vẫn tự tìm thấy skill và agent ở thư mục cha.
 - Bộ công cụ dựng phim 3D: `golf-video-engine/`.
 - Công cụ dựng footage: `footage-edit/`.
 
@@ -53,8 +54,8 @@ Claude tự đọc `CLAUDE.md` mỗi phiên, nên chị không phải nhắc l�
 | Việc | Gõ |
 |---|---|
 | Dựng lại video có âm thanh gốc | `/dung-video-3d D:\Videos\luat-19-2.mp4` hoặc *"Dựng lại video này theo phong cách TTGolf: …"* |
-| Viết kịch bản tình huống cẩm nang | `/kich-ban-giong-ai 4.6` hoặc *"Viết kịch bản cả chương 3 để tôi duyệt"* |
-| Kịch bản đã duyệt → làm video | *"Kịch bản 3.3 đã duyệt – tạo giọng và dựng video"* |
+| Viết kịch bản + tạo giọng AI luôn | `/kich-ban-giong-ai 4.6` hoặc *"Viết kịch bản cả chương 3"*. Claude soát luật, tạo giọng ngay, rồi gửi bảng kịch bản kèm file nghe thử |
+| Đã nghe, duyệt → làm video | *"4.6 đã duyệt – dựng video"* |
 | Video footage + mp3 | `/dung-video-footage D:\Footage\thang-12 D:\Footage\loi-dan.mp3` |
 | Soát luật một đoạn lời thoại | *"Dùng agent kiem-tra-luat-golf soát đoạn này: …"* |
 

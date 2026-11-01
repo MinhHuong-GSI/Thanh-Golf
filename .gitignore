@@ -1,0 +1,30 @@
+# File lớn / tạm – không đưa vào git (xem CLAUDE.md, mục "Chạy trên máy Windows")
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+
+# Model giọng AI và ASR (tải lại theo golf-video-engine/tts/README.md)
+**/tts/vits-piper-*/
+**/tts/sherpa-onnx-*/
+*.tar.bz2
+*.onnx
+
+# File trung gian khi tạo giọng (bản lưu giữ nằm ở kich-ban/am-thanh/<mã>/)
+**/tts/wav/
+**/tts/lines.json
+**/tts/durs.json
+**/tts/timing.json
+**/tts/narration*.wav
+**/tts/narration*.m4a
+**/tts/outro*.wav
+**/tts/asr_report.json
+
+# Khung hình, cảnh, video
+**/frames*/
+**/preview*/
+**/shots/
+*.mp4
+*.mov
+render*.log
+xuat-ban/
