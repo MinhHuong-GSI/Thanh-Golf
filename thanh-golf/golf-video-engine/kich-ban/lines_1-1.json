@@ -1,0 +1,253 @@
+[
+ {
+  "scene": 1,
+  "sub": "Đang vào thế hoặc vung tập, gậy của bạn vô tình chạm làm bóng rơi khỏi tee.",
+  "tts": "Đang vào thế hoặc vung tập, gậy của bạn vô tình chạm làm bóng rơi khỏi ti.",
+  "speed": 0.98,
+  "title": {
+   "k": "Luật golf · Luật 6.2b(5)",
+   "t": "Bóng rơi khỏi tee"
+  },
+  "shot": "Khung 0 dùng làm thumbnail (không fade, không logo): khu vực phát bóng giờ vàng, máy sát mặt cỏ phía sau bóng trắng trên tee gỗ, hai mốc tee và fairway sọc cỏ mờ sương phía xa. Đầu gậy 3D lướt vào trong cú vung tập, chạm nhẹ, bóng lăn khỏi tee rồi dừng trên cỏ.",
+  "fx": [
+   "Vệt vung tập bóng mờ cam chạm bóng",
+   "Bóng lăn khỏi tee, tỉ lệ thật (bóng 0,0214 m, tee 0,07 m)"
+  ],
+  "label": [
+   "Vô tình chạm bóng"
+  ]
+ },
+ {
+  "scene": 1,
+  "sub": "Cú chạm đó có bị tính là một gậy, có bị phạt không?",
+  "tts": "Cú chạm đó có bị tính là một gậy, có bị phạt không?",
+  "speed": 1.03,
+  "shot": "Cận cảnh thấp: bóng nằm trên cỏ cạnh chiếc tee trống, nhoè sâu; đầu gậy dừng phía sau, mốc tee mờ tiền cảnh.",
+  "label": [
+   "Tee trống"
+  ]
+ },
+ {
+  "scene": 1,
+  "sub": "Theo luật golf, bạn xử lý thế nào?",
+  "tts": "Theo luật gôn, bạn xử lý thế nào?",
+  "speed": 1.03,
+  "gap": 0.9,
+  "title": {
+   "k": "Khu vực phát bóng",
+   "t": [
+    "Tính gậy,",
+    "hay đặt lại?"
+   ]
+  },
+  "shot": "Golfer (ảnh cắt nền golfer_cut.png) ngược sáng, từ gối trở lên, nhìn xuống quả bóng; nắng chiều viền tóc và vai."
+ },
+ {
+  "scene": 2,
+  "sub": "Luật 6.2b(5) trả lời: không tính gậy, không bị phạt.",
+  "tts": "Luật sáu chấm hai bê năm trả lời, không tính gậy, không bị phạt.",
+  "title": {
+   "k": "Luật 6.2b(5)",
+   "t": [
+    "Không tính gậy",
+    "Không phạt"
+   ]
+  },
+  "shot": "Flycam nâng chéo từ sau bóng, lộ toàn khu vực phát bóng, hai mốc tee và đường bay về fairway.",
+  "fx": [
+   "Huy hiệu KHÔNG PHẠT"
+  ]
+ },
+ {
+  "scene": 2,
+  "sub": "Vô tình chạm không phải là cú đánh, nên bóng vẫn chưa trong cuộc.",
+  "tts": "Vô tình chạm không phải là cú đánh, nên bóng vẫn chưa trong cuộc.",
+  "shot": "Cận cảnh bóng trên cỏ, mốc tee nhoè tiền cảnh; bộ đếm gậy góc màn hình đứng ở số 0.",
+  "fx": [
+   "Bộ đếm gậy: 0"
+  ],
+  "label": [
+   "Chưa phải cú đánh",
+   "Bóng chưa trong cuộc"
+  ]
+ },
+ {
+  "scene": 2,
+  "sub": "Bạn chỉ cần đặt lại bóng lên tee, ở bất kỳ đâu trong khu vực phát bóng.",
+  "tts": "Bạn chỉ cần đặt lại bóng lên ti, ở bất kỳ đâu trong khu vực phát bóng.",
+  "speed": 0.98,
+  "title": {
+   "k": "Trường hợp 1 · Luật 6.2b(5)",
+   "t": "Đặt lại lên tee"
+  },
+  "shot": "Nhìn từ trên cao: khu vực phát bóng tô vàng nhạt; bóng nhấc khỏi cỏ, đặt lên tee ở một vị trí mới lệch sang bên, vẫn trong khung.",
+  "fx": [
+   "Khu vực phát bóng tô vàng nhạt (tính bằng hình học)",
+   "Bóng mờ ở chỗ cũ → bóng thật trên tee ở chỗ mới",
+   "Huy hiệu KHÔNG PHẠT"
+  ],
+  "label": [
+   "Đặt tee ở chỗ mới"
+  ]
+ },
+ {
+  "scene": 2,
+  "sub": "Khu vực này sâu hai chiều dài gậy, tính từ đường nối mép trước hai mốc tee.",
+  "tts": "Khu vực này sâu hai chiều dài gậy, tính từ đường nối mép trước hai mốc ti.",
+  "speed": 0.98,
+  "gap": 0.9,
+  "shot": "Gậy dài nhất trừ putter (driver ≈ 1,15 m) đặt hai lần từ đường mép trước lùi ra sau; hai cạnh bên kéo thẳng về sau từ mép ngoài hai mốc tee, khép thành hình chữ nhật.",
+  "fx": [
+   "Đường gạch nối mép trước hai mốc tee",
+   "Gậy đo x2 theo chiều sâu",
+   "Hai cạnh bên từ mép ngoài mốc tee"
+  ],
+  "label": [
+   "2 chiều dài gậy",
+   "Mép trước hai mốc tee"
+  ]
+ },
+ {
+  "scene": 3,
+  "sub": "Khác hẳn nếu bạn đã vung với ý định đánh bóng, dù trượt hoàn toàn.",
+  "tts": "Khác hẳn nếu bạn đã vung với ý định đánh bóng, dù trượt hoàn toàn.",
+  "gap": 0.15,
+  "title": {
+   "k": "Chi tiết then chốt",
+   "t": [
+    "Vung để đánh",
+    "là tính gậy"
+   ]
+  },
+  "shot": "Máy ngang tầm bóng trên tee: vệt vung gậy bóng mờ quét qua, trượt ngay phía trên bóng; bóng vẫn đứng yên trên tee.",
+  "fx": [
+   "Vệt vung bóng mờ vàng nhạt trượt qua bóng"
+  ]
+ },
+ {
+  "scene": 3,
+  "sub": "Cú đó vẫn tính một gậy, và bóng đã trong cuộc.",
+  "tts": "Cú đó vẫn tính một gậy, và bóng đã trong cuộc.",
+  "shot": "Giữ khung, bộ đếm gậy nhảy 0 → 1; viền sáng vàng quanh quả bóng.",
+  "fx": [
+   "Bộ đếm gậy: 0 → 1",
+   "Huy hiệu TÍNH 1 GẬY (không phải gậy phạt)"
+  ],
+  "label": [
+   "Bóng đã trong cuộc"
+  ]
+ },
+ {
+  "scene": 3,
+  "sub": "Nếu bóng còn trong khu vực phát bóng, bạn được nhấc lên, không phạt.",
+  "tts": "Nếu bóng còn trong khu vực phát bóng, bạn được nhấc lên, không phạt.",
+  "gap": 0.15,
+  "title": {
+   "k": "Trường hợp 2 · Luật 6.2b(6)",
+   "t": "Sau cú vung trượt"
+  },
+  "shot": "Flycam từ trên cao: bóng vẫn trên tee trong khung chữ nhật vàng nhạt; bóng nâng lên khỏi tee.",
+  "fx": [
+   "Khu vực phát bóng tô vàng nhạt",
+   "Huy hiệu KHÔNG PHẠT"
+  ]
+ },
+ {
+  "scene": 3,
+  "sub": "Rồi đặt lại trên tee hoặc ngay trên mặt đất, ở bất kỳ đâu trong khu vực.",
+  "tts": "Rồi đặt lại trên ti, hoặc ngay trên mặt đất, ở bất kỳ đâu trong khu vực.",
+  "speed": 0.98,
+  "shot": "Hai bóng mờ gợi ý ở hai chỗ khác nhau trong khung: một trên tee, một trên mặt cỏ.",
+  "label": [
+   "Trên tee",
+   "Trên mặt đất"
+  ]
+ },
+ {
+  "scene": 3,
+  "sub": "Mẹo nhỏ: dời bóng sang chỗ có thế đứng tốt hơn, miễn bóng vẫn trong khu vực.",
+  "tts": "Mẹo nhỏ, dời bóng sang chỗ có thế đứng tốt hơn, miễn bóng vẫn trong khu vực.",
+  "gap": 0.9,
+  "shot": "Dấu chân bóng mờ: chỗ cũ mặt đất lồi lõm (cam) → chỗ mới bằng phẳng (xanh nhạt); bóng dời theo, vẫn trong khung.",
+  "fx": [
+   "Dấu chân cam ở chỗ cũ",
+   "Dấu chân xanh nhạt ở chỗ mới",
+   "Khung khu vực phát bóng sáng viền vàng"
+  ],
+  "label": [
+   "Thế đứng tốt hơn"
+  ]
+ },
+ {
+  "scene": 4,
+  "sub": "Vậy vung trượt hụt bóng thì có bị tính gậy không?",
+  "tts": "Vậy vung trượt hụt bóng thì có bị tính gậy không?",
+  "speed": 1.03,
+  "title": {
+   "k": "Sai lầm thường gặp",
+   "t": [
+    "Vung trượt",
+    "có tính gậy?"
+   ]
+  },
+  "shot": "Golfer ngược sáng, máy đẩy chậm vào; quả bóng vẫn nằm trên tee ở tiền cảnh nhoè."
+ },
+ {
+  "scene": 4,
+  "sub": "Câu trả lời là có!",
+  "tts": "Câu trả lời là có!",
+  "speed": 1.03,
+  "title": {
+   "k": "Định nghĩa cú đánh",
+   "t": "Có!"
+  }
+ },
+ {
+  "scene": 4,
+  "sub": "Cú trượt vẫn là một gậy. Trong đấu gậy, nộp thẻ ghi thiếu gậy này là bị truất quyền.",
+  "tts": "Cú trượt vẫn là một gậy. Trong đấu gậy, nộp thẻ ghi thiếu gậy này, là bị truất quyền.",
+  "speed": 1.03,
+  "gap": 0.9,
+  "shot": "Cảnh thẻ điểm (tái dùng cảnh phiếu ghi điểm của film_quytac17.js): ô lỗ đang chơi ghi thiếu 1 gậy bị gạch đỏ, sửa lại số đúng trước khi nộp thẻ.",
+  "fx": [
+   "Thẻ điểm: số ghi thiếu gạch đỏ → số đúng, dấu tick vàng"
+  ],
+  "label": [
+   "Luật 3.3b(3): truất quyền"
+  ]
+ },
+ {
+  "scene": 5,
+  "sub": "Nhớ nhé: bóng rơi trước cú đánh thì đặt lại, không phạt; đã vung đánh thì luôn tính gậy.",
+  "tts": "Nhớ nhé, bóng rơi trước cú đánh thì đặt lại, không phạt, đã vung đánh thì luôn tính gậy.",
+  "speed": 1.03,
+  "card": {
+   "k": "◆ ĐIỀU 6.2b ◆",
+   "t": [
+    "Bóng rơi khỏi tee",
+    "Không phạt"
+   ],
+   "items": [
+    "Bóng rơi trước cú đánh: đặt lại",
+    "Không phạt, không tính gậy",
+    "Đã vung đánh: tính 1 gậy"
+   ]
+  },
+  "shot": "Thẻ luật trên nền khu vực phát bóng làm mờ, bụi vàng; ý 1-2-3 hiện theo lời đọc."
+ },
+ {
+  "scene": 5,
+  "sub": "Hiểu đúng luật, phát bóng thật tự tin!",
+  "tts": "Hiểu đúng luật, phát bóng thật tự tin!",
+  "speed": 1.03,
+  "title": {
+   "k": "Luật golf chuẩn",
+   "t": [
+    "Bóng rơi khỏi tee:",
+    "đặt lại, không phạt"
+   ],
+   "sub": "Căn cứ: Luật 6.2b(5)–(6)"
+  },
+  "shot": "Golfer ngược sáng trên khu vực phát bóng, bóng đã nằm lại trên tee, sẵn sàng phát bóng."
+ }
+]
