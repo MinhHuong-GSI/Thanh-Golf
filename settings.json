@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ffmpeg *)",
+      "Bash(ffprobe *)",
+      "Bash(node *)",
+      "Bash(npm install*)",
+      "Bash(npx playwright *)",
+      "Bash(python *)",
+      "Bash(python3 *)",
+      "Bash(py *)",
+      "Bash(pip install *)",
+      "Bash(./render_all.sh *)",
+      "Bash(./run_full.sh*)",
+      "Bash(./encode.sh *)",
+      "Bash(bash render_all.sh *)",
+      "Bash(bash run_full.sh*)",
+      "Bash(bash encode.sh *)",
+      "WebSearch",
+      "WebFetch(domain:www.randa.org)",
+      "WebFetch(domain:www.usga.org)",
+      "WebFetch(domain:github.com)"
+    ],
+    "deny": [
+      "Bash(rm -rf *)"
+    ]
+  }
+}
