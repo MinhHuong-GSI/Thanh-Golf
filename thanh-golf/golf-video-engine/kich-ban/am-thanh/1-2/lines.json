@@ -1,0 +1,289 @@
+[
+ {
+  "scene": 1,
+  "sub": "Bạn lỡ đặt bóng trước đường nối hai mốc tee, rồi phát bóng.",
+  "tts": "Bạn lỡ đặt bóng trước đường nối hai mốc ti, rồi phát bóng.",
+  "speed": 0.98,
+  "title": {
+   "k": "Luật golf · Luật 6.1b",
+   "t": [
+    "Phát bóng ngoài",
+    "khu vực phát bóng"
+   ]
+  },
+  "shot": "Khung 0 dùng làm thumbnail (không fade, không logo): máy sát mặt cỏ cạnh mốc tee, bóng trắng trên tee gỗ nằm rõ phía trước đường nối hai mốc tee; fairway sọc cỏ mờ sương phía xa, nắng giờ vàng.",
+  "fx": [
+   "Đường gạch nối mép trước hai mốc tee",
+   "Bóng trước đường, viền đỏ (ngoài khu vực, tính bằng hình học)"
+  ],
+  "label": [
+   "Bóng trước mốc tee"
+  ]
+ },
+ {
+  "scene": 1,
+  "sub": "Cú đó có hợp lệ, có bị phạt không?",
+  "tts": "Cú đó có hợp lệ, có bị phạt không?",
+  "speed": 1.03,
+  "shot": "Đầu driver 3D vung qua, bóng bay vút khỏi tee về fairway; máy giữ thấp phía sau.",
+  "fx": [
+   "Vệt vung trung tính; viền đỏ ở bóng (bóng ngoài khu vực)"
+  ]
+ },
+ {
+  "scene": 1,
+  "sub": "Theo luật golf, bạn xử lý thế nào?",
+  "tts": "Theo luật gôn, bạn xử lý thế nào?",
+  "speed": 1.03,
+  "gap": 0.9,
+  "title": {
+   "k": "Khu vực phát bóng",
+   "t": [
+    "Hợp lệ,",
+    "hay bị phạt?"
+   ]
+  },
+  "shot": "Golfer (ảnh cắt nền golfer_cut.png) ngược sáng, từ gối trở lên, nhìn theo đường bóng; nắng chiều viền tóc và vai."
+ },
+ {
+  "scene": 2,
+  "sub": "Luật 6.1b quy định: bóng phải đánh từ trong khu vực phát bóng.",
+  "tts": "Luật sáu chấm một bê quy định, bóng phải đánh từ trong khu vực phát bóng.",
+  "title": {
+   "k": "Luật 6.1b",
+   "t": [
+    "Đánh từ trong",
+    "khu vực phát bóng"
+   ]
+  },
+  "shot": "Flycam nâng cao từ sau khu vực phát bóng, lộ hai mốc tee và hình chữ nhật khu vực tô vàng nhạt.",
+  "fx": [
+   "Khu vực phát bóng tô vàng nhạt (tính bằng hình học)"
+  ]
+ },
+ {
+  "scene": 2,
+  "sub": "Khu vực sâu hai chiều dài gậy, từ mép trước hai mốc tee lùi về sau.",
+  "tts": "Khu vực sâu hai chiều dài gậy, từ mép trước hai mốc ti lùi về sau.",
+  "speed": 0.98,
+  "shot": "Nhìn từ trên cao: driver (≈1,15 m) đặt hai lần từ đường mép trước lùi ra sau; hai cạnh bên kéo thẳng về sau từ mép ngoài hai mốc tee.",
+  "fx": [
+   "Đường gạch mép trước",
+   "Gậy đo x2 theo chiều sâu",
+   "Hai cạnh bên từ mép ngoài mốc tee"
+  ],
+  "label": [
+   "2 chiều dài gậy",
+   "Mép trước hai mốc tee"
+  ]
+ },
+ {
+  "scene": 2,
+  "sub": "Bóng trước đường này, hay ngoài hai cạnh bên, là ngoài khu vực.",
+  "tts": "Bóng trước đường này, hay ngoài hai cạnh bên, là ngoài khu vực.",
+  "shot": "Giữ góc trên cao: hai bóng đỏ, một trước mép trước, một ngoài cạnh bên phải; một bóng vàng trong khung.",
+  "fx": [
+   "Bóng đỏ trước mép trước",
+   "Bóng đỏ ngoài cạnh bên phải",
+   "Bóng vàng trong khu vực"
+  ],
+  "label": [
+   "Ngoài khu vực",
+   "Trong khu vực"
+  ]
+ },
+ {
+  "scene": 2,
+  "sub": "Chỉ cần một phần bóng chạm hoặc nằm trên khu vực, bóng vẫn là ở trong.",
+  "tts": "Chỉ cần một phần bóng chạm, hoặc nằm trên khu vực, bóng vẫn là ở trong.",
+  "title": {
+   "k": "Chi tiết then chốt",
+   "t": [
+    "Vắt qua mép",
+    "vẫn là ở trong"
+   ]
+  },
+  "shot": "Cận cảnh sát mặt cỏ ngay mép trước: bóng trên tee nằm vắt qua đường gạch, phần sau của bóng còn ở trên khu vực.",
+  "fx": [
+   "Mặt phẳng dọc mép trước, phần bóng phía trên khu vực sáng xanh nhạt (tính bằng hình học)"
+  ],
+  "label": [
+   "Một phần bóng trên khu vực"
+  ]
+ },
+ {
+  "scene": 2,
+  "sub": "Còn bạn được đứng ngoài khu vực.",
+  "tts": "Còn bạn được đứng ngoài khu vực.",
+  "gap": 0.9,
+  "shot": "Dấu chân bóng mờ xanh nhạt ngoài cạnh bên, bóng trong khung chữ nhật; máy chéo từ trên.",
+  "fx": [
+   "Dấu chân xanh nhạt ngoài khu vực, bóng vàng trong khu vực"
+  ],
+  "label": [
+   "Người đứng ngoài: hợp lệ"
+  ]
+ },
+ {
+  "scene": 3,
+  "sub": "Trong đấu gậy, bạn bị phạt hai gậy.",
+  "tts": "Trong đấu gậy, bạn bị phạt hai gậy.",
+  "title": {
+   "k": "Đấu gậy · Luật 6.1b(2)",
+   "t": "Phạt 2 gậy"
+  },
+  "shot": "Máy thấp sau bóng đỏ trước mốc tee; huy hiệu +2 GẬY PHẠT bật lên.",
+  "fx": [
+   "Huy hiệu +2 GẬY PHẠT"
+  ]
+ },
+ {
+  "scene": 3,
+  "sub": "Cú đánh đó không tính, bạn phải đánh lại từ trong khu vực phát bóng.",
+  "tts": "Cú đánh đó không tính, bạn phải đánh lại từ trong khu vực phát bóng.",
+  "shot": "Bóng mờ ở chỗ cũ gạch đỏ; bóng mới đặt lên tee lùi vào trong khung vàng nhạt; bộ đếm gậy: cú cũ gạch bỏ.",
+  "fx": [
+   "Cú đầu gạch bỏ (không tính)",
+   "Bộ đếm: cú đánh lại là gậy thứ 3 (1 + 2 phạt)",
+   "Bóng mới trên tee trong khu vực, dấu tick vàng"
+  ],
+  "label": [
+   "Đánh lại trong khu vực"
+  ]
+ },
+ {
+  "scene": 3,
+  "sub": "Nếu không sửa trước khi phát bóng lỗ sau, hay trước khi nộp thẻ ở lỗ cuối, bạn bị truất quyền.",
+  "tts": "Nếu không sửa trước khi phát bóng lỗ sau, hay trước khi nộp thẻ ở lỗ cuối, bạn bị truất quyền.",
+  "shot": "Cảnh thẻ điểm (tái dùng phiếu ghi điểm của film_1-1.js): ô lỗ đang chơi ghi thêm +2 và dấu tick; dòng cảnh báo đỏ 'không sửa: truất quyền'.",
+  "fx": [
+   "Thẻ điểm: +2 gậy phạt ở ô lỗ đang chơi"
+  ],
+  "label": [
+   "Luật 6.1b(2): truất quyền"
+  ]
+ },
+ {
+  "scene": 3,
+  "sub": "Trong đấu lỗ thì không bị phạt.",
+  "tts": "Trong đấu lỗ thì không bị phạt.",
+  "title": {
+   "k": "Đấu lỗ · Luật 6.1b(1)",
+   "t": "Không phạt"
+  },
+  "shot": "Flycam chéo khu vực phát bóng, hai người chơi (một golfer ngược sáng, đối phương là bóng mờ); huy hiệu KHÔNG PHẠT.",
+  "fx": [
+   "Huy hiệu KHÔNG PHẠT"
+  ]
+ },
+ {
+  "scene": 3,
+  "sub": "Nhưng đối phương được quyền huỷ ngay cú đánh, bạn phải đánh lại từ trong khu vực.",
+  "tts": "Nhưng đối phương được quyền hủy ngay cú đánh, bạn phải đánh lại từ trong khu vực.",
+  "shot": "Đường bay gạch của cú cũ mờ dần và bị gạch chéo; bóng mới đặt lên tee trong khung vàng nhạt.",
+  "fx": [
+   "Đường bay cũ gạch chéo (bị huỷ)",
+   "Bóng mới trong khu vực"
+  ],
+  "label": [
+   "Đối phương huỷ ngay cú đánh",
+   "Nếu huỷ: đánh lại"
+  ]
+ },
+ {
+  "scene": 3,
+  "sub": "Nếu đối phương không huỷ, bóng tiếp tục trong cuộc.",
+  "tts": "Nếu đối phương không hủy, bóng tiếp tục trong cuộc.",
+  "gap": 0.9,
+  "shot": "Đường bay cũ sáng lại vàng, bóng nằm trên fairway xa.",
+  "fx": [
+   "Đường bay vàng tới bóng trên fairway"
+  ],
+  "label": [
+   "Bóng tiếp tục trong cuộc"
+  ]
+ },
+ {
+  "scene": 4,
+  "sub": "Vậy có được dời mốc tee cho dễ đứng hơn không?",
+  "tts": "Vậy có được dời mốc ti cho dễ đứng hơn không?",
+  "speed": 1.03,
+  "title": {
+   "k": "Sai lầm thường gặp",
+   "t": [
+    "Dời mốc tee",
+    "cho dễ đứng?"
+   ]
+  },
+  "shot": "Cận cảnh mốc tee bị nhấc lên, dịch sang bên một chút (bóng mờ vị trí cũ)."
+ },
+ {
+  "scene": 4,
+  "sub": "Câu trả lời là không!",
+  "tts": "Câu trả lời là không!",
+  "speed": 1.03,
+  "title": {
+   "k": "Luật 6.2b(4)",
+   "t": "Không!"
+  },
+  "fx": [
+   "Mốc tee viền đỏ, mũi tên quay về chỗ cũ"
+  ]
+ },
+ {
+  "scene": 4,
+  "sub": "Dời mốc tee để cải thiện cú đánh bị phạt chung: đấu gậy hai gậy, đấu lỗ thua lỗ.",
+  "tts": "Dời mốc ti để cải thiện cú đánh, bị phạt chung, đấu gậy hai gậy, đấu lỗ thua lỗ.",
+  "gap": 0.9,
+  "title": {
+   "k": "Luật 6.2b(4)",
+   "t": [
+    "Không dời",
+    "mốc tee"
+   ]
+  },
+  "shot": "Mốc tee trở về vị trí cũ; dấu chân đỏ ở thế đứng 'được cải thiện'; huy hiệu PHẠT CHUNG.",
+  "fx": [
+   "Dấu chân đỏ (bị cấm)",
+   "Huy hiệu PHẠT CHUNG"
+  ],
+  "label": [
+   "Phạt chung · Luật 8.1"
+  ]
+ },
+ {
+  "scene": 5,
+  "sub": "Nhớ nhé: bóng phải trong khu vực; đấu gậy phạt hai gậy, đấu lỗ đối phương được huỷ.",
+  "tts": "Nhớ nhé, bóng phải trong khu vực, đấu gậy phạt hai gậy, đấu lỗ, đối phương được hủy.",
+  "speed": 1.03,
+  "card": {
+   "k": "◆ ĐIỀU 6.1b · 6.2b(4) ◆",
+   "t": [
+    "Phát bóng ngoài",
+    "khu vực phát bóng"
+   ],
+   "items": [
+    "Bóng phải trong khu vực phát bóng",
+    "Đấu gậy: +2 gậy, đánh lại",
+    "Đấu lỗ: đối phương được huỷ",
+    "Không dời mốc tee"
+   ]
+  },
+  "shot": "Thẻ luật trên nền khu vực phát bóng làm mờ, bụi vàng; ý 1-2-3-4 hiện theo lời đọc."
+ },
+ {
+  "scene": 5,
+  "sub": "Đặt bóng đúng chỗ, phát bóng thật tự tin!",
+  "tts": "Đặt bóng đúng chỗ, phát bóng thật tự tin!",
+  "speed": 1.03,
+  "title": {
+   "k": "Luật golf chuẩn",
+   "t": [
+    "Bóng trong khu vực,",
+    "người được đứng ngoài"
+   ],
+   "sub": "Căn cứ: Luật 6.1b, 6.2b(4)"
+  },
+  "shot": "Golfer ngược sáng trên khu vực phát bóng, bóng nằm trên tee trong khung, sẵn sàng phát bóng."
+ }
+]

@@ -1,0 +1,145 @@
+{
+ "dur": 68.594,
+ "lines": [
+  {
+   "i": 0,
+   "scene": 1,
+   "t0": 0.6,
+   "t1": 3.595,
+   "sub": "Bạn lỡ đặt bóng trước đường nối hai mốc tee, rồi phát bóng."
+  },
+  {
+   "i": 1,
+   "scene": 1,
+   "t0": 4.015,
+   "t1": 5.977,
+   "sub": "Cú đó có hợp lệ, có bị phạt không?"
+  },
+  {
+   "i": 2,
+   "scene": 1,
+   "t0": 6.397,
+   "t1": 8.22,
+   "sub": "Theo luật golf, bạn xử lý thế nào?"
+  },
+  {
+   "i": 3,
+   "scene": 2,
+   "t0": 9.12,
+   "t1": 12.573,
+   "sub": "Luật 6.1b quy định: bóng phải đánh từ trong khu vực phát bóng."
+  },
+  {
+   "i": 4,
+   "scene": 2,
+   "t0": 12.993,
+   "t1": 16.656,
+   "sub": "Khu vực sâu hai chiều dài gậy, từ mép trước hai mốc tee lùi về sau."
+  },
+  {
+   "i": 5,
+   "scene": 2,
+   "t0": 17.076,
+   "t1": 20.107,
+   "sub": "Bóng trước đường này, hay ngoài hai cạnh bên, là ngoài khu vực."
+  },
+  {
+   "i": 6,
+   "scene": 2,
+   "t0": 20.527,
+   "t1": 24.185,
+   "sub": "Chỉ cần một phần bóng chạm hoặc nằm trên khu vực, bóng vẫn là ở trong."
+  },
+  {
+   "i": 7,
+   "scene": 2,
+   "t0": 24.605,
+   "t1": 25.963,
+   "sub": "Còn bạn được đứng ngoài khu vực."
+  },
+  {
+   "i": 8,
+   "scene": 3,
+   "t0": 26.863,
+   "t1": 28.593,
+   "sub": "Trong đấu gậy, bạn bị phạt hai gậy."
+  },
+  {
+   "i": 9,
+   "scene": 3,
+   "t0": 29.013,
+   "t1": 32.252,
+   "sub": "Cú đánh đó không tính, bạn phải đánh lại từ trong khu vực phát bóng."
+  },
+  {
+   "i": 10,
+   "scene": 3,
+   "t0": 32.672,
+   "t1": 37.422,
+   "sub": "Nếu không sửa trước khi phát bóng lỗ sau, hay trước khi nộp thẻ ở lỗ cuối, bạn bị truất quyền."
+  },
+  {
+   "i": 11,
+   "scene": 3,
+   "t0": 37.842,
+   "t1": 39.096,
+   "sub": "Trong đấu lỗ thì không bị phạt."
+  },
+  {
+   "i": 12,
+   "scene": 3,
+   "t0": 39.516,
+   "t1": 43.255,
+   "sub": "Nhưng đối phương được quyền huỷ ngay cú đánh, bạn phải đánh lại từ trong khu vực."
+  },
+  {
+   "i": 13,
+   "scene": 3,
+   "t0": 43.675,
+   "t1": 45.933,
+   "sub": "Nếu đối phương không huỷ, bóng tiếp tục trong cuộc."
+  },
+  {
+   "i": 14,
+   "scene": 4,
+   "t0": 46.833,
+   "t1": 49.027,
+   "sub": "Vậy có được dời mốc tee cho dễ đứng hơn không?"
+  },
+  {
+   "i": 15,
+   "scene": 4,
+   "t0": 49.447,
+   "t1": 50.422,
+   "sub": "Câu trả lời là không!"
+  },
+  {
+   "i": 16,
+   "scene": 4,
+   "t0": 50.842,
+   "t1": 55.301,
+   "sub": "Dời mốc tee để cải thiện cú đánh bị phạt chung: đấu gậy hai gậy, đấu lỗ thua lỗ."
+  },
+  {
+   "i": 17,
+   "scene": 5,
+   "t0": 56.201,
+   "t1": 60.659,
+   "sub": "Nhớ nhé: bóng phải trong khu vực; đấu gậy phạt hai gậy, đấu lỗ đối phương được huỷ."
+  },
+  {
+   "i": 18,
+   "scene": 5,
+   "t0": 61.079,
+   "t1": 63.169,
+   "sub": "Đặt bóng đúng chỗ, phát bóng thật tự tin!"
+  }
+ ],
+ "film_dur": 64.969,
+ "logo_dur": 3.625,
+ "outro": {
+  "t0": 65.169,
+  "t1": 68.338,
+  "sub": "Hãy follow TTGolf để biết thêm\nnhiều kiến thức về golf nhé"
+ }
+}

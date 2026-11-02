@@ -83,3 +83,17 @@ Tóm tắt từ các cuộc trò chuyện trong project, để Claude Code nắm
   - MD5 âm thanh trùng.
   - Bitrate đỉnh 8,6 Mbps, trung bình 3,1 Mbps; file 27,6 MB, gửi Zalo được luôn.
 - Ảnh cover được vẽ bằng hàm `window.renderCover` trong `film_1-1.js`. Hàm này dùng chính phông của phim, nên không cần thư mục `fonts/` như `cover.py`.
+
+## 9. Tình huống 1.2 – kịch bản và giọng AI (02/11, Claude Code trên web)
+- Viết `lines_1-2.json`: 19 câu, 5 cảnh.
+  - Mở đầu và câu hỏi móc.
+  - Luật 6.1b và định nghĩa khu vực (chạm hoặc nằm trên khu vực là ở trong; người được đứng ngoài).
+  - Đấu gậy (+2 gậy, đánh lại, không sửa thì truất quyền) và đấu lỗ (không phạt, đối phương được huỷ).
+  - Bẫy sai lầm: dời mốc tee, phạt chung (Luật 6.2b(4)).
+  - Thẻ luật.
+- Subagent `kiem-tra-luat-golf` soát: đạt. Đã sửa câu "Không sửa…" thành "Nếu không sửa…" để không bị nghe thành mệnh lệnh.
+- Giọng `vi_VN-vais1000-medium` (VAIS-1000: giọng nữ miền Bắc). Phim 65,0 s + logo cuối 3,6 s = 68,6 s. 16/19 câu ASR khớp hoàn toàn; 3 câu còn lệch là lỗi quen của ASR: gôn/gồm, truất/chuốt, mép/mét.
+- **Bài học phát âm mới:**
+  - Viết "hủy" (dấu kiểu cũ) trong `tts` thì ASR khớp; viết "huỷ" thì bị chấm lệch, dù đọc như nhau.
+  - "bê" đứng trước dấu phẩy bị đọc thành "bệ". Viết "sáu chấm một bê quy định, …" thì đọc đúng.
+  - "mốc ti" đứng cuối câu hoặc trước dấu phẩy hay bị đọc thành "tỉ/tị". Đặt "ti" giữa câu: "từ mép trước hai mốc ti lùi về sau", "dời mốc ti cho dễ đứng hơn".
