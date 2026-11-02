@@ -28,3 +28,4 @@ __pycache__/
 *.mov
 render*.log
 xuat-ban/
+package-lock.json

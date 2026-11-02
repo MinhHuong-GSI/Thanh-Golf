@@ -1,0 +1,135 @@
+[
+ {
+  "i": 0,
+  "loi": 0,
+  "lan_tao": 1,
+  "tts": "Bạn lỡ đặt bóng trước đường nối hai mốc ti, rồi phát bóng.",
+  "asr": "bạn lỡ đặt bóng trước đường nối hai mốc ti rồi phát bóng"
+ },
+ {
+  "i": 1,
+  "loi": 0,
+  "lan_tao": 1,
+  "tts": "Cú đó có hợp lệ, có bị phạt không?",
+  "asr": "cú đó có hợp lệ có bị phạt không"
+ },
+ {
+  "i": 2,
+  "loi": 1,
+  "lan_tao": 12,
+  "tts": "Theo luật gôn, bạn xử lý thế nào?",
+  "asr": "theo luật gồm bạn xử lý thế nào"
+ },
+ {
+  "i": 3,
+  "loi": 0,
+  "lan_tao": 2,
+  "tts": "Luật sáu chấm một bê quy định, bóng phải đánh từ trong khu vực phát bóng.",
+  "asr": "luật sáu chấm một b quy định bóng phải đánh từ trong khu vực phát bóng"
+ },
+ {
+  "i": 4,
+  "loi": 1,
+  "lan_tao": 12,
+  "tts": "Khu vực sâu hai chiều dài gậy, từ mép trước hai mốc ti lùi về sau.",
+  "asr": "khu vực sâu hai chiều dài gậy từ mét trước hai mốc ti lùi về sau"
+ },
+ {
+  "i": 5,
+  "loi": 0,
+  "lan_tao": 1,
+  "tts": "Bóng trước đường này, hay ngoài hai cạnh bên, là ngoài khu vực.",
+  "asr": "bóng trước đường này hay ngoài hai cạnh bên là ngoài khu vực"
+ },
+ {
+  "i": 6,
+  "loi": 0,
+  "lan_tao": 2,
+  "tts": "Chỉ cần một phần bóng chạm, hoặc nằm trên khu vực, bóng vẫn là ở trong.",
+  "asr": "chỉ cần một phần bóng chạm hoặc nằm trên khu vực bóng vẫn là ở trong"
+ },
+ {
+  "i": 7,
+  "loi": 0,
+  "lan_tao": 1,
+  "tts": "Còn bạn được đứng ngoài khu vực.",
+  "asr": "còn bạn được đứng ngoài khu vực"
+ },
+ {
+  "i": 8,
+  "loi": 0,
+  "lan_tao": 2,
+  "tts": "Trong đấu gậy, bạn bị phạt hai gậy.",
+  "asr": "trong đấu gậy bạn bị phạt hai gậy"
+ },
+ {
+  "i": 9,
+  "loi": 0,
+  "lan_tao": 1,
+  "tts": "Cú đánh đó không tính, bạn phải đánh lại từ trong khu vực phát bóng.",
+  "asr": "cú đánh đó không tính bạn phải đánh lại từ trong khu vực phát bóng"
+ },
+ {
+  "i": 10,
+  "loi": 1,
+  "lan_tao": 12,
+  "tts": "Nếu không sửa trước khi phát bóng lỗ sau, hay trước khi nộp thẻ ở lỗ cuối, bạn bị truất quyền.",
+  "asr": "nếu không sửa trước khi phát bóng lỗ sau hay trước khi nộp thẻ ở lỗ cuối bạn bị chuốt quyền"
+ },
+ {
+  "i": 11,
+  "loi": 0,
+  "lan_tao": 1,
+  "tts": "Trong đấu lỗ thì không bị phạt.",
+  "asr": "trong đấu lỗ thì không bị phạt"
+ },
+ {
+  "i": 12,
+  "loi": 0,
+  "lan_tao": 1,
+  "tts": "Nhưng đối phương được quyền hủy ngay cú đánh, bạn phải đánh lại từ trong khu vực.",
+  "asr": "nhưng đối phương được quyền hủy ngay cú đánh bạn phải đánh lại từ trong khu vực"
+ },
+ {
+  "i": 13,
+  "loi": 0,
+  "lan_tao": 1,
+  "tts": "Nếu đối phương không hủy, bóng tiếp tục trong cuộc.",
+  "asr": "nếu đối phương không hủy bóng tiếp tục trong cuộc"
+ },
+ {
+  "i": 14,
+  "loi": 0,
+  "lan_tao": 3,
+  "tts": "Vậy có được dời mốc ti cho dễ đứng hơn không?",
+  "asr": "vậy có được rời mốc ti cho dễ đứng hơn không"
+ },
+ {
+  "i": 15,
+  "loi": 0,
+  "lan_tao": 1,
+  "tts": "Câu trả lời là không!",
+  "asr": "câu trả lời là không"
+ },
+ {
+  "i": 16,
+  "loi": 0,
+  "lan_tao": 8,
+  "tts": "Dời mốc ti để cải thiện cú đánh, bị phạt chung, đấu gậy hai gậy, đấu lỗ thua lỗ.",
+  "asr": "rời mốc ti để cải thiện cú đánh bị phạt chung đấu gậy hai gậy đấu lỗ thua lỗ"
+ },
+ {
+  "i": 17,
+  "loi": 0,
+  "lan_tao": 1,
+  "tts": "Nhớ nhé, bóng phải trong khu vực, đấu gậy phạt hai gậy, đấu lỗ, đối phương được hủy.",
+  "asr": "nhớ nhé bóng phải trong khu vực đấu gậy phạt hai gậy đấu lỗ đối phương được hủy"
+ },
+ {
+  "i": 18,
+  "loi": 0,
+  "lan_tao": 1,
+  "tts": "Đặt bóng đúng chỗ, phát bóng thật tự tin!",
+  "asr": "đặt bóng đúng chỗ phát bóng thật tự tin"
+ }
+]

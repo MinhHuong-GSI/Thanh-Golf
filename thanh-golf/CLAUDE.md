@@ -61,6 +61,7 @@ Skill và agent nằm ở `.claude/` **ở gốc repo** (cạnh thư mục `than
   - `film_quytac17.js`: cọc vàng/đỏ, có cảnh phiếu ghi điểm.
   - `film_dieu16-1.js`: thả bóng miễn phí cạnh gốc cây và đường xe điện; có thẻ luật `CARDS`.
   - `film_luat17-1d.js`: dựng từ giọng AI; bunker → hồ cọc vàng; có chia đôi màn hình và hình học luật tự kiểm (`CHECK`).
+  - `film_1-1.js`: tình huống 1.1, dựng từ giọng AI, không logo đầu. Gồm khu vực phát bóng tính bằng hình học (mốc tee, sâu 2 chiều dài gậy), tee gỗ 7 cm, đầu driver 3D (`makeDriver`/`poseDriver`), cú vung dạng con lắc, bộ đếm gậy, huy hiệu KHÔNG PHẠT, phiếu ghi điểm (lấy từ `film_quytac17.js`), thẻ luật. Có `window.camTest` và `window.H` để thử góc máy.
 - **Render:**
   - `render.js`: `PAGE=<film>.html QS='?rs=0.6667' node render.js times t1,t2,… <thư_mục>` để render khung thử; `… range <đầu> <cuối> <thư_mục>` để render một dải khung.
   - 3D render ở 720×1280 có MSAA rồi phóng lên 1080×1920; chữ vẽ ở độ phân giải đầy đủ. 24 fps.
@@ -115,8 +116,9 @@ Skill và agent nằm ở `.claude/` **ở gốc repo** (cạnh thư mục `than
   - Điều 16.1 – thả bóng miễn phí cạnh gốc cây (3D, âm thanh gốc).
   - Luật 17.1d – bunker → hồ cọc vàng (3D, giọng AI, 70,4 s).
   - "Chào buổi sáng ngày đầu tháng 11" (footage, 71 s, có/không phụ đề + cover).
+  - **Tình huống 1.1** – bóng rơi khỏi tee (3D, giọng AI, 66,9 s, không logo đầu, 27,6 MB, bitrate đỉnh 8,6 Mbps): `xuat-ban/Luat-golf-1-1_bong-roi-khoi-tee_3D.mp4` + cover `.jpg` + contact sheet. Render bằng `golf-video-engine/run_1-1.sh` (3 worker, khoảng 1 giờ 25 phút trên máy đám mây 4 nhân).
 - Đang chờ chị nghe và duyệt:
-  - **Tình huống 1.1**: bóng rơi khỏi tee hoặc bị chạm rơi trước khi đánh (Luật 6.2b(5)–(6)). Đã có kịch bản `kich-ban/kich-ban_1-1.md` và giọng AI `kich-ban/am-thanh/1-1/` (66,8 s, không logo đầu). Duyệt xong thì dựng phim 3D.
+  - **Tình huống 1.2**: phát bóng từ ngoài khu vực phát bóng (Luật 6.1b), đã có kịch bản, đã soát luật và đã tạo giọng (68,6 s): `kich-ban/kich-ban_1-2.md`, `kich-ban/am-thanh/1-2/`. Duyệt xong thì dựng `film_1-2.js` (sao chép từ `film_1-1.js`).
   - **Tình huống 3.3**: cọc đỏ – 3 phương án (`kich-ban/kich-ban_3-3.md`). Mới có kịch bản, chưa tạo giọng.
 - Từ 01/11/2026: **tạo giọng AI ngay sau khi viết và soát luật kịch bản**, không chờ chị duyệt. Chị nghe bản giọng rồi mới duyệt để dựng phim.
 - Lịch sử chi tiết: `docs/lich-su-du-an.md`.
