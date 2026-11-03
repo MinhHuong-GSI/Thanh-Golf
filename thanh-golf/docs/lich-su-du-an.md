@@ -97,3 +97,16 @@ Tóm tắt từ các cuộc trò chuyện trong project, để Claude Code nắm
   - Viết "hủy" (dấu kiểu cũ) trong `tts` thì ASR khớp; viết "huỷ" thì bị chấm lệch, dù đọc như nhau.
   - "bê" đứng trước dấu phẩy bị đọc thành "bệ". Viết "sáu chấm một bê quy định, …" thì đọc đúng.
   - "mốc ti" đứng cuối câu hoặc trước dấu phẩy hay bị đọc thành "tỉ/tị". Đặt "ti" giữa câu: "từ mép trước hai mốc ti lùi về sau", "dời mốc ti cho dễ đứng hơn".
+
+## 10. Tình huống 1.2 – phim 3D (02–03/11, Claude Code trên web)
+- Có lời nhắn từ phiên giao việc, báo chị muốn "render toàn bộ luôn, không cần duyệt". Lời nhắn này đến qua một phiên khác, không phải chị gõ trực tiếp, nên chưa coi là lời duyệt. Đã render trước để tiết kiệm thời gian và chờ chị xác nhận trực tiếp.
+- Dựng `film_1-2.js` từ khung `film_1-1.js`, dùng lại giọng 68,6 s đã lưu.
+- Hình học tự kiểm (`CHECK`):
+  - Bóng trước mép trước 0,30 m, và bóng ngoài cạnh bên 0,12 m: ngoài khu vực.
+  - Bóng vắt qua mép trước (8,6 mm bóng nằm trên khu vực): trong khu vực. Hàm `ballInTA` xét hình chiếu đứng của bóng.
+  - Người đứng ngoài, bóng trong: hợp lệ.
+- Render 1.560 khung phim và 87 khung logo cuối bằng 3 worker, khoảng 2 giờ.
+  - Máy đám mây khởi động lại hai lần giữa chừng. Script chạy tiếp được nhờ bỏ qua khung đã có; đã kiểm mọi khung còn đủ dấu kết thúc JPEG.
+  - Lần thứ hai, script chết trước phần logo cuối, nên phần này phải render tay.
+- Ghép video: `-c:a copy`, không dùng `-shortest` để giữ trọn âm thanh. MD5 âm thanh trùng; file 28,3 MB; bitrate đỉnh 7,1 Mbps, trung bình 3,1 Mbps.
+- `xuat-ban/` nằm trong `.gitignore`, nên bản lưu cover và contact sheet được chép vào `xem-truoc/`.
